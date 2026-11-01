@@ -1,0 +1,12 @@
+# Local editor and operating-system artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+
+# Python validation cache
+__pycache__/
+*.py[cod]

@@ -1,0 +1,8 @@
+* text=auto
+*.md text eol=lf
+# Markdown's intentional two-space hard line breaks are retained from the source.
+*.md whitespace=-blank-at-eol
+*.json text eol=lf
+*.py text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

@@ -1,0 +1,588 @@
+{
+  "baseline_commit": "ea0f5988212a36add10a3b52c37ae28b060df602",
+  "source_path": "ERLC_Organization_Operating_System_v3.2.2_Hybrid_Ranks.md",
+  "source_lines": 1158,
+  "source_sha256": "d74b092108bbf19a937afa196d7043be16075f282110d426ec4809a5063d20b0",
+  "segments": [
+    {
+      "lines": [
+        1,
+        13
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "Source metadata and design objective",
+      "source_sha256": "a11be38092a761807d53a4a5bffd1d444816778eadd2f600ea360be51d26ceec"
+    },
+    {
+      "lines": [
+        14,
+        17
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "Executive summary: model",
+      "source_sha256": "a045f125e68bdead3737d1abd7c1cc2268dd1028e65319fb60e3efd39e458e5f"
+    },
+    {
+      "lines": [
+        18,
+        32
+      ],
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "section": "Executive summary: ranks and four records",
+      "source_sha256": "08bafe2bb2557d994a8ca2d9130cd2d2dd7051b68f3513401f8024b431a95fd9"
+    },
+    {
+      "lines": [
+        33,
+        49
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "Operating principles",
+      "source_sha256": "81e2bbe0888edeb24c4e66ee9bc90f0bbd00399e9f47b96eaf9c9b94a5e1cd4e"
+    },
+    {
+      "lines": [
+        50,
+        94
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "2: Organization chart and accountability",
+      "source_sha256": "775f81ed7f7516e64d8c5e179c90a35cd911e91a565d68522d7bd6c4993c5a60"
+    },
+    {
+      "lines": [
+        95,
+        168
+      ],
+      "destination": "docs/governance/governance-council.md",
+      "section": "2.1: Governance Council charter",
+      "source_sha256": "b999c746e8a5532de8ceb7eebd8e12095533ab928fea70bc12cdb3d58d2301ad"
+    },
+    {
+      "lines": [
+        169,
+        184
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "2.2: Leadership responsibilities",
+      "source_sha256": "d5761b98c211b70cab607369e9e41db5ea36433adb33c7a279dc60306959f1e9"
+    },
+    {
+      "lines": [
+        185,
+        201
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "2.3: Chief of Staff",
+      "source_sha256": "a2244786dd9473463047e3d7e889ef5e9bb168a71f38b01d614c03186baadd2e"
+    },
+    {
+      "lines": [
+        202,
+        205
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "3: Directorate planning assumptions",
+      "source_sha256": "5b8f61a9e0cfd6e14ffbd9fe6302fea3109e471bd8e1f825f375452cc4340767"
+    },
+    {
+      "lines": [
+        206,
+        223
+      ],
+      "destination": "docs/directorates/trust-and-safety.md",
+      "section": "3.1: Trust & Safety",
+      "source_sha256": "28e25705e2dc4ecc94161a077268a3881a2f605510c38a44f2b59bec6e649f0b"
+    },
+    {
+      "lines": [
+        224,
+        244
+      ],
+      "destination": "docs/directorates/live-operations.md",
+      "section": "3.2: Live Operations",
+      "source_sha256": "d359ff844d3a1a0e0913a16f4e9d8a83719885c14389febfe075047b7329e84b"
+    },
+    {
+      "lines": [
+        245,
+        263
+      ],
+      "destination": "docs/directorates/roleplay-programs.md",
+      "section": "3.3: Roleplay Programs",
+      "source_sha256": "22ec622cbb82057e0d3278a940c3e3fb3d5a187733e02cf01c76a692ecd83f91"
+    },
+    {
+      "lines": [
+        264,
+        294
+      ],
+      "destination": "docs/directorates/community-experience.md",
+      "section": "3.4: Community Experience and Player Voice",
+      "source_sha256": "f29a5796fb98d5f2d43e5f28948b1a114beba526ebbdfd9bbb6e47cedd3b9a5f"
+    },
+    {
+      "lines": [
+        295,
+        336
+      ],
+      "destination": "docs/directorates/people-and-culture.md",
+      "section": "3.5: People & Culture and Staff Experience",
+      "source_sha256": "7d6d4972c117706ed72257355df4417c8d334a23642d4647090214710ece60ea"
+    },
+    {
+      "lines": [
+        337,
+        355
+      ],
+      "destination": "docs/directorates/technology-and-systems.md",
+      "section": "3.6: Technology & Systems",
+      "source_sha256": "8d21ca23555e49cfd5b7d4fcaa45b7d95f036b7e5c46d1a8e92040ee2a5df7ad"
+    },
+    {
+      "lines": [
+        356,
+        420
+      ],
+      "destination": "docs/oversight/independent-oversight.md",
+      "section": "4: Office of Independent Oversight",
+      "source_sha256": "b5781c206022187bc7aa236ebd29c9d36a23e4984ee1fb16f94cc6cee6e03184"
+    },
+    {
+      "lines": [
+        421,
+        508
+      ],
+      "destination": "docs/personnel/assignments.md",
+      "section": "5: Multi-team membership",
+      "source_sha256": "75f8b5fda20610e42a5354083f37ad314b25cc02a76ea63711952d8e703dea7c"
+    },
+    {
+      "lines": [
+        509,
+        621
+      ],
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "section": "6: Career and organizational ranks",
+      "source_sha256": "928406cef6945bbcb2f43952e93e943c27f8fb845d705c8ad75bceecbad4c9d4"
+    },
+    {
+      "lines": [
+        622,
+        646
+      ],
+      "destination": "docs/personnel/recruitment.md",
+      "section": "7.1–7.2: Recruitment routes and hiring",
+      "source_sha256": "071e5617e09b0c4c0e7b5c4ebec3f4bdfbe5b74bfea59509ea8d91a8999e78f3"
+    },
+    {
+      "lines": [
+        647,
+        677
+      ],
+      "destination": "docs/personnel/assignments.md",
+      "section": "7.3–7.4: Secondary assignments and conflicts",
+      "source_sha256": "10feaa7e1ca0650cacbc9d21e60dde11f55a11c10536dd3990378b9336d149d6"
+    },
+    {
+      "lines": [
+        678,
+        703
+      ],
+      "destination": "docs/personnel/recruitment.md",
+      "section": "7.5: Position-request template",
+      "source_sha256": "878cdf3e4cdf3250d4b17eb877c4e26a3b629db6819eb61ce07d9e5c86ff3485"
+    },
+    {
+      "lines": [
+        704,
+        776
+      ],
+      "destination": "docs/operations/authority-and-escalation.md",
+      "section": "8: Authority and escalation",
+      "source_sha256": "473e65052d2c2323c9297a6a45ab32c1f753281160165260fc102713f08af1b3"
+    },
+    {
+      "lines": [
+        777,
+        827
+      ],
+      "destination": "docs/operations/operating-practices.md",
+      "section": "9: Accountability and meeting rhythm",
+      "source_sha256": "6db67bb6d67d9ac023c0f99525176a85fdc3654296fb244a90f3d14426a977b0"
+    },
+    {
+      "lines": [
+        828,
+        855
+      ],
+      "destination": "docs/operations/discord-permissions.md",
+      "section": "10: Discord and permissions",
+      "source_sha256": "5428a6df5f1a14bc600ee6b0310dcc1bf637bcada7625266a854dfc731907d53"
+    },
+    {
+      "lines": [
+        856,
+        877
+      ],
+      "destination": "docs/operations/operating-practices.md",
+      "section": "11: Unit growth and 60-person concept",
+      "source_sha256": "0290e4b92b5297dc5bee2b144e58e4ce20527e1d2cbef928f8a07a8b2700a843"
+    },
+    {
+      "lines": [
+        878,
+        879
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "12: Worked examples introduction",
+      "source_sha256": "9b7eec2bc2eed3a953ee8ccf56c0e81b543c2c9fa64fc3d9f7bd8ed2ed336d82"
+    },
+    {
+      "lines": [
+        880,
+        883
+      ],
+      "destination": "docs/personnel/assignments.md",
+      "section": "12 A: Cross-team example",
+      "source_sha256": "981f915465064bcc3a6dacb798ac5a37eea23063e0d68c7f125313b9231c4827"
+    },
+    {
+      "lines": [
+        884,
+        887
+      ],
+      "destination": "docs/directorates/community-experience.md",
+      "section": "12 B: Solo specialist example",
+      "source_sha256": "4e3d9f56032132f44f6030405b93172cd420e3229949f47b459f1fc93209b6fa"
+    },
+    {
+      "lines": [
+        888,
+        891
+      ],
+      "destination": "docs/operations/authority-and-escalation.md",
+      "section": "12 C: Cross-directorate rule example",
+      "source_sha256": "ca48886fb2c6065ffe6d521ac35b92ab740d9c35c22425460713ab01b733502c"
+    },
+    {
+      "lines": [
+        892,
+        895
+      ],
+      "destination": "docs/governance/governance-council.md",
+      "section": "12 D: Staff policy example",
+      "source_sha256": "54c807176407180050bdfc4591c5facdc4ff37c5d1043b797cdaa0708639a958"
+    },
+    {
+      "lines": [
+        896,
+        899
+      ],
+      "destination": "docs/oversight/independent-oversight.md",
+      "section": "12 E: Executive misconduct example",
+      "source_sha256": "4bb3c83ef6032bc2cf127ef844d7a9a1d00226496222c369c43b01f2dd97df47"
+    },
+    {
+      "lines": [
+        900,
+        905
+      ],
+      "destination": "docs/directorates/live-operations.md",
+      "section": "12 F: Staffing a squad example",
+      "source_sha256": "5324744b15cc6079dbfc13cffd938bb72418fa2cbd7487364c7b9f269183a714"
+    },
+    {
+      "lines": [
+        906,
+        909
+      ],
+      "destination": "docs/oversight/independent-oversight.md",
+      "section": "12 G: Linked case example",
+      "source_sha256": "dcf1ad3ab1b12a4ba3763a9b6d929d448810c7b73b638d3f0676da7f9ffa462f"
+    },
+    {
+      "lines": [
+        910,
+        913
+      ],
+      "destination": "docs/directorates/people-and-culture.md",
+      "section": "12 H: Volunteer retention example",
+      "source_sha256": "cd4b4b7159fa714bae6e534da6e54051c89dcefaafc3c6cc9e83af372354ea57"
+    },
+    {
+      "lines": [
+        914,
+        919
+      ],
+      "destination": "docs/directorates/community-experience.md",
+      "section": "12 I: Player feedback example",
+      "source_sha256": "c8c5caa36e67742067e79e54aede688e217e3581fd0dcb73857160316c964e4a"
+    },
+    {
+      "lines": [
+        920,
+        921
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "13: Adoption templates introduction",
+      "source_sha256": "be2940e8f02669cf385042d70adf1a6c249d6d64cbb29cfe2b456d63c64087b4"
+    },
+    {
+      "lines": [
+        922,
+        956
+      ],
+      "destination": "docs/personnel/assignments.md",
+      "section": "13.1: Person / assignment template",
+      "source_sha256": "1f7cd633a56d551fc01f0f50502a8608cc099024f5c20863eaeeffa21c5ec855"
+    },
+    {
+      "lines": [
+        957,
+        978
+      ],
+      "destination": "docs/operations/operating-practices.md",
+      "section": "13.2: Team mandate template",
+      "source_sha256": "08a797917a2917adbabbee31ff0a55a1485793165ca5b960ec8783a5964b52e8"
+    },
+    {
+      "lines": [
+        979,
+        1003
+      ],
+      "destination": "docs/governance/governance-council.md",
+      "section": "13.3: Council proposal template",
+      "source_sha256": "9852ccdef3f49688e7144c3ef1d54288233685c0d475d641fe049c66409014db"
+    },
+    {
+      "lines": [
+        1004,
+        1019
+      ],
+      "destination": "docs/directorates/people-and-culture.md",
+      "section": "13.4: Restricted check-in template",
+      "source_sha256": "7d8332eb71ef670a2dcf6235612b50dbcaf35e1796ffa9ddd9228bd0fbf8e260"
+    },
+    {
+      "lines": [
+        1020,
+        1034
+      ],
+      "destination": "docs/directorates/community-experience.md",
+      "section": "13.5: Public improvement template",
+      "source_sha256": "31d788305a9ca2a915d04f41a206f0c2561d5fff8c6ae81e8ebd6c4867c96741"
+    },
+    {
+      "lines": [
+        1035,
+        1050
+      ],
+      "destination": "docs/oversight/independent-oversight.md",
+      "section": "13.6: Restricted OIO routing template",
+      "source_sha256": "2b46df88a47dcfdc7cc77ab7b81ff8f1974d7c576d84f43ebcdc9aded3e0f3d0"
+    },
+    {
+      "lines": [
+        1051,
+        1075
+      ],
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "section": "13.7: Management appointment template",
+      "source_sha256": "99f91448292856d435464f0939572eddb4a47c15ee2fa9c9a920e288043060e9"
+    },
+    {
+      "lines": [
+        1076,
+        1116
+      ],
+      "destination": "docs/operations/operating-practices.md",
+      "section": "14: Implementation phases",
+      "source_sha256": "8726d688edf5c83d9829f2621b38928e5ff9be9876d5259e5f14ebf017d0014b"
+    },
+    {
+      "lines": [
+        1117,
+        1139
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "15: Proposed charter rule index",
+      "source_sha256": "eeb529d2a9c81d52e6db28d84d7596b069ba4ff7aaaebb37d6b3c2a3e87092fd"
+    },
+    {
+      "lines": [
+        1140,
+        1151
+      ],
+      "destination": "docs/proposals/review-register.md",
+      "section": "16: References, limitations and open decisions",
+      "source_sha256": "93ce0c98c3e329cb3d561125779e028fb08b50664274bb05775e89b532438155"
+    },
+    {
+      "lines": [
+        1152,
+        1157
+      ],
+      "destination": "CHANGELOG.md",
+      "section": "16: Original v3.2 / v3.2.1 / v3.2.2 change summaries",
+      "source_sha256": "106dae9203c8338048abdfa51c11fb616a71ea3175da291251c7890e40754ac8"
+    },
+    {
+      "lines": [
+        1158,
+        1158
+      ],
+      "destination": "docs/governance/structure.md",
+      "section": "Final principle",
+      "source_sha256": "db54c9671394386a99138f7532cee35017363b27f02b1168faecf22ec4760b35"
+    }
+  ],
+  "cross_reference_edits": [
+    {
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "before": "See Section 6 for the full mapping and exception rules.",
+      "after": "See [the rank and eligibility framework](ranks-and-appointments.md) for the full mapping and exception rules."
+    },
+    {
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "before": "See Sections 8 and 10.",
+      "after": "See [authority and escalation](../operations/authority-and-escalation.md) and [Discord permissions](../operations/discord-permissions.md)."
+    },
+    {
+      "destination": "docs/operations/operating-practices.md",
+      "before": "(Section 6)",
+      "after": "([rank and eligibility framework](../personnel/ranks-and-appointments.md))"
+    },
+    {
+      "destination": "docs/directorates/trust-and-safety.md",
+      "before": "(grade 06 — Director)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))"
+    },
+    {
+      "destination": "docs/directorates/trust-and-safety.md",
+      "before": "(grade 06 — Director; portfolio appointment)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)"
+    },
+    {
+      "destination": "docs/directorates/live-operations.md",
+      "before": "(grade 06 — Director)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))"
+    },
+    {
+      "destination": "docs/directorates/live-operations.md",
+      "before": "(grade 06 — Director; portfolio appointment)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)"
+    },
+    {
+      "destination": "docs/directorates/roleplay-programs.md",
+      "before": "(grade 06 — Director)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))"
+    },
+    {
+      "destination": "docs/directorates/roleplay-programs.md",
+      "before": "(grade 06 — Director; portfolio appointment)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)"
+    },
+    {
+      "destination": "docs/directorates/community-experience.md",
+      "before": "(grade 06 — Director)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))"
+    },
+    {
+      "destination": "docs/directorates/community-experience.md",
+      "before": "(grade 06 — Director; portfolio appointment)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)"
+    },
+    {
+      "destination": "docs/directorates/people-and-culture.md",
+      "before": "(grade 06 — Director)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))"
+    },
+    {
+      "destination": "docs/directorates/people-and-culture.md",
+      "before": "(grade 06 — Director; portfolio appointment)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)"
+    },
+    {
+      "destination": "docs/directorates/technology-and-systems.md",
+      "before": "(grade 06 — Director)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))"
+    },
+    {
+      "destination": "docs/directorates/technology-and-systems.md",
+      "before": "(grade 06 — Director; portfolio appointment)",
+      "after": "([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)"
+    }
+  ],
+  "summary_redirects": [
+    {
+      "source_block_sha256": "6c264155e86e1daba522f1c59fe9833bcd7ed2e224d3cb470222e207391b4649",
+      "destination": "docs/governance/structure.md",
+      "source_atoms_sha256": [
+        "96bf3feedd1bded527f120bf921d1cfb20458b7fc15403145605faa2420a9167",
+        "cdb2fc65ba19b026a181488ef0a88f97d79579f0f548e680f78427f85c287d7d"
+      ],
+      "replacement": "## Operating principles\n\nUse the [proposed charter rule index](#proposed-charter-rule-index) to find the canonical policy for each principle. The source's principles are represented by the linked rank, assignment, governance, oversight, volunteer, player-feedback and permission rules below; this index does not independently amend them.",
+      "reason": "Replace repeated operating-principle summary with the canonical policy index; appointment mandate/alternate/review requirements remain in the management appointment template and team mandate template."
+    },
+    {
+      "source_block_sha256": "ea9c34fcbbd31356bdc2853f214224440afcb38219c48b7efad7479b33f28388",
+      "destination": "docs/governance/structure.md",
+      "source_atoms_sha256": [
+        "ea9c34fcbbd31356bdc2853f214224440afcb38219c48b7efad7479b33f28388"
+      ],
+      "replacement": "**Rank overlay:** [The rank framework](../personnel/ranks-and-appointments.md#top-level-reporting-and-rank) defines grades and equal-grade appointments. The reporting arrows above define supervision; the Chief of Staff and Commissioner boundaries are detailed below and in [the OIO charter](../oversight/independent-oversight.md).",
+      "reason": "Remove repeated chart rank interpretation; retain chart and link rank definitions."
+    },
+    {
+      "source_block_sha256": "e6a4a2612e49ba22e7d431cce4888d870f909c3801742e830ded09afd7ecccbe",
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "source_atoms_sha256": [
+        "e6a4a2612e49ba22e7d431cce4888d870f909c3801742e830ded09afd7ecccbe"
+      ],
+      "replacement": "### Top-level reporting and rank\n\n[The organization chart](../governance/structure.md#organization-chart-and-lines-of-accountability) defines reporting lines. The eligibility matrix below assigns the corresponding grades, including the Executive Directors and Directorate Directors at grade 06 and the two separate grade-07 offices.",
+      "reason": "Reporting hierarchy is canonical in governance/structure; rank assignments remain in this document."
+    },
+    {
+      "source_block_sha256": "a12b59d9febc55277fef14e14a9c976125b14e077431717c920e44cc9c7cbf34",
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "source_atoms_sha256": [
+        "a12b59d9febc55277fef14e14a9c976125b14e077431717c920e44cc9c7cbf34"
+      ],
+      "replacement": "**Promotion and appointment approval:** Use [the delegated decision matrix](../operations/authority-and-escalation.md#delegated-decision-matrix) for decision owners, [the hiring workflow](recruitment.md#hiring-workflow) for selection and confirmation, and [OIO safeguards](../oversight/independent-oversight.md#decision-integrity-and-safeguards) for conflicted cases. The Owner/CEO is not a promotion committee for ordinary advancement.",
+      "reason": "Centralize approving authority in the decision matrix and confirmation in recruitment; promotion process remains here."
+    },
+    {
+      "source_block_sha256": "cfe7eb6b59dc8c6c5f3e99da55292c1133be8c3b0f16993d0a418408277af257",
+      "destination": "docs/personnel/assignments.md",
+      "source_atoms_sha256": [
+        "cfe7eb6b59dc8c6c5f3e99da55292c1133be8c3b0f16993d0a418408277af257"
+      ],
+      "replacement": "- **Assignment capacity:** Apply [the permanent reporting rule](assignments.md#the-permanent-reporting-rule) and its exception process above.\n- **Internal Affairs investigators** cannot investigate teams/cases in which they are personally involved; some assignments should be restricted outright.\n- Appeals reviewers cannot review their own enforcement actions, those of close collaborators without recusal, or cases on which they advised the initial decision.\n- Technical privileged-access administrators are not permitted to use those permissions to obtain IA case material without authorization.\n- A Team Lead responsible for an applicant's assessment should disclose personal relationships or conflicts and recuse where needed.\n- Inactivity is addressed through the **Staff Experience & Retention Framework**: private check-in, opt-in leave or reduced duties, and published readiness/administrative status rules before punitive action; this is a volunteer community.",
+      "reason": "Capacity default already appears earlier in the same assignment document."
+    },
+    {
+      "source_block_sha256": "62366aedb7c7310b95ac89bf3e2746449474ae6d80d0350b22447b9b0d674ffa",
+      "destination": "docs/governance/structure.md",
+      "source_atoms_sha256": [
+        "b7ddb7d0f64ae6786d522a1a3437d0d51e4af5ee4f0f7f80ef2f46f4221b9876"
+      ],
+      "replacement": "## Proposed charter rule index\n\nThe source's 18 non-negotiable rules are indexed in their original order. These links identify their canonical policy locations; all remain **proposed**.\n\n1. [One home People Manager](../personnel/assignments.md#the-permanent-reporting-rule).\n2. [Secondary assignment task authority](../personnel/assignments.md#who-is-responsible-for-what).\n3. [Coordinated staffing and priority conflicts](../personnel/assignments.md#priorities-when-assignments-collide).\n4. [Workload-based positions and mandates](../operations/operating-practices.md#how-small-or-large-units-should-grow).\n5. [Rank, job, qualification and authority distinctions](../personnel/ranks-and-appointments.md#what-rank-does-not-mean).\n6. [Protected OIO intake and functions](../oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).\n7. [No self-adjudication or self-appeal](../oversight/independent-oversight.md#decision-integrity-and-safeguards).\n8. [Recruit for actual capacity](../personnel/recruitment.md#three-entry-paths-not-one-blanket-application).\n9. [Specialist and non-moderator career paths](../personnel/ranks-and-appointments.md#the-eight-level-organizational-hierarchy).\n10. [Delegated routine decision ownership](../operations/authority-and-escalation.md#delegated-decision-matrix).\n11. [Council policy remit and voting](governance-council.md#delegated-authority-what-the-council-decides).\n12. [Non-voting independent oversight advice](governance-council.md#non-voting-participants-and-advisers).\n13. [Equal Staff Representative vote and fair selection](governance-council.md#membership--five-voting-seats).\n14. [Volunteer support and breaks](../directorates/people-and-culture.md#staff-experience--retention-framework).\n15. [Player consultation and confidential improvement intake](../directorates/community-experience.md#player-voice--public-improvement-framework).\n16. [One case owner for each question](../oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).\n17. [Separate COO and Commissioner reporting](structure.md#organization-chart-and-lines-of-accountability).\n18. [Appointment-linked grade exit and reversion](../personnel/ranks-and-appointments.md#three-rank-to-position-relationships).",
+      "reason": "Convert the repeated charter summary into an ordered index to the retained full rules; no charter rule is withdrawn."
+    },
+    {
+      "source_block_sha256": "24306288984cfa636de0ac24a9833561c7e6c3cb47df7023c1903f57c3720a9b",
+      "destination": "docs/governance/structure.md",
+      "source_atoms_sha256": [],
+      "replacement": "## Worked examples\n\nExamples A–I are retained beside their owning policies: [A: cross-team staff](../personnel/assignments.md#example-a--cross-team-staff-member), [B: solo specialist](../directorates/community-experience.md#example-b--solo-specialist), [C: cross-directorate rule](../operations/authority-and-escalation.md#example-c--cross-directorate-new-rule), [D: staff policy](governance-council.md#example-d--new-policy-affecting-all-staff), [E: executive complaint](../oversight/independent-oversight.md#example-e--report-against-executive-staff), [F: new squad](../directorates/live-operations.md#example-f--staffing-a-new-squad), [G: linked cases](../oversight/independent-oversight.md#example-g--one-incident-no-duplicate-investigations), [H: volunteer support](../directorates/people-and-culture.md#example-h--retaining-a-burned-out-volunteer), [I: player improvement](../directorates/community-experience.md#example-i--player-feedback-becomes-a-visible-improvement).",
+      "reason": "Route all worked examples to their owning policies."
+    },
+    {
+      "source_block_sha256": "5acbffd1947c5d476cd4d86b17b9ed9d4e62a8c167c34d8b32af2bc2425ebe00",
+      "destination": "docs/governance/structure.md",
+      "source_atoms_sha256": [],
+      "replacement": "## Adoption templates\n\nThe original templates remain beside their owning processes: [person / assignment](../personnel/assignments.md#person--assignment-record), [team mandate](../operations/operating-practices.md#team-mandate-template), [Council proposal](governance-council.md#governance-council-policy-proposal-template), [restricted staff check-in](../directorates/people-and-culture.md#staff-experience-check-in-record-restricted), [public improvement item](../directorates/community-experience.md#public-player-improvement-item), [restricted OIO routing](../oversight/independent-oversight.md#oversight-intake-and-routing-record-restricted), [management appointment](../personnel/ranks-and-appointments.md#management-appointment-template). The [position request](../personnel/recruitment.md#a-position-request-template) and [allocation agreement](../personnel/assignments.md#an-allocation-agreement) are also retained. Store completed sensitive records in authorized restricted systems, not this repository.",
+      "reason": "Route every original template to its owning process; templates do not establish approval or permission."
+    }
+  ]
+}
