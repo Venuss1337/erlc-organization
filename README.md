@@ -66,6 +66,8 @@ The [migration and validation report](docs/migration-report.md) explains preserv
 
 ## License & Copyright
 
-**Proprietary — All Rights Reserved.** Copyright © 2026 [Copyright Holder].
+**Look-But-Don't-Touch License (LBDT).** Copyright © 2026 [Copyright Holder].
 
-This repository is not open-source and grants no public reuse license. Protected materials may not be reused, redistributed, or adapted without authorization, subject to applicable law and any applicable third-party terms. See [LICENSE](LICENSE) for the full notice.
+This repository is proprietary and is not open-source. LBDT grants no general public permissions to copy, modify, redistribute, or reuse its protected contents, subject to applicable law and third-party rights. Its most generously licensed feature is closing the tab.
+
+LBDT is a satirical, nonstandard license, not a legally vetted instrument; no claim is made that its humorous restrictions are legally enforceable. See [LICENSE](LICENSE) for the complete text and the upstream attribution notice, which applies only to the third-party license template.

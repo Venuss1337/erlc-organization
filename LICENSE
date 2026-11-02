@@ -1,29 +1,124 @@
-All Rights Reserved — Proprietary, No Public License
+THE "LOOK-BUT-DON'T-TOUCH" LICENSE
+Version 1.0
 
-Copyright © 2026 [Copyright Holder]. All rights reserved.
+Copyright (c) 2026 [Copyright Holder]. All rights reserved, including those
+which a reasonable observer might have assumed were too trivial to reserve.
 
-No public copyright license is granted for this repository. The copyright
-holder reserves all applicable rights in the original copyright-protected
-documentation, written policies, diagrams, source code, and other repository
-materials to the extent those rights are held by the copyright holder.
+PREAMBLE
 
-Except where applicable law permits otherwise or a separate authorization
-applies, copying, redistribution, republication, modification, creation of
-derivative works, sublicensing, and commercial exploitation of those protected
-materials require the copyright holder's prior written permission.
+The publication of a work does not, by itself, constitute an invitation
+to engage with that work. The Author has made the Software available for
+the limited purpose of establishing that it exists. This instrument
+preserves the distinction between public availability and permission,
+extending that distinction to visual attention, involuntary curiosity,
+and such residual mental activity as may occur immediately before sleep.
 
-Access to or availability of this repository does not transfer intellectual
-property ownership or, by itself, grant any additional permissions to use its
-protected materials.
+TERMS AND CONDITIONS
 
-Third-party intellectual property remains the property of its respective
-rights holders and is subject to any applicable third-party terms. This notice
-does not claim ownership of third-party materials, override valid third-party
-licenses, or restrict rights available under applicable law, including
-copyright exceptions and limitations.
+1. Definitions.
 
-No exclusive copyright ownership is claimed over general ideas, concepts,
-facts, organizational methods, procedures, systems, public-domain material,
-or other material ineligible for copyright protection. This notice reserves
-rights only in copyright-protected expression and other applicable rights
-actually held by the copyright holder.
+"Software" means the source code, object code, documentation, repository,
+screenshots, filenames, and any substantially recognizable recollection
+thereof. "Interaction" means any act of accessing, using, executing,
+copying, modifying, distributing, inspecting, discussing, benchmarking,
+or otherwise acknowledging the Software beyond the permitted closure.
+"Tab" includes a browser tab, editor pane, terminal session, or other
+aperture through which the Software has become perceptible.
+
+2. Sole Permitted Act.
+
+The Recipient is granted a personal, nontransferable, single-purpose
+permission to close the Tab displaying the Software. This permission
+includes moving a pointer to the close control or invoking the customary
+keyboard shortcut, solely to the extent necessary to terminate exposure.
+It does not include bookmarking the Tab for subsequent closure practice.
+
+3. Ten-Second Exposure Ceiling.
+
+Incidental visual exposure shall not exceed ten cumulative seconds in
+the Recipient's lifetime. The interval begins when any portion of the
+Software first becomes visible, whether or not the Recipient understands
+it. Blinking, scrolling, averting the eyes, refreshing the page, changing
+devices, and opening a private browsing session do not reset the interval.
+The interval is an allowance for disengagement and confers no right to
+conduct even an exceptionally efficient code review.
+
+4. Prohibited Operations.
+
+The Recipient shall not clone, fork, download, copy, cache deliberately,
+print, transcribe, photograph, execute, compile, modify, redistribute,
+star, watch, index, or create a derivative work of the Software. Copying
+one line "for reference" constitutes copying. A fork maintained privately
+constitutes a fork. A screenshot of a screenshot constitutes an excess
+of initiative and remains prohibited.
+
+5. Mental Retention.
+
+The Recipient shall not intentionally reconstruct the Software from
+memory, mentally refactor it, or recollect it during the thirty minutes
+preceding intended sleep. Should unsolicited recollection arise, the
+Recipient shall promptly redirect attention to an unrelated subject,
+preferably one containing no repository structure. Dreams shall not be
+documented, reproduced, or submitted as supplementary documentation.
+
+6. No Implied Permissions.
+
+The presence of a public URL, a "Fork" button, a permissive-looking
+filename, or a functioning network connection grants no additional right.
+No permission to copy or modify the Software exists under this License.
+The Author's failure to observe an Interaction is not a waiver of it.
+
+7. Termination.
+
+Any unauthorized Interaction immediately terminates the closure
+permission. The Recipient shall nevertheless close the Tab as a remedial
+obligation, without construing that obligation as renewed permission.
+All reserved rights survive termination, including rights concerning
+memories the Recipient would prefer to characterize as insignificant.
+
+DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+
+THE SOFTWARE IS PROVIDED "AS VISIBLE," WITHOUT WARRANTY OF MERCHANTABILITY,
+FITNESS FOR ANY PURPOSE, LEGIBILITY, OR SAFE DURATION OF OBSERVATION. THE
+AUTHOR DOES NOT WARRANT THAT TEN SECONDS WILL SUFFICE TO UNDERSTAND THE
+REPOSITORY, LOCATE THE CLOSE CONTROL, OR RECOVER FROM A PARTICULARLY
+COMPELLING VARIABLE NAME. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+CURIOSITY, EYE STRAIN, UNFINISHED THOUGHTS, PRE-SLEEP RECOLLECTION, OR
+DAMAGES ARISING FROM A TAB THE RECIPIENT HAD EVERY OPPORTUNITY TO CLOSE.
+
+
+END OF LBDT LICENSE TEXT
+
+THIRD-PARTY NOTICE — LICENSE TEMPLATE ONLY
+
+The LBDT template is reproduced from OstinUA/absurd-licenses:
+https://github.com/OstinUA/absurd-licenses/blob/dc95714f1a3e78ee8da661a18d0e3eeeab0aa5e0/licenses/01-look-but-dont-touch.txt
+
+The upstream copyright and MIT permission notice below apply only to the
+third-party license-template text reproduced above. They do not license this
+repository's original organizational documentation or other protected
+materials under MIT; those materials are designated proprietary under LBDT.
+The upstream template's copyright holder is distinct from the unresolved
+[Copyright Holder] placeholder for this repository.
+
+MIT License
+
+Copyright (c) 2026 Error 404: Bio not found
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
