@@ -1,7 +1,7 @@
 <a id="governance-council-charter"></a>
 # Governance Council charter
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for Council membership, delegated policy powers, voting, conflicts and policy adoption. [Reporting structure](structure.md) remains separate from policy flow.
 
@@ -84,6 +84,12 @@ Chief of Staff tracks effective date, feedback and periodic policy review
 ```
 
 **Who is accountable afterward?** The **Council** is responsible for the collective *policy decision*; the **COO** is accountable for cross-directorate execution; the assigned **Director** owns delivery inside their portfolio; **Standards & Assurance** may later audit compliance independently. The Council does not replace their chain of command.
+
+## Interim operation and v1.1 adoption boundary
+
+The five-seat charter and thresholds above remain the existing rule. The [v1.1 ratification package](../proposals/v1-1-ratification.md) supplies a complete **Proposed — Pending Required Approval** interim election/quorum procedure for inactive ED offices, recusal substitutes and representative safeguards. It does not silently amend this charter. Owner may use the existing express interim-charter power with a real recorded adoption; permanent constitutional changes need the enhanced vote and Owner ratification. Before any vote, Secretary records which charter, valid seat holders and conflict substitutes apply. If no valid quorum exists, no policy adoption occurs; routine delegated work and the existing narrow seven-day urgent operating measure remain available within their limits.
+
+The package also specifies approval units for new case, personnel, continuity and security procedures. A Git commit and official documentation version prove neither Council assent nor operational deployment. Do not use a constitutional proposal to determine an individual case outcome.
 
 <a id="example-d--new-policy-affecting-all-staff"></a>
 ## Example D — New policy affecting all staff

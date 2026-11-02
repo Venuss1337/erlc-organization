@@ -1,7 +1,7 @@
 <a id="organizational-ranks-eligibility-and-appointments"></a>
 # Organizational ranks, eligibility and appointments
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for grades, position eligibility, progression and reversion. [Decision approval owners](../operations/authority-and-escalation.md#delegated-decision-matrix) and [hiring confirmation](recruitment.md#hiring-workflow) are linked process dependencies. The position matrix is the authoritative grade mapping; the leadership catalogue is a compact reading aid.
 
@@ -111,6 +111,24 @@ These are **default mappings for this release**. A director may define stricter,
 **Promotion and appointment approval:** Use [the delegated decision matrix](../operations/authority-and-escalation.md#delegated-decision-matrix) for decision owners, [the hiring workflow](recruitment.md#hiring-workflow) for selection and confirmation, and [OIO safeguards](../oversight/independent-oversight.md#decision-integrity-and-safeguards) for conflicted cases. The Owner/CEO is not a promotion committee for ordinary advancement.
 
 **Temporary/acting assignment:** Record the acting appointment, start/end date, precise operational powers, and whether an *acting grade* is displayed. Temporary coverage is not a permanent grade increase; automatically expire access at the end unless affirmatively renewed.
+
+## Assessment criteria and specialist access
+
+**v1.1 clarification specification — GOV-03 adoption not verified.** The eight-grade matrix above remains controlling; these criteria make assessment observable without adding grades or mandatory tenure.
+
+| Assessment | Evidence required | Boundary |
+|---|---|---|
+| Grade 04 | Real team/function mandate or assessed equivalent: independently accountable decisions, planning/handover, sound domain judgment, confidentiality and fair coordination. Work sample or observed delivery plus structured review by relevant Director and P&C process check | No honorary grade for technical talent alone; managing a substantive technical function may qualify without any moderation experience. Combined appointment and grade decision is valid. |
+| Grade 05 | Grade-04-level competence plus sustained senior cross-team responsibility or exceptional organizational leadership demonstrated through more than one substantive outcome: resolving dependencies, coaching leads, proportionate delegation and managing risk fairly | No required grade-04 waiting period or arbitrary years/hours; exceptional equivalent evidence may qualify directly. Document why ordinary unit scope is insufficient. CoS still needs real coordination competence, not merely a title. |
+| Director 06 | Published functional leadership remit, qualified domain judgment, realistic capacity, delegation/people skills, integrity, independent selection and appointor confirmation | No grade-05 prerequisite and no irrelevant Moderator prerequisite. Grade 06 is conferred by appointment, then reverts to validated retained standing. |
+
+Relevant Director decides 04/05 with P&C verification; exceptional cross-directorate scope receives portfolio/COO review under the existing decision matrix. OIO functional standing uses Commissioner as the relevant office authority; Commissioner conflicts use the external route. Evidence and reasons are recorded without public applicant comparisons. The [selection and management procedure](management-and-development.md#fair-selection-and-assessment) supplies conflict checks and independent challenge. Failed assessment gives specific development feedback; no promise of promotion when no real responsibility exists.
+
+**Enforcement delegation clarification (REV-03):** T&S Director is the default 02/03 approver. Any delegation must name a currently qualified unconflicted approver, grade/job scope, evaluation standard, duration and record location; Director remains accountable for consistency. No implicit delegation by senior rank. P&C checks process and records the result, not enforcement competence alone.
+
+**Retention clarification (REV-02):** The existing explicit good-standing retention decision above remains available; proposed implementation records earned 02/03, authorizing decision, prior qualifications and whether currently inactive. Current enforcement authorization requires refresher/assessment when qualifications lapse. Departure or leave is not misconduct. Earned 04/05 does not vanish solely on leaving a lower appointment; 06/07 reversion removes appointment powers immediately. Disputed grade basis or correction has a reasoned record and the independent appeal route, not public demotion by Discord role edit. GOV-02 is required before claiming newly binding appeal remedies.
+
+Lightweight expertise recognition is canonical in [professional development](management-and-development.md#expertise-recognition-without-another-hierarchy); it creates neither command authority nor another ladder.
 
 <a id="leadership-appointment-catalogue"></a>
 ## Leadership appointment catalogue

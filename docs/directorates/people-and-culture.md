@@ -1,7 +1,7 @@
 <a id="people--culture-directorate"></a>
 # People & Culture Directorate
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
 
@@ -67,6 +67,10 @@ Sensitive personal details intentionally excluded:
 ```
 
 **Privacy:** Do not demand diagnoses, personal explanations or public disclosures. Record only what is necessary for the agreed action; do not reuse a support conversation as disciplinary evidence without a separate, justified process.
+
+## v1.1 procedure dependencies
+
+Use [management and development](../personnel/management-and-development.md) for non-disciplinary review and fair selection, [rank assessment](../personnel/ranks-and-appointments.md#assessment-criteria-and-specialist-access) for eligibility, and [capacity controls](../operations/operating-practices.md#capacity-and-service-levels) for voluntary workload. IA handles alleged abuse, not ordinary coaching. New procedure activation remains subject to the [approval register](../proposals/review-register.md).
 
 ---
 

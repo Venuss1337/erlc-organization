@@ -1,7 +1,7 @@
 <a id="community-experience-directorate"></a>
 # Community Experience Directorate
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
 
@@ -62,6 +62,10 @@ Last updated / next review:
 Consultation or poll summary (optional):
 Link to published change or rationale:
 ```
+
+## v1.1 procedure dependencies
+
+Use [incident safety referrals](../operations/incident-response.md#serious-safety-and-platform-escalation) for serious platform concerns and [case intake](../oversight/case-handling.md#first-response-and-procedure-size) for confidential complaints. Reduced support/event service follows [capacity checks](../operations/operating-practices.md#capacity-and-service-levels); no private allegations in public improvement updates. New procedure activation remains subject to the [approval register](../proposals/review-register.md).
 
 ---
 

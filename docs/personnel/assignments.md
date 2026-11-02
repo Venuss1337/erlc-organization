@@ -1,7 +1,7 @@
 <a id="staff-assignments-and-reporting"></a>
 # Staff assignments and reporting
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for home-team reporting, cross-team allocation, capacity and assignment conflicts. Use [the rank framework](ranks-and-appointments.md) for grades and [OIO safeguards](../oversight/independent-oversight.md) for independent case conflicts.
 
@@ -128,6 +128,10 @@ A secondary assignment **must not require resignation from the primary team** un
 - Technical privileged-access administrators are not permitted to use those permissions to obtain IA case material without authorization.
 - A Team Lead responsible for an applicant's assessment should disclose personal relationships or conflicts and recuse where needed.
 - Inactivity is addressed through the **Staff Experience & Retention Framework**: private check-in, opt-in leave or reduced duties, and published readiness/administrative status rules before punitive action; this is a volunteer community.
+
+## Coverage, leave and continuity dependencies
+
+Use the [capacity/service checks](../operations/operating-practices.md#capacity-and-service-levels) to set real service availability and the [continuity procedure](../operations/continuity.md) for temporary mandates. They do not expand compulsory volunteer hours or create a second permanent manager. An emergency allocation uses [incident command](../operations/incident-response.md) within a qualified, logged scope; a new secondary request still needs consent and the existing home/host approval. If an ED office is inactive, unresolved conflicts go directly to COO. Managers first resolve workload clashes rather than sending every routine change through every layer.
 
 <a id="example-a--cross-team-staff-member"></a>
 ## Example A — Cross-team staff member

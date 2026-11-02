@@ -5,6 +5,25 @@ the Keep a Changelog structure and Semantic Versioning (`MAJOR.MINOR.PATCH`).
 
 Earlier development drafts, experiments and organizational mockups were never official releases. They remain accessible through Git history.
 
+## [1.1.0] - 2026-11-02
+
+### Added
+
+- Operational Readiness & Governance Improvements documentation specification: complete case lifecycle, disciplinary authority matrix, proportionate sanctions, independent appeals, qualified alternates and external-review limits.
+- Incident activation, domain-limited command, handover, stand-down, platform-safety reporting and post-incident review procedures.
+- Temporary authority, succession, volunteer capacity/service reductions, management capability review and functional promotion assessment.
+- Executable access approval/revocation, bot containment/recovery, evidence custody and proposed retention/deletion schedules.
+- Explicit ratification package, approval/implementation register and a second 15-scenario tabletop with remaining blockers.
+
+### Changed
+
+- Specified a proposed elected interim five-seat Council and recusal substitutes without changing the existing charter before required adoption.
+- Replaced conflicting launch/Executive Director activation guidance with approval-gated interim governance and workload-based portfolio activation.
+- Consolidated reporting around one action/exception register; preserved eight grades, six directorates, protected oversight functions, assignment boundaries and volunteer safeguards.
+- Updated navigation, website specification notices, release metadata and exact authorized-amendment preservation checks.
+
+This is a released documentation specification. Council votes, Owner ratification, officer appointments, external reserve availability and live technical controls are **not verified**. Proposed powers require their stated approvals; tabletop results are fictional, not operational measurements. LICENSE is unchanged.
+
 ## [1.0.0] - 2026-11-02
 
 ### Added

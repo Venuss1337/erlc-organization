@@ -136,8 +136,18 @@ def main():
             or '**Status:** Official release' not in readme):
         errors.append('README release metadata differs from source map')
     changelog = pages[ROOT / 'CHANGELOG.md']
-    if re.findall(r'^## \[([^]]+)\] - (\d{4}-\d{2}-\d{2})$', changelog, re.M) != [(version, release_date)]:
-        errors.append('Changelog must contain exactly the initial official release')
+    releases = re.findall(r'^## \[([^]]+)\] - (\d{4}-\d{2}-\d{2})$', changelog, re.M)
+    if (not releases or releases[0] != (version, release_date)
+            or releases[-1] != ('1.0.0', '2026-11-02')
+            or len({v for v, _ in releases}) != len(releases)
+            or any(not re.fullmatch(r'\d+\.\d+\.\d+', v) for v, _ in releases)):
+        errors.append('Changelog must match current release and preserve unique official history from 1.0.0')
+    elif [tuple(map(int, v.split('.'))) for v, _ in releases] != sorted(
+            [tuple(map(int, v.split('.'))) for v, _ in releases], reverse=True):
+        errors.append('Changelog releases must be newest first')
+    for path, body in pages.items():
+        if path.is_relative_to(ROOT / 'docs') and metadata not in body:
+            errors.append(f'{path.relative_to(ROOT)}: missing current documentation release metadata')
     for path, body in pages.items():
         if re.search(r'\bv3\.\d|\b3\.2\.\d|\*\*Source version:\*\*', body):
             errors.append(f'{path.relative_to(ROOT)}: obsolete project draft metadata')
@@ -165,6 +175,18 @@ def main():
 
     # Reconstruct explicitly recorded release-label edits; policy content is still checked.
     comparable = {p.relative_to(ROOT).as_posix(): body for p, body in pages.items()}
+    # Authorized policy supersessions are exact, hash-checked and reversible.
+    # Additions do not exempt any original block. Never rewrite the original baseline.
+    for edit in reversed(manifest.get('policy_amendments', [])):
+        dest = edit['destination']
+        if (digest(edit['before']) != edit['before_sha256']
+                or digest(edit['after']) != edit['after_sha256']
+                or not edit.get('reason') or not edit.get('authorization')):
+            errors.append(f'Invalid authorized amendment record: {dest}')
+        if comparable.get(dest, '').count(edit['after']) != 1:
+            errors.append(f'Authorized replacement missing or ambiguous: {dest}')
+        else:
+            comparable[dest] = comparable[dest].replace(edit['after'], edit['before'], 1)
     for edit in manifest.get('release_baseline_edits', []):
         start, end = edit['source_lines']
         before = ''.join(lines[start - 1:end]).rstrip('\n')
@@ -236,7 +258,8 @@ def main():
         return 1
     print(f'PASS: {len(pages)} Markdown files; {link_count} relative links and fragments checked.')
     print(f'PASS: all {len(lines)} baseline lines mapped in {len(manifest["segments"])} ranges.')
-    print(f'PASS: v{version} official release metadata and single changelog entry agree.')
+    print(f'PASS: v{version} current metadata; {len(releases)} official changelog releases preserved.')
+    print(f'PASS: {len(manifest.get("policy_amendments", []))} exact authorized policy amendments checked and reversed for baseline comparison.')
     print(f'PASS: {exact_count} source blocks retained (with recorded editorial edits); '
           f'{redirect_count} repeated summaries redirected; '
           f'{historical_count} development summaries retained in Git history.')

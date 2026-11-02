@@ -585,7 +585,7 @@
       "reason": "Route every original template to its owning process; templates do not establish approval or permission."
     }
   ],
-  "project_version": "1.0.0",
+  "project_version": "1.1.0",
   "release_date": "2026-11-02",
   "release_status": "Official release",
   "baseline_role": "Unreleased development draft; historical source path and hashes are provenance, not official release identifiers.",
@@ -652,5 +652,27 @@
       "replacement": "Earlier development drafts, experiments and organizational mockups were never official releases. They remain accessible through Git history.",
       "reason": "User-authorized initial release: retire development-only change summaries to Git history; no organizational policy is removed."
     }
-  ]
+  ],
+  "policy_amendments": [
+    {
+      "destination": "docs/operations/operating-practices.md",
+      "before": "- Seat the CEO/Owner, COO and Executive Directors on the Council; elect a Staff Representative; designate the Chief of Staff as non-voting secretary.",
+      "after": "- Seat actual CEO/Owner and COO appointments, elect a Staff Representative, and use the full Council only when Executive Directors are active. Otherwise formally adopt/elect the [interim Council](../proposals/v1-1-ratification.md#gov-01--interim-five-seat-council) before policy votes. A consenting non-voting secretary may keep records when Chief of Staff is inactive.",
+      "before_sha256": "0f64c89e818efbe44fe2b2d158b8e9200289e078f859b697037418bbc093a7f1",
+      "after_sha256": "220e9487e270fb416276263fb2f10ab1b2b040a05a184598ccc5e82d65af7d5c",
+      "reason": "Supersede contradictory Phase 1 ED activation requirement; REV-01 remains approval-dependent, not silently resolved.",
+      "authorization": "User commission: v1.1.0 Operational Readiness & Governance Improvements; documentation specification only, formal adoption tracked in docs/proposals/v1-1-ratification.md"
+    },
+    {
+      "destination": "docs/operations/operating-practices.md",
+      "before": "**Growth trigger for executive layer:** Activate both Executive Directors if the COO regularly coordinates six directors, needs routine intervention across multiple functions, or cannot maintain direct management quality. Do not fill them merely to match the chart.",
+      "after": "**Growth trigger for executive layer:** Assess each portfolio separately under the [activation criteria](../governance/structure.md#activation-and-direct-reporting). An inactive portfolio reports directly to COO; Council seats require the applicable formally adopted charter. Do not fill appointments merely to match the chart.",
+      "before_sha256": "c75dc916d9daf60eec8a744db478dede0f87b181bdfe5a78d1353389690bd3f2",
+      "after_sha256": "445b48d005bc87782468041a7f4a19d72a611674947d066b1b67bd03a4c6d440",
+      "reason": "Replace simultaneous activation heuristic with workload-based individual portfolio review; preserves both target portfolios.",
+      "authorization": "User commission: v1.1.0 Operational Readiness & Governance Improvements; documentation specification only, formal adoption tracked in docs/proposals/v1-1-ratification.md"
+    }
+  ],
+  "release_name": "Operational Readiness & Governance Improvements",
+  "adoption_status": "Documentation specification released; formal governance adoption and operational controls not verified."
 }

@@ -1,7 +1,7 @@
 <a id="office-of-independent-oversight"></a>
 # Office of Independent Oversight
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for OIO structure, case jurisdiction, investigation independence, recusals and protected evidence access. [Operating reporting lines](../governance/structure.md) do not place this office under the COO or Council.
 
@@ -62,6 +62,12 @@ A single OIO intake route may accept confidential complaints, appeals and system
 - **Independent reporting:** The Office gives anonymized trend/quality reports to the Owner and non-case-specific advice to the Governance Council. It may raise a charter or interference concern directly with the Owner; the COO and Council cannot block intake, close a named case or edit findings.
 - **Office self-review:** Systemic reviews of OIO processes use an unconflicted assessor, independent of the work under audit. OIO cannot declare its own disputed decisions finally validated solely by internal agreement.
 - **Realistic limit:** As the Discord Owner keeps ultimate technical control, the Office's independence is **procedural and organizational**, not an absolute legal or technical guarantee. Owner-involved allegations may require an advisory outside panel and public procedural transparency to the extent permitted.
+
+## Executable procedure and activation boundary
+
+The [case-handling specification](case-handling.md) is the canonical home for lifecycle ownership, initial adjudication matrix, proof, sanctions, appeal remedies, qualified alternates, capacity and reusable case records. The charter above retains structural independence and jurisdiction. **New powers in that specification require GOV-02 adoption** under the [ratification package](../proposals/v1-1-ratification.md); appointment/availability, restricted storage and external reserves remain unverified. Its more specific alternate-selection procedure applies only after valid adoption; until then the existing Owner-appointed fallback remains, with the Owner-related advisory limitation.
+
+Do not accept a serious case as fully executable unless unconflicted investigation, separate adjudication and a credible independent appeal route actually exist. Preserve safe intake/referrals and log a blocker instead. An external reviewer has only the written delegated or advisory mandate; no reviewer acquires ownership or broad technical access. The specification never makes the Commissioner supervisor of protected findings.
 
 <a id="what-happens-after-a-finding"></a>
 ## What happens after a finding?

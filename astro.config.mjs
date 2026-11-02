@@ -9,7 +9,7 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [starlight({
     title: 'ER:LC Organization',
-    description: 'Governance, personnel and operating policies for the ER:LC Organization. Official release v1.0.0.',
+    description: 'Governance, personnel and operating policies for the ER:LC Organization. Released specification v1.1.0; governance adoption tracked separately.',
     social: [{ icon: 'github', label: 'GitHub repository', href: repository }],
     sidebar: [
       { label: 'Overview', items: [{ label: 'Organization handbook', slug: '' }] },

@@ -1,6 +1,6 @@
 # Organization handbook
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 An organizational operating system for an independently operated ER:LC Discord/Roblox community. This handbook explains how the organization is governed, how staff work together, and where decisions and accountability belong.
 
@@ -25,6 +25,16 @@ The aim is routine work that can continue without the Owner's intervention, supp
 
 ## Reading this release
 
-Version 1.0.0 establishes the official documentation baseline. Rank, functional job, appointment, qualification and technical access are separate; authority follows the assigned mandate. Staff retain one home team and one permanent people manager, including when they hold secondary assignments.
+Version 1.1.0 — Operational Readiness & Governance Improvements — releases an updated documentation specification. v1.0.0 remains the first official release. New powers and governance changes require the recorded adoption gates; no appointments, independent reserve availability or live control tests are established by this release. Rank, functional job, appointment, qualification and technical access are separate; authority follows the assigned mandate. Staff retain one home team and one permanent people manager, including when they hold secondary assignments.
 
 Open governance decisions remain recorded in the [repository review register](proposals/review-register.md). That review material and historical migration records are not published as active handbook policies. Examples and blank templates illustrate the documented processes; completed confidential records do not belong in this public handbook.
+
+## Operational readiness procedures
+
+- [Handle a case fairly](oversight/case-handling.md): intake, investigation, separate adjudication, independent appeal and reserve reviewers.
+- [Respond to an incident](operations/incident-response.md): bounded command, specialist containment, transfer and stand-down.
+- [Cover an absence](operations/continuity.md): qualified acting mandates, access expiry and handover.
+- [Match services to volunteers](operations/operating-practices.md#capacity-and-service-levels): capability checks and safe reductions.
+- [Review management and development](personnel/management-and-development.md): coaching, fair selection and specialist recognition.
+
+Read each page's activation notice. The [ratification package](proposals/v1-1-ratification.md) and [tabletop evidence](readiness-v1-1.md) remain repository references, not active policy or measured operational performance.

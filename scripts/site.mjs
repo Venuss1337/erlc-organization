@@ -6,6 +6,7 @@ import { base, published, repository, route, groups } from '../site.config.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const generated = path.join(root, 'src/content/docs');
+const release = JSON.parse(await readFile(path.join(root, 'docs/source-map.json'), 'utf8'));
 
 async function files(directory) {
   try {
@@ -49,7 +50,9 @@ function render(source, markdown) {
     `editUrl: ${JSON.stringify(`${repository}/edit/main/${source}`)}`,
     `sidebar: { order: ${order} }`, '---', '',
   ].join('\n');
-  return frontmatter + body;
+  // Published procedures are specifications, not evidence of formal adoption.
+  const adoption = `\n> **Documentation specification v${release.project_version}.** New procedures require their stated approvals and implementation checks. See the [adoption register](${repository}/blob/main/docs/proposals/review-register.md); release does not verify operational adoption.\n\n`;
+  return frontmatter + adoption + body;
 }
 
 export async function prepare() {
@@ -74,7 +77,7 @@ export async function prepare() {
   if (await readFile(notFoundPath, 'utf8').catch(() => '') !== notFound) await writeFile(notFoundPath, notFound);
   // Delete only stale generated files inside this fixed staging directory.
   for (const file of await files(generated)) if (!expected.has(file)) await unlink(file);
-  console.log(`Prepared ${published.length} approved handbook pages and the license. Base: ${base}/`);
+  console.log(`Prepared ${published.length} explicitly published specification pages and the license. Base: ${base}/`);
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

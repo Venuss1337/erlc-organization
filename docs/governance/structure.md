@@ -1,7 +1,7 @@
 <a id="organizational-structure-and-operating-model"></a>
 # Organizational structure and operating model
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for the reporting hierarchy and Chief of Staff mandate. Rank eligibility belongs in [personnel](../personnel/ranks-and-appointments.md); collective policy approval belongs in [the Council charter](governance-council.md). The chart and leadership table summarize those linked policies.
 
@@ -105,6 +105,16 @@ OWNER / CEO  [08 — Owner / Chief Executive]
 **Lean operation:** Governance Council seats are **appointments held concurrently with existing work**, not five new full-time positions. Executive Director appointments activate when the COO genuinely needs an intermediate manager (for example, numerous active directors and frequent cross-directorate conflicts). Until then, each director may report directly to the COO. The chart shows the **target organization**, not mandatory bureaucracy at launch.
 
 ---
+
+## Activation and direct reporting
+
+**v1.1 operational specification — GOV-03 adoption not verified.** Preserve both Executive Director portfolios but assess each independently. COO records a 30-day sample of **actual exceptions**, not activity surveillance: active functional directors, cross-directorate decisions requiring intervention, age of unresolved coordination decisions, repeated conflicting priorities, concurrent initiatives and ability to coach direct reports. A small shared action register supplies the evidence; no new weekly executive report.
+
+Owner appoints an ED on COO's reasoned recommendation only when repeated coordination work cannot be handled adequately by direct Director-to-COO reporting or clearer delegation. Normally multiple active functions plus recurring cross-functional decisions should exist; six nominal directors or a desired management ratio alone is insufficient. Consider simplifying approvals first. Record expected decisions the ED will own, what COO stops doing and a 90-day workload review. Do not add a relay that forwards every decision back to COO.
+
+When inactive, all affected Directors report directly to COO, routine mandates remain with Directors, and cross-portfolio deadlocks go directly to COO. If one portfolio is active, its ED owns that portfolio only; other Directors report to COO. Grade 06 still follows actual appointments. Council voting depends on the [current charter](governance-council.md), or the [interim proposal](../proposals/v1-1-ratification.md) **only after adoption**, not an assumed seat.
+
+Owner/COO review whether appointments still remove more coordination work than they create. A voluntary or approved wind-down uses fair appointment review, continuity and grade reversion; recurring reporting changes require the existing Council/Owner approval thresholds. Chief of Staff activates only for substantive executive coordination/backlog work, reports directly to COO and uses the same register as Directors. No repeated status forms, separate approvals or independent disciplinary authority. A disagreement with an ED is referred to COO as a scope/priority issue; CoS cannot issue a countermand.
 
 <a id="directorate-staffing-assumptions"></a>
 ## Directorate staffing assumptions

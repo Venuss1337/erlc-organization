@@ -1,7 +1,7 @@
 <a id="roleplay-programs-directorate"></a>
 # Roleplay Programs Directorate
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
 
@@ -21,6 +21,10 @@ Canonical home for this directorate's mandate and internal structure. [Executive
 
 **Owns:** Department standards, membership systems, departmental qualifications, internal RP promotions and RP programming.  
 **Does not own:** General Discord moderation, global bans, server infrastructure, or independent staff-misconduct investigations. **Roleplay Standards** sets RP-specific vehicle, uniform, conduct and qualification rules; independent Standards & Assurance examines systemic compliance and governance failures rather than running RP standards day-to-day.
+
+## v1.1 procedure dependencies
+
+Use [capacity checks](../operations/operating-practices.md#capacity-and-service-levels) for staff-run activities and [continuity](../operations/continuity.md) for organizational appointments. RP player ranks remain distinct from organizational staff. Serious safety concerns use [platform referrals](../operations/incident-response.md#serious-safety-and-platform-escalation). New procedure activation remains subject to the [approval register](../proposals/review-register.md).
 
 ---
 

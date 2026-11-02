@@ -1,8 +1,10 @@
 # Migration and validation report
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 This report records the migration from an unreleased development draft and the establishment of the first official release. The release changes version/status labels and release history, without changing organizational policies or resolving open decisions.
+
+This paragraph and the sections below describe the **historical migration and v1.0.0 baseline**, not the later update. Current authorized supersessions, specification/adoption boundaries, tabletop results and validation are recorded in the [v1.1 readiness report](readiness-v1-1.md); current release metadata above identifies the maintained repository version.
 
 ## Baseline and architecture
 

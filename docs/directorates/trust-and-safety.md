@@ -1,7 +1,7 @@
 <a id="trust--safety-directorate"></a>
 # Trust & Safety Directorate
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
 
@@ -20,6 +20,10 @@ Canonical home for this directorate's mandate and internal structure. [Executive
 **Does not own:** Police department promotions, scheduling ordinary sessions, independent appeals, hiring decisions outside its own positions.
 
 **Separation:** Case Operations handles evidence and internal quality checks; allegations of staff misconduct go to **Internal Affairs within the Office of Independent Oversight**. Ordinary moderation appeals go to its **Appeals & Member Advocacy** function, not to the deciding moderator or Case Operations. Trust & Safety Case Operations audits its own evidence quality, not staff integrity or independent appeal outcomes.
+
+## v1.1 procedure dependencies
+
+Use [incident response](../operations/incident-response.md) for bounded emergency command and [case handling](../oversight/case-handling.md) for staff misconduct/adjudication/appeal. Case Operations remains an internal quality function, never the independent appeal authority. New procedure activation remains subject to the [approval register](../proposals/review-register.md).
 
 ---
 

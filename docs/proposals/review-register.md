@@ -1,9 +1,35 @@
 <a id="proposal-status-references-and-review-register"></a>
 # Proposal status, references and review register
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Review material only. This register does not ratify the source or resolve open policy choices. [Council adoption rules](../governance/governance-council.md) govern policy changes; Owner-reserved decisions require the specified ratification.
+
+## Current approval and implementation register
+
+Documentation release is authorized by the user's implementation commission. **No Council ratification, officer appointment, reviewer availability or technical test is evidenced.** Status categories below distinguish existing rules, released proposals, operational tasks and verified artifacts. See the [ratification package](v1-1-ratification.md) for exact text, authorities and bootstrap limits; see the [tabletop record](../readiness-v1-1.md) for simulation assumptions and validation evidence.
+
+| ID | Current rule or gap | Proposed resolution / canonical owner | Approving authority | Dependencies | Status |
+|---|---|---|---|---|---|
+| REV-01 / GOV-01 | Inactive ED seats prevent full Council quorum; original implementation phases conflicted | Elected interim portfolio delegates and elected recusal substitutes; Phase 1 now references the gated interim procedure | Owner interim adoption under current charter; enhanced Council + Owner for permanent charter | Election, accepted seats, valid quorum | Proposed — Pending Required Approval |
+| REV-02 / GOV-03 | Existing explicit good-standing retention of 02–03 also listed as open | Retain existing good-standing decision; specify record and no automatic enforcement access in rank assessment section | Council ordinary policy vote | P&C recording; appeal route GOV-02 | Clarification proposed; existing explicit retention rule unchanged |
+| REV-03 / GOV-03 | Director approval and delegated 02–03 approver both mentioned | Written named T&S delegation with scope/expiry; otherwise Director remains approver | Council ordinary policy vote; T&S executes delegation | Qualification/evaluation and P&C check | Proposed — Pending Required Approval |
+| GOV-02 | Sanctions/adjudicators/remedies, OIO appointments and external panel incomplete | Case lifecycle, authority matrix, proof, graduated sanctions, independent appeal and alternate mandates | Four Council yes + Owner ratification; protected-function consultation | Valid Council; trained officers; separate access | Proposed — Pending Required Approval |
+| GOV-03 | Grade 04/05 criteria, promotion review and manager capability process incomplete | Functional assessment, combined appointment, fair reassessment and management review | Three Council yes; relevant directors/P&C | GOV-02 for binding appeal; actual assessors | Proposed — Pending Required Approval |
+| GOV-04 | Incident activation, succession, technical custody and retention not executable | Incident, continuity and technical/privacy procedures | Three Council yes; Owner for reserved acting/recovery powers; GOV-02 for protected changes | Access tests, recovery custody, qualified backups | Proposed — Pending Required Approval |
+| IMP-01 | No verified qualified independent reserve list | Screen/train willing investigators, adjudicators, appeal reviewers and assessors; special Owner panel reserve | Commissioner; special appointors under GOV-02 | GOV-02, safe records, real consent and capacity | Operational implementation task — not verified |
+| IMP-02 | No evidence of restricted storage, deletion or access/recovery tests | Choose authorized existing tools, test least privilege/negative access, inventory custody and retention/deletion | Technology and OIO owners; Owner reserved privileges | GOV-04/GOV-02, actual system availability | Operational implementation task — not verified |
+| IMP-03 | No verified safe duty coverage/acting roster | Capability checks, consenting duty windows, backups and reduced service plan | Service Directors / COO; Owner reserved appointments | GOV-03/GOV-04 and qualified available people | Operational implementation task — not verified |
+| IMP-04 | Team-specific functional training remains unspecified | Publish work-relevant assessments and refreshers before independent duty; no universal moderation prerequisite | Relevant Director with P&C, protected OIO qualification owner | Actual trainers, sample assessment and supervised observation | Operational implementation task — not verified |
+| IMP-05 | Some Director posts may be Owner-reserved; no designation supplied | Default remains COO appointment; record any existing reserved designation before a vacancy decision; prospective expansion requires constitutional adoption | Owner confirms existing instrument; Council enhanced + Owner for new reserved power | Published designation/decision reference | Unresolved external/approval dependency |
+| IMP-06 | Appointment terms and ongoing layer value not reviewed consistently | 30-day acting terms; six-month appointment/layer review without automatic permanent expiry | GOV-03/GOV-04 appointors; GOV-02 Commissioner safeguard | Valid appointments and workload evidence | Proposed — Pending Required Approval |
+| VER-01 | Repository artifacts can be checked independently of operations | Preservation ledger, Markdown links, Astro check, build and publication verification | Repository maintainer; not governance approval | Full Git baseline and installed Bun/Python | Verified repository artifacts — dated results in readiness report; no live-control claim |
+
+To change a status to adopted/implemented/verified, record the actual decision or test reference, date, responsible owner, effective scope and limitations. Blank forms and hypothetical names are not evidence. No unresolved issue is closed solely because text exists.
+
+## Baseline design references and open questions (historical evidence)
+
+The following v1.0.0 material is retained to show the original gaps and ambiguities. **It is not a second live decision register.** The table above and linked canonical specifications give current proposed resolutions and approval dependencies. “Open” in the preserved excerpts below refers to the baseline, not a claim that v1.1.0 lacks drafted procedures.
 
 <a id="design-references-and-limitations"></a>
 ## Design references and limitations

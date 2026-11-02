@@ -1,7 +1,7 @@
 <a id="authority-decision-ownership-and-escalation"></a>
 # Authority, decision ownership and escalation
 
-**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for forms of authority, delegated decision owners, DACI and escalation. The decision matrix routes work: [Council voting](../governance/governance-council.md), [rank eligibility](../personnel/ranks-and-appointments.md), [assignment approvals](../personnel/assignments.md) and [case safeguards](../oversight/independent-oversight.md) are governed by the linked canonical rules.
 
@@ -48,6 +48,10 @@ Possessing one does not imply the others. **Organizational grade is a fifth, des
 | Prioritize player-feedback improvement | Responsible operating directorate | Community Experience maintains public tracker; Council only for cross-organization policy |
 | Route mixed enforcement / staff misconduct / systemic complaint | OIO intake assigns an owner **for each question** | Separate records and access; no duplicate case ownership |
 | Change constitutional distribution of power | Governance Council proposal (4 affirmative votes of 5) **and Owner ratification** | Consult affected leaders and the Office of Independent Oversight; publish changes |
+
+## v1.1 executable routes
+
+The matrix above routes existing authority; it does not ratify new powers. For full case decision ownership use [case adjudication and appeal](../oversight/case-handling.md#disciplinary-authority-matrix), for urgent response use [incident command](incident-response.md), for absent officeholders use [continuity](continuity.md), and for non-disciplinary capability concerns use [management review](../personnel/management-and-development.md). Each specification states its adoption gate in the [review register](../proposals/review-register.md). Inactive portfolio routine escalations go directly to COO under the existing lean reporting rule; no empty office is an approval stage. Existing full Council thresholds remain controlling until an interim/updated charter is formally adopted.
 
 <a id="single-decision-owner-dri--daci"></a>
 ## Single decision owner: DRI / DACI
