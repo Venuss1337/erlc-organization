@@ -1,6 +1,8 @@
 # Incident response and emergency command
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Procedure specification; GOV-04 adoption and actual qualification/access checks are not verified.** Existing qualified responders retain their existing safety authority; this page does not grant unapproved powers. See the [activation register](../proposals/review-register.md). Emergency command coordinates a bounded response, not discipline or independent investigations.
 
@@ -14,7 +16,7 @@ Anyone may raise an incident alert. A qualified Session Commander, T&S Duty Inci
 | S2 major | Coordinated disruption, multiple teams, suspected privileged compromise, serious active abuse or evidence compromise | Available qualified Duty Incident Commander coordinates; technical maintainer leads containment work. Notify T&S, Live Operations and Technology as relevant, and COO/acting COO as soon as safely possible, target within 30 minutes when contactable. Notify OIO for staff abuse/evidence risk. |
 | S3 critical safety/platform | Credible imminent real-world danger, suspected child exploitation, widespread privileged loss or Owner account compromise | Available qualified commander coordinates safety referrals/containment; notify Owner and COO immediately through verified safe contact. Platform/emergency reporting proceeds without waiting for them. No staffed commander: suspend affected service, take only already-authorized protective action and escalate. |
 
-Qualification is documented by the relevant Director: incident scenario exercise, domain limits, communication/handover, privacy and evidence basics. T&S validates enforcement competency; Technology validates technical competency; Live Operations validates session competency. A general IC qualification does not confer the others. Maintain consenting duty contacts and a backup, with explicit unavailable status; no mandatory on-call hours.
+Qualification is documented by the relevant Division Head: incident scenario exercise, domain limits, communication/handover, privacy and evidence basics. T&S validates enforcement competency; Technology validates technical competency; Live Operations validates session competency. A general IC qualification does not confer the others. Maintain consenting duty contacts and a backup, with explicit unavailable status; no mandatory on-call hours.
 
 For S2/S3 the first available qualified Duty Incident Commander records acceptance and owns coordination. If none exists, the qualified domain responder is provisional coordinator **within existing domain authority only**, calls for a qualified IC and records unfilled capabilities. Different declarations merge into one incident record; higher rank does not take command automatically. COO resolves competing qualified command claims if reachable; until then the first recorded qualified command coordinates, while each specialist keeps their domain safety limits. No executive can demand unsafe execution beyond qualification.
 
@@ -39,7 +41,7 @@ Immediate threat reduction needs **no fresh approval** when already within the r
 5. **Review:** Reassess risk and responder availability at material changes; for S2/S3 set a next update, normally 30 minutes during active response. This is an incident coordination target, not continuous volunteer coverage or guaranteed response time.
 6. **Transfer:** Incoming qualified commander explicitly accepts. Record outgoing/incoming IDs, time, situation, objectives, actions, risks, access limits and pending notifications; announce one current commander. Rank alone or a CoS message is not transfer. If no relief, pause unsafe service and notify leadership rather than silently abandon command.
 7. **Stand down:** Commander verifies immediate threat contained, evidence assigned, remaining work owned, restrictions reviewed and safe operating coverage. Relevant technical maintainer confirms technical recovery conditions; qualified enforcement lead confirms outstanding safety restrictions. If they cannot verify, keep that service paused. Record time and return normal task authority; notify responders and leadership.
-8. **Learn:** Owning Director leads a short blameless operational review, target within seven days of stand-down when staffed. Record facts, failures, one action owner per fix and review date in the shared register. IA independently handles alleged misconduct; an unconflicted Assurance assessor reviews systemic defects. Never let a post-incident meeting replace a fair case.
+8. **Learn:** Owning Division Head leads a short blameless operational review, target within seven days of stand-down when staffed. Record facts, failures, one action owner per fix and review date in the shared register. IA independently handles alleged misconduct; an unconflicted Assurance assessor reviews systemic defects. Never let a post-incident meeting replace a fair case.
 
 ```text
 Immediate threat → qualified containment / platform report

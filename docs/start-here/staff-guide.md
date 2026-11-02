@@ -1,6 +1,8 @@
 # Find your role and start work
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Reading guide, not a delegation.** These summaries link to the canonical rules. Use your actual assignment and team playbook; a title on this page does not appoint you or grant access. New v1.1 procedures still have their stated approval gates. See [what is approved and what is pending](../index.md#documentation-and-approval-status).
 
@@ -34,31 +36,31 @@ Read only your quick start below, then the relevant [everyday task](../operation
 
 Answer within your support, RP, training or technical remit. Own the request you accepted; refer only the question outside that remit. Support cannot finally decide an appeal. A developer cannot change organizational rules by editing permissions. Send private complaints to the protected route without reposting evidence publicly.
 
-Grade 01 can describe an experienced specialist. It is not a ranking of intelligence, contribution or personal worth. Show relevant functional title and qualifications; do not seek Moderator standing for unrelated work. Grade 04 requires real organizational responsibility or assessed equivalent; 05 requires genuinely senior scope; Director standing follows a qualified appointment. There is no compulsory 02 → 03 → 04 → 05 path to technical leadership.
+Grade 01 can describe an experienced specialist. It is not a ranking of intelligence, contribution or personal worth. Show relevant functional title and qualifications; do not seek Moderator standing for unrelated work. Grade 04 requires real organizational responsibility or assessed equivalent; 05 requires genuinely senior scope; Division Head standing follows a qualified appointment. There is no compulsory 02 → 03 → 04 → 05 path to technical leadership.
 
 [Support profiles](../directorates/community-experience.md#role-profiles) · [Technical profiles](../directorates/technology-and-systems.md#role-profiles) · [Rank meaning](../personnel/ranks-and-appointments.md#the-eight-level-organizational-hierarchy)
 
-## Team Lead or Unit Manager
+## Team Lead or working People Lead
 
 Use your appointment's team scope. Assign tasks within accepted availability, check readiness, arrange handoffs and coach ordinary mistakes. A host lead directs a secondary contributor only within the agreed assignment; their permanent home manager still owns career and general performance matters.
 
-Send actual vacancies and team-lead appointments to the authorized Director; do not invent an executive signoff for routine task allocation. Secondary assignments still need home and host approval. Transfers still need releasing and receiving Directors. Misconduct, adverse appointment action and privileged access retain their separate safeguards.
+Send actual vacancies and team-lead appointments to the authorized Division Head; do not invent an executive signoff for routine task allocation. Secondary assignments still need home and host approval. Transfers still need releasing and receiving Division Heads. Misconduct, adverse appointment action and privileged access retain their separate safeguards.
 
 [Manage everyday work](../operations/everyday-work.md) · [Reporting without duplicate forms](../operations/operating-practices.md#records-updates-and-meetings) · [Coaching versus misconduct](../personnel/management-and-development.md)
 
-## Directorate Director
+## Division Head
 
 Own your published mandate, staffing within approved capacity, delegated decisions and service quality. Use team leads and qualified specialists; do not personally reapprove every task. Publish who holds any delegated approval—qualification, title and technical access must still match the action.
 
-For unresolved work across directorates, involve the relevant active portfolio lead, then COO where needed. If that portfolio is inactive, go directly to COO. Organization-wide policy belongs to the Council; an individual case does not. The CoS can request a status update but cannot countermand your directorate.
+For unresolved work across divisions, involve the relevant COO where needed. If that portfolio is inactive, go directly to COO. Organization-wide policy belongs to the Council; an individual case does not. The CoS can request a status update but cannot countermand your division.
 
-[Leadership profiles](../governance/structure.md#leadership-profiles) · [Directorates](../index.md#organizational-functions) · [Decision owners](../operations/authority-and-escalation.md#delegated-decision-matrix)
+[Leadership profiles](../governance/structure.md#leadership-profiles) · [Divisions](../index.md#organizational-functions) · [Decision owners](../operations/authority-and-escalation.md#delegated-decision-matrix)
 
 ## Executive leadership
 
-Resolve real cross-directorate tradeoffs, maintain management quality and implement valid Council policy. The reporting chart is not a queue of required approvals. An ED owns their active portfolio; COO owns cross-portfolio operations; Owner retains reserved powers. Activate layers for actual work, not to fill grades or vacant Council votes.
+Resolve real cross-division tradeoffs, maintain management quality and implement valid Council policy. The reporting chart is not a queue of required approvals. An ED owns their active portfolio; COO owns cross-portfolio operations; Owner retains reserved powers. Activate layers for actual work, not to fill grades or vacant Council votes.
 
-CoS reports directly to COO, coordinates commitments and keeps Council records without an extra vote or line authority over Directors. Use the shared record where adopted, not parallel briefings. OIO findings, appeals and confidential evidence remain outside executive command. Preserve valid notice/quorum/votes and explicit Owner ratification for reserved changes.
+CoS reports directly to COO, coordinates commitments and keeps Council records without an extra vote or line authority over Division Heads. Use the shared record where adopted, not parallel briefings. OIO findings, appeals and confidential evidence remain outside executive command. Preserve valid notice/quorum/votes and explicit Owner ratification for reserved changes.
 
 [Executive profiles and layer value](../governance/structure.md#leadership-profiles) · [Council charter](../governance/governance-council.md)
 
@@ -78,9 +80,9 @@ Your **job** describes work. Your **appointment** identifies management responsi
 |---|---|
 | Can a grade-01 Commander direct a grade-03 officer? | They direct accepted session duties within session command; the officer keeps separate enforcement judgment. [Session mandate](../directorates/live-operations.md) |
 | Can a Senior Administrator open an IA file? | No entitlement by grade. Case-specific need-to-know authorization and real access are separate. [Case safeguards](../oversight/independent-oversight.md#decision-integrity-and-safeguards) |
-| Can a developer become Director without moderating? | Yes, through qualified selection and the proper appointment; grade 06 follows that office. [Rank/appointment relationships](../personnel/ranks-and-appointments.md#three-rank-to-position-relationships) |
+| Can a developer become Division Head without moderating? | Yes, through qualified selection and the proper appointment; grade 06 follows that office. [Rank/appointment relationships](../personnel/ranks-and-appointments.md#three-rank-to-position-relationships) |
 | Can my secondary lead discipline me? | They are a scoped task lead, not your permanent People Manager or automatic disciplinary authority. [No double boss](../personnel/assignments.md#who-is-responsible-for-what) |
-| Can CoS order a Director? | No. CoS requests/coordinates; a dispute goes to COO. [CoS mandate](../governance/structure.md#chief-of-staff--reporting-and-exact-mandate) |
+| Can CoS order a Division Head? | No. CoS requests/coordinates; a dispute goes to COO. [CoS mandate](../governance/structure.md#chief-of-staff--reporting-and-exact-mandate) |
 | Who authorizes a permanent ban? | The explicitly authorized T&S role, not every Moderator or Session Commander. [Decision matrix](../operations/authority-and-escalation.md#delegated-decision-matrix) |
 | Who investigates an Executive? | Unconflicted OIO/IA under a valid mandate; seniority does not bar investigation. Special external arrangements remain adoption-dependent. [Oversight safeguards](../oversight/independent-oversight.md#decision-integrity-and-safeguards) |
 | Can an Appeals reviewer reverse a higher-ranked moderator? | Within a valid approved appeal mandate, yes; the moderator has no veto. Newly specified binding remedies still require GOV-02. [Appeal remedies](../oversight/case-handling.md#independent-appeal-and-remedies) |

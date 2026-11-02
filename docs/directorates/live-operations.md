@@ -1,50 +1,21 @@
+# Game & Roleplay Operations Division
+
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Selected target specification — Proposed, pending R13 ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
+
+Accountable owner: **Game & Roleplay Operations Division Head**, directly reporting to COO. Preserved functions: **Scheduling & Dispatch; Session Operations; Session Quality & Readiness**. Each function has one named working coordinator; this is not a separate supervisory office. Actual People Manager is the Head or recorded working People Lead (Technical Lead for office staff). All original function scope transfers under the [complete map](../operations/function-map.md).
+
+Head owns functional standards, capacity and appointment decisions within [delegated authority](../operations/authority-and-escalation.md). Coordinators route work, not personnel discipline. Role-specific qualifications remain required; rank grants no blanket powers. Cross-function coordination inside the division is settled by its Head, cross-division by COO. Protected complaints and appeals go to [OIO](../oversight/independent-oversight.md).
+
+Session Commanders are operational leads, not automatic People Managers. Qualified T&S retains lasting enforcement; Commander owns session logistics.
+
+Historical filename retained for stable repository navigation; it does not retain the former Directorate Director appointment.
+
 <a id="live-operations-directorate"></a>
-# Live Operations Directorate
-
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
-
-Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
-
-**Director:** Director of Live Operations ([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))  
-**Reports to:** Executive Director — Operations ([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)  
-**Mandate:** Reliable, well-staffed and enjoyable ER:LC sessions.
-
-| Team or function | Roles and hierarchy | Staffing pattern |
-|---|---|---|
-| **Scheduling & Dispatch** | Dispatch Coordinator → Schedulers / Dispatch Officers | Compact: approx. 1–4 |
-| **Session Operations** | Session Operations Manager → Squad Commanders → Session Controllers / Session Hosts | **Multiple active squads**, each with roughly 4–7 people when full |
-| **Session Quality & Readiness** | Quality Coordinator → Session Reviewers / Readiness Coaches | Approx. 1–4; part-time reviewers possible |
-
-**How squads work:** Team Alpha, Bravo, Charlie, etc. have their own Squad Commander and can run assigned session blocks independently. The Operations Manager owns overall performance; each Squad Commander controls the live session they have been assigned. A staff member can be a primary Session Host in Alpha and a secondary trainer or enforcement responder elsewhere.
-
-**Owns:** SSU/SSD scheduling and execution, host readiness, session coverage, live operations quality.  
-**Does not own:** Permanent bans, personnel disciplinary judgments, roleplay department membership policies.
-
-**Boundary with independent oversight:** Session Quality & Readiness checks host preparation, session procedures and immediate coaching. It does **not** independently investigate staff abuse or audit the whole organization; those issues are referred to the relevant Office of Independent Oversight function.
-
-**Operational emergency exception:** A Session Commander may use specifically qualified, time-limited safety actions (e.g. temporary removal of an active disruptor) within written rules; lasting enforcement action remains with Trust & Safety.
 
 <a id="example-f--staffing-a-new-squad"></a>
-## Example F — Staffing a new squad
 
-Live Operations reports recurring uncovered evening sessions. It proposes Squad Charlie with one qualified Commander, one Controller and three Hosts. The Operations executive approves capacity; Talent Acquisition opens a **Session Host** vacancy. Existing staff may request secondary placements. Personnel records homes and reporting lines; the squad launches only after qualification and coverage are confirmed.
+<a id="role-profiles"></a>
 
-## Role profiles
-
-Summaries of the mandate above; [rank/eligibility mapping](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight) and the actual assignment control. Confirm one named home People Manager; an assigned session commander is a task lead, not automatically that manager.
-
-| Position / rank relationship | Home and permanent supervisor | Main work and independent decisions | Qualification / limits / escalation and review |
-|---|---|---|---|
-| Session Host / Controller, 01 baseline | Session Operations squad; recorded home Lead/Manager | Prepare and conduct accepted assigned session tasks | Hosting/controller qualification, scope and access; Commander directs live work. T&S owns lasting enforcement; quality coaching through Session Quality; abuse/appeal through OIO |
-| Squad / Session Commander, 01 baseline | Session Operations; home Manager/Director | Start/end and coordinate the assigned session under standards | Session-command qualification; temporary removal only if separately qualified. No permanent global bans or general staff discipline. Operational gap to Manager/Director; major incident to qualified IC |
-| Session Operations Manager, 04 minimum | Session Operations; Live Operations Director | Coverage across actual squads, coaching leads and service delivery | Management assessment and session-domain understanding; no repeated executive permission for delegated rosters. Director for capacity/mandate exceptions; independent challenge through OIO |
-| Scheduler / Dispatch Officer, 01 baseline | Scheduling & Dispatch; recorded Coordinator/Director | Maintain agreed windows and communicate coverage within allocation | Dispatch competence; cannot compel availability or grant qualifications. Uncovered duty to service lead |
-| Session Quality Coordinator / Reviewer / Coach, 01 baseline unless real management | Session Quality & Readiness; recorded Director/manager | Readiness checks and operational coaching | Relevant review competence; not IA or organization-wide assurance. Suspected abuse to IA; systemic control issues to Assurance |
-
-## v1.1 procedure dependencies
-
-Use [safe service coverage](../operations/operating-practices.md#capacity-and-service-levels), [incident command](../operations/incident-response.md) and [continuity](../operations/continuity.md) before accepting duty windows. Example F remains illustrative: its executive capacity decision uses COO directly when the portfolio appointment is inactive. New procedure activation remains subject to the [approval register](../proposals/review-register.md).
-
----
-
-[Documentation index](../../README.md) · [Status and review register](../proposals/review-register.md)
+<a id="v11-procedure-dependencies"></a>

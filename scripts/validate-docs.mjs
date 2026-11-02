@@ -7,4 +7,7 @@ if (!command) throw new Error('Install Python 3.9 or newer to run the repository
 const child = Bun.spawn([...command, 'scripts/validate_docs.py'], {
   stdin: 'inherit', stdout: 'inherit', stderr: 'inherit',
 });
-process.exit(await child.exited);
+const code = await child.exited;
+if (code) process.exit(code);
+const structure = Bun.spawn([...command, 'scripts/validate_structure.py'], { stdin: 'inherit', stdout: 'inherit', stderr: 'inherit' });
+process.exit(await structure.exited);

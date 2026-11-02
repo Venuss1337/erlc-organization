@@ -1,6 +1,6 @@
 # Organization handbook
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 ER:LC Organization supports an independently operated Roblox Emergency Response: Liberty County community and its Discord. Staff deliver safe roleplay sessions, moderation, member support, training and dependable systems.
 
@@ -35,12 +35,12 @@ The guides explain the next step and link the controlling rule. Your actual team
 | [People & Culture](directorates/people-and-culture.md) | Recruitment, development, records, assignments and voluntary staff support |
 | [Technology & Systems](directorates/technology-and-systems.md) | Authorized technical work, reliability and access execution |
 
-The [organizational structure](governance/structure.md) explains the Owner, COO, conditional executive portfolios and management responsibilities. [Roles and ranks](personnel/ranks-and-appointments.md) explain eligibility. The [Council](governance/governance-council.md) makes collective policy decisions; it does not manage ordinary shifts or individual cases. [Independent Oversight](oversight/independent-oversight.md) separates investigation, appeal and systemic assurance from operating command.
+The [target structure](governance/structure.md) has three divisions plus a Technology Office under COO, with protected OIO separately under Owner. [Function ownership](operations/function-map.md) maps every former directorate. [R13 migration](proposals/v1-3-reform.md) is pending; no cutover is verified.
 
 <a id="reading-this-release"></a>
 ## Documentation and approval status
 
-**v1.2.0 — Operational Simplicity & Staff Experience** improves instructions and navigation without changing approval thresholds, ranks or protected case powers. v1.0.0 and v1.1.0 remain official historical releases.
+**v1.3.0 — Organizational Restructuring & Management Efficiency** improves instructions and navigation with actual changes to reporting, management offices and intra-division transfer approval, pending R13; protected case safeguards remain. v1.0.0 and v1.1.0 remain official historical releases.
 
 - **Existing framework:** canonical authority rules retained from the baseline; this repository does not verify every local adoption or delegation record.
 - **Staff guidance:** summaries and role profiles help you apply those rules; they do not grant powers or require new forms.

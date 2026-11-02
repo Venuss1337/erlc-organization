@@ -1,6 +1,8 @@
 # v1.2.0 simplicity and staff-experience evidence
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Historical pre-reform record.** Target organization and current approval dependencies are in [R13 reform](proposals/v1-3-reform.md). Earlier office names and staffing figures below describe the previous design, not active target positions.
 
 Repository-only analytical walkthrough and engineering record. This is not an independent re-audit, user-research result, approved charter or real appointment record. The immutable comparison baseline is v1.1.0 commit `8e45c4773ae990e566bf8ce08bfe1884cbe8e327`. The [v1.1 readiness report](readiness-v1-1.md) and prior audit conversation supply context; no separate original audit file was found in this repository. Completed private records must remain outside both Git and Pages.
 

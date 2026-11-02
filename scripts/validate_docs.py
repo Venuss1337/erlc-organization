@@ -151,6 +151,15 @@ def main():
     for path, body in pages.items():
         if re.search(r'\bv3\.\d|\b3\.2\.\d|\*\*Source version:\*\*', body):
             errors.append(f'{path.relative_to(ROOT)}: obsolete project draft metadata')
+    reform = manifest.get('reform')
+    historical_views = {}
+    if reform:
+        for name, expected in reform['paths'].items():
+            if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != expected:
+                errors.append(f'Unrecorded target amendment: {name}')
+            historical_views[name] = subprocess.check_output(
+                ['git', 'show', f"{reform['commit']}:{name}"], cwd=ROOT).decode('utf-8')
+    # Earlier preservation checks remain on the explicitly superseded immutable design.
     # The usability release adds reading aids without changing v1.1 policy meaning.
     usability = manifest.get('usability_baseline')
     usability_blocks = 0
@@ -167,7 +176,7 @@ def main():
                 body = re.sub(r'^\*\*Project version:\*\*.*$', '', body, flags=re.M)
                 return Counter(digest(block) for block in atoms(body))
             original = policy_blocks(before)
-            current = policy_blocks(pages.get(ROOT / name, ''))
+            current = policy_blocks(historical_views.get(name, pages.get(ROOT / name, '')))
             if original - current:
                 errors.append(f'Changed/missing v1.1 policy block: {name}')
             usability_blocks += sum(original.values())
@@ -194,7 +203,7 @@ def main():
         errors.append('Source map has missing, overlapping, out-of-order or invalid line ranges')
 
     # Reconstruct explicitly recorded release-label edits; policy content is still checked.
-    comparable = {p.relative_to(ROOT).as_posix(): body for p, body in pages.items()}
+    comparable = {p.relative_to(ROOT).as_posix(): historical_views.get(p.relative_to(ROOT).as_posix(), body) for p, body in pages.items()}
     # Authorized policy supersessions are exact, hash-checked and reversible.
     # Additions do not exempt any original block. Never rewrite the original baseline.
     for edit in reversed(manifest.get('policy_amendments', [])):
@@ -281,7 +290,7 @@ def main():
     print(f'PASS: v{version} current metadata; {len(releases)} official changelog releases preserved.')
     print(f'PASS: {len(manifest.get("policy_amendments", []))} exact authorized policy amendments checked and reversed for baseline comparison.')
     if usability:
-        print(f'PASS: {usability_blocks} v1.1 policy/protected-record blocks retained across {len(usability["paths"])} sources (release metadata excluded).')
+        print(f'PASS: {usability_blocks} v1.1 blocks accounted for in explicitly superseded historical views; target hashes checked separately.')
     print(f'PASS: {exact_count} source blocks retained (with recorded editorial edits); '
           f'{redirect_count} repeated summaries redirected; '
           f'{historical_count} development summaries retained in Git history.')

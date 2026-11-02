@@ -1,11 +1,11 @@
-<a id="staff-assignments-and-reporting"></a>
 # Staff assignments and reporting
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 Canonical home for home-team reporting, cross-team allocation, capacity and assignment conflicts. Use [the rank framework](ranks-and-appointments.md) for grades and [OIO safeguards](../oversight/independent-oversight.md) for independent case conflicts.
 
-<a id="the-permanent-reporting-rule"></a>
 ## The permanent reporting rule
 
 Every organizational staff member has:
@@ -19,7 +19,6 @@ Every organizational staff member has:
 
 **Practical default:** one primary + one secondary team. A second light secondary assignment can be allowed by exception; ongoing commitments across four or five teams should generally be refused because they make availability and accountability unreliable.
 
-<a id="who-is-responsible-for-what"></a>
 ## Who is responsible for what?
 
 | Responsibility | Authority |
@@ -27,16 +26,13 @@ Every organizational staff member has:
 | Career coaching, general performance assessment, leave/availability, welfare, long-term development | **Home People Manager** |
 | Day-to-day work instructions during an assigned shift or project | **Host Team Lead / Task Lead** |
 | Task prioritization inside a host team | **Host Team Lead**, constrained by the approved allocation |
-| Changing the person's permanent home team | Receiving director + releasing director; Personnel records; escalations by portfolio executives |
 | Approving a normal secondary assignment | Home People Manager + receiving Team Lead/Manager; recorded by Personnel Operations |
 | Balancing overall workload and spotting conflicts | **Workforce / Assignment Coordinator** (facilitates, does not impose) |
-| Resolving conflicting work across teams/directorates | Relevant managers first → respective directors → portfolio executive(s) → COO |
 | Feedback from secondary service | Host Team Lead provides documented input to Home People Manager |
 | Formal performance action or removal from staff | Authorized Home line management + People & Culture procedure; independent appeal available |
 
 **No double-boss rule:** A secondary Team Lead is not the person's general supervisor. They direct tasks only during the person's agreed assignment and cannot independently alter their career status, discipline them outside emergency authority, or silently demand availability beyond the allocation.
 
-<a id="concrete-example"></a>
 ## Concrete example
 
 > **Person:** Avery (illustrative)  
@@ -52,9 +48,8 @@ Every organizational staff member has:
 - If both need Avery at the same time, **the previously approved roster / primary allocation wins unless a documented emergency override applies**. A new request is negotiated; neither lead can simply seize the person's time.
 - Bravo provides shift feedback to Avery's Home People Manager, who combines that input into the overall review.
 - The Workforce Coordinator records the overlap, recommends options and confirms the resulting schedule.
-- If the leads cannot resolve it, the directors decide; the executive portfolio or COO resolves inter-directorate deadlocks.
+- If the leads cannot resolve it, the directors decide; the executive portfolio or COO resolves inter-division deadlocks.
 
-<a id="an-allocation-agreement"></a>
 ## An allocation agreement
 
 Every standing cross-team assignment should have this short record:
@@ -83,7 +78,6 @@ conflict_route: managers > directors > executive-directors > COO
 
 Time shares are **planning estimates of voluntary availability**, not work quotas, contracts or mandatory weekly hours. People can change their availability. Record expected duty windows, not invented obligations.
 
-<a id="priorities-when-assignments-collide"></a>
 ## Priorities when assignments collide
 
 1. **Immediate safety/security emergency** under a designated Incident Commander — temporary, documented and narrowly scoped.
@@ -96,7 +90,6 @@ A supervisor cannot manufacture an “emergency” to defeat someone's existing 
 
 ---
 
-<a id="secondary-assignment-workflow"></a>
 ## Secondary assignment workflow
 
 ```text
@@ -119,7 +112,6 @@ Home manager receives periodic feedback; both review continuation
 
 A secondary assignment **must not require resignation from the primary team** unless the work is genuinely incompatible, confidentially conflicting, or exceeds available capacity.
 
-<a id="capacity-exclusivity-and-conflicts"></a>
 ## Capacity, exclusivity and conflicts
 
 - **Assignment capacity:** Apply [the permanent reporting rule](assignments.md#the-permanent-reporting-rule) and its exception process above.
@@ -133,12 +125,10 @@ A secondary assignment **must not require resignation from the primary team** un
 
 Use the [capacity/service checks](../operations/operating-practices.md#capacity-and-service-levels) to set real service availability and the [continuity procedure](../operations/continuity.md) for temporary mandates. They do not expand compulsory volunteer hours or create a second permanent manager. An emergency allocation uses [incident command](../operations/incident-response.md) within a qualified, logged scope; a new secondary request still needs consent and the existing home/host approval. If an ED office is inactive, unresolved conflicts go directly to COO. Managers first resolve workload clashes rather than sending every routine change through every layer.
 
-<a id="example-a--cross-team-staff-member"></a>
 ## Example A — Cross-team staff member
 
 **Taylor** is a Game Enforcement Officer (**Moderator, grade 02**; home team), a certified Session Controller (secondary), and an occasional incident responder. Their single People Manager is the Game Enforcement Team Lead. Their Session Commander directs live session tasks only while Taylor serves an accepted shift. An Assignment Coordinator maintains the record. Neither team may silently change Taylor's availability.
 
-<a id="person--assignment-record"></a>
 ## Person / assignment record
 
 ```yaml
@@ -177,3 +167,7 @@ last_review: null
 ---
 
 [Documentation index](../../README.md) · [Status and review register](../proposals/review-register.md)
+
+## Target transfer rule
+
+Within one merged division, the Head approves a home transfer after both managers are consulted. Across divisions or Technology Office, releasing and receiving owners both approve. This R13 change is inactive before ratified cutover; old two-Director approval remains in force until then.

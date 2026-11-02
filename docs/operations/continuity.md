@@ -1,6 +1,8 @@
 # Temporary authority and continuity
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Procedure specification; GOV-04 adoption not verified.** This page owns acting mandates and handover, not new permanent deputy positions. Reserved appointments require actual Owner authorization. Protected case work follows the [case alternate procedure](../oversight/case-handling.md#alternates-and-external-reviewers), not a general acting executive.
 
@@ -9,10 +11,9 @@
 | Absent role | Designating authority | Qualified coverage and limits |
 |---|---|---|
 | COO | Actual Owner | Consenting executive/director with operational judgment; precise acting COO mandate, grade 07 only for actual acting appointment. Council seat only if valid charter explicitly authorizes. No OIO command or Owner-reserved constitutional powers. |
-| Executive Director | Owner on COO recommendation | Qualified Director; appointment-linked acting grade 06. Until appointed, Directors report directly to COO; no extra approval relay. Council substitute follows applicable charter, never automatic acting vote. |
-| Directorate Director | COO, with Owner confirmation only where a published reserved designation exists | Qualified manager/specialist assessed for remit, combined acting appointment/grade 06 permitted; no irrelevant moderator prerequisite. If no suitable person, COO retains essential decisions and reduces service. |
-| Team Lead / Unit Manager | Directorate Director | Competent consenting colleague meeting job-specific qualifications and grade floor through combined assessment where necessary; only specified team. |
-| Critical technical maintainer | Technology Director authorizes operational scope; access approved under technical policy | Prequalified backup with tested recovery capability and named access; no shared personal login or automatic secret inheritance. If no recovery access, contain through available paths and keep system offline. |
+| Division Head | COO, with Owner confirmation only where a published reserved designation exists | Qualified manager/specialist assessed for remit, combined acting appointment/grade 06 permitted; no irrelevant moderator prerequisite. If no suitable person, COO retains essential decisions and reduces service. |
+| Team Lead / working People Lead | Division Head | Competent consenting colleague meeting job-specific qualifications and grade floor through combined assessment where necessary; only specified team. |
+| Critical technical maintainer | Technical Lead authorizes operational scope; access approved under technical policy | Prequalified backup with tested recovery capability and named access; no shared personal login or automatic secret inheritance. If no recovery access, contain through available paths and keep system offline. |
 | Oversight Commissioner | Actual Owner, after unconflicted protected-lead advice | Qualified unconflicted administrative acting head; no power over findings. Lead-specific case officers continue existing case mandates; no successor blanket file access. |
 | IA / Appeals / Assurance officer | Unconflicted Commissioner; special/external appointor for leadership conflicts | Qualified unconflicted alternate under case procedure; separate investigation, adjudication and appeal. Owner panel selection remains separate. |
 | Chief of Staff / Council Secretary | COO for coordination; Council chair records a non-voting minute-taker | Existing qualified contributor may keep agenda/action register; no new grade or director command merely to take notes. No mandate to act as COO. |
@@ -33,4 +34,4 @@ At return, original appointing authority records resumption, briefs the returnin
 
 ## Continuity readiness check
 
-Directors review single-person dependencies when staffing changes and during monthly exception review: critical task, primary, consenting qualified backup, real access/recovery path, last exercise date, safe degraded mode. OIO separately checks independent case alternates. Mark each **untested**, **tested with date/evidence**, or **unavailable**. No completed confidential register belongs in Git. Absence of a backup is a service constraint, not a volunteer's moral failure.
+Division Heads review single-person dependencies when staffing changes and during monthly exception review: critical task, primary, consenting qualified backup, real access/recovery path, last exercise date, safe degraded mode. OIO separately checks independent case alternates. Mark each **untested**, **tested with date/evidence**, or **unavailable**. No completed confidential register belongs in Git. Absence of a backup is a service constraint, not a volunteer's moral failure.

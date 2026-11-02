@@ -1,7 +1,8 @@
-<a id="proposal-status-references-and-review-register"></a>
 # Proposal status, references and review register
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Historical pre-reform record.** Target organization and current approval dependencies are in [R13 reform](v1-3-reform.md). Earlier office names and staffing figures below describe the previous design, not active target positions.
 
 Review material only. This register does not ratify the source or resolve open policy choices. [Council adoption rules](../governance/governance-council.md) govern policy changes; Owner-reserved decisions require the specified ratification.
 
@@ -42,7 +43,6 @@ The [staff guide](../start-here/staff-guide.md), [everyday tasks](../operations/
 
 The following v1.0.0 material is retained to show the original gaps and ambiguities. **It is not a second live decision register.** The table above and linked canonical specifications give current proposed resolutions and approval dependencies. “Open” in the preserved excerpts below refers to the baseline, not a claim that v1.1.0 lacks drafted procedures.
 
-<a id="design-references-and-limitations"></a>
 ## Design references and limitations
 
 These public references informed the underlying ideas. This document is a **bespoke organizational design**, not a claim that any of the named organizations endorses or directly operates an ER:LC server.

@@ -1,33 +1,21 @@
-# ER:LC Organization — v1.2.0
+# ER:LC Organization — v1.3.0
 
 An organizational operating system for an independently operated ER:LC Discord/Roblox community. This repository separates governance, personnel, delivery and independent oversight so each policy has a clear home and can evolve without conflicting definitions.
 
-**Project version:** 1.2.0  
+**Project version:** 1.3.0  
 **Release date:** 2026-11-02  
-**Status:** Official release — **Operational Simplicity & Staff Experience**. This release adds task guidance, role profiles and simpler navigation without changing authority or evidencing operational adoption. New constitutional/OIO arrangements are **Proposed — Pending Required Approval**; organization-wide procedures also require the recorded approvals and implementation checks in the [review register](docs/proposals/review-register.md). v1.0.0 remains the first official release; earlier development drafts remain historical only.
+**Status:** Official release — **Organizational Restructuring & Management Efficiency**. This release selects a structural target, retires permanent ED/Unit Manager layers, and consolidates delivery ownership; actual adoption is not evidenced. New constitutional/OIO arrangements are **Proposed — Pending Required Approval**; organization-wide procedures also require the recorded approvals and implementation checks in the [review register](docs/proposals/review-register.md). v1.0.0 remains the first official release; earlier development drafts remain historical only.
 
-The model combines six operating directorates, two executive portfolios, a five-seat Governance Council and one independent oversight office with three protected functions. Staff have one home team and one permanent people manager, with approved secondary assignments. Organizational rank, job, appointment, qualification and technical access are distinct; actual authority follows the assigned mandate.
+The selected target has three divisions and a compact Technology Office directly under COO, with independent OIO under Owner. R13 remains pending ratification; the previous design governs until recorded cutover.
 
 ## Simplified hierarchy
 
 ```text
 Owner / CEO
-├── COO
-│   ├── Chief of Staff (coordination; non-voting Council Secretary)
-│   ├── Executive Director — Operations
-│   │   ├── Trust & Safety
-│   │   ├── Live Operations
-│   │   └── Roleplay Programs
-│   └── Executive Director — Community & Services
-│       ├── Community Experience
-│       ├── People & Culture
-│       └── Technology & Systems
-└── Oversight Commissioner — Office of Independent Oversight
-    ├── Internal Affairs & Investigations
-    ├── Appeals & Member Advocacy
-    └── Standards & Assurance
-
-Policy flow (not line management): CEO ··· Governance Council ··· COO
+├── COO → three Division Heads + Technical Lead
+│   └── concurrent CoS (coordination only)
+└── Oversight Commissioner → protected IA / Appeals / Assurance
+Council = collective policy, not another management layer
 ```
 
 This is the target structure, activated according to workload. The Council is a collective policy body; independent oversight is outside COO/Council command. See the [full chart and reporting rules](docs/governance/structure.md#organization-chart-and-lines-of-accountability) for exact relationships and visualization safeguards.
@@ -39,6 +27,8 @@ This is the target structure, activated according to workload. The Council is a 
 - [Get help, report misconduct or appeal](docs/oversight/get-help.md): safe routes without reading a full case manual.
 
 These guides summarize the canonical rules below. They are not another approval system; actual local assignments, qualifications, playbooks and contacts remain necessary.
+
+[R13 amendment and migration](docs/proposals/v1-3-reform.md) · [Function map](docs/operations/function-map.md) · [Staffing and comparative tests](docs/reform-evidence.md)
 
 ## Documentation index
 
@@ -58,7 +48,7 @@ These guides summarize the canonical rules below. They are not another approval 
 - **Can someone hold multiple roles?** Use [staff assignments](docs/personnel/assignments.md) and [rank relationships](docs/personnel/ranks-and-appointments.md#three-rank-to-position-relationships).
 - **Where does a complaint or appeal go?** Use the [jurisdiction and referral matrix](docs/oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).
 - **Where are examples and forms?** The [worked-example index](docs/governance/structure.md#worked-examples) and [template index](docs/governance/structure.md#adoption-templates) link to all original examples and templates beside their owning processes.
-- **What is the current release?** v1.2.0 is the current released documentation; v1.0.0 and v1.1.0 remain in the official history. The [review register](docs/proposals/review-register.md) separately tracks unresolved governance and implementation decisions.
+- **What is the current release?** v1.3.0 is the current released documentation; v1.0.0 and v1.1.0 remain in the official history. The [review register](docs/proposals/review-register.md) separately tracks unresolved governance and implementation decisions.
 
 ## Maintaining this repository
 

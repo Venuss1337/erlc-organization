@@ -1,0 +1,1496 @@
+{
+  "version": "1.3.0",
+  "status": "proposed",
+  "ratified": false,
+  "divisions": [
+    "safety",
+    "game",
+    "community"
+  ],
+  "office": "technology",
+  "functions": {
+    "discord moderation": "safety",
+    "game enforcement": "safety",
+    "case quality": "safety",
+    "incident safety": "safety",
+    "dispatch": "game",
+    "sessions": "game",
+    "readiness": "game",
+    "police RP": "game",
+    "fire EMS RP": "game",
+    "DOT RP": "game",
+    "civilian RP": "game",
+    "RP standards": "game",
+    "support": "community",
+    "events communications": "community",
+    "player voice": "community",
+    "partnerships": "community",
+    "recruitment": "community",
+    "learning": "community",
+    "personnel allocation": "community",
+    "retention": "community",
+    "engineering": "technology",
+    "access recovery": "technology",
+    "analytics": "technology",
+    "IA": "oversight",
+    "Appeals": "oversight",
+    "Assurance": "oversight"
+  },
+  "models": {
+    "20": [
+      {
+        "id": "owner",
+        "name": "Alex Rowan",
+        "role": "Owner",
+        "grade": 8,
+        "home": "ownership",
+        "manager": null,
+        "qualifications": [
+          "actual ownership"
+        ],
+        "assignment": "ownership",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "coo",
+        "name": "Beth Calder",
+        "role": "COO",
+        "grade": 7,
+        "home": "executive",
+        "manager": "owner",
+        "qualifications": [
+          "operational management"
+        ],
+        "assignment": "integration",
+        "availability": "5–8 voluntary hours/week"
+      },
+      {
+        "id": "safety-head",
+        "name": "Safety Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "safety",
+        "manager": "coo",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-1",
+        "name": "Safety Volunteer 2",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-2",
+        "name": "Safety Volunteer 3",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-3",
+        "name": "Safety Volunteer 4",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement",
+          "incident command"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-head",
+        "name": "Game Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "game",
+        "manager": "coo",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-1",
+        "name": "Game Volunteer 2",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-head",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-2",
+        "name": "Game Volunteer 3",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-head",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-3",
+        "name": "Game Volunteer 4",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-head",
+        "qualifications": [
+          "session command"
+        ],
+        "assignment": "qualified Session Commander",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-4",
+        "name": "Game Volunteer 5",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-head",
+        "qualifications": [
+          "session command"
+        ],
+        "assignment": "qualified Session Commander",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-head",
+        "name": "Community Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "community",
+        "manager": "coo",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-1",
+        "name": "Community Volunteer 2",
+        "role": "Contributor",
+        "grade": 5,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality",
+          "executive coordination"
+        ],
+        "assignment": "Personnel coordinator; CoS concurrent only if qualified",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-2",
+        "name": "Community Volunteer 3",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-3",
+        "name": "Community Volunteer 4",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "technology-head",
+        "name": "Technology Volunteer 1",
+        "role": "Technical Lead",
+        "grade": 5,
+        "home": "technology",
+        "manager": "coo",
+        "qualifications": [
+          "technical and access handling"
+        ],
+        "assignment": "engineering/access",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "technology-1",
+        "name": "Technology Volunteer 2",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "technology",
+        "manager": "technology-head",
+        "qualifications": [
+          "technical and access handling"
+        ],
+        "assignment": "engineering/access",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "commissioner",
+        "name": "Galen Price",
+        "role": "Commissioner",
+        "grade": 7,
+        "home": "oversight",
+        "manager": "owner",
+        "qualifications": [
+          "oversight administration"
+        ],
+        "assignment": "Commissioner",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "ia",
+        "name": "Hazel Rowe",
+        "role": "Investigator",
+        "grade": 1,
+        "home": "oversight",
+        "manager": "commissioner",
+        "qualifications": [
+          "investigation/evidence"
+        ],
+        "assignment": "Investigator",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "appeals",
+        "name": "Idris Snow",
+        "role": "Appeals Reviewer",
+        "grade": 1,
+        "home": "oversight",
+        "manager": "commissioner",
+        "qualifications": [
+          "independent case review"
+        ],
+        "assignment": "Appeals Reviewer",
+        "availability": "2–4 voluntary hours/week"
+      }
+    ],
+    "30": [
+      {
+        "id": "owner",
+        "name": "Alex Rowan",
+        "role": "Owner",
+        "grade": 8,
+        "home": "ownership",
+        "manager": null,
+        "qualifications": [
+          "actual ownership"
+        ],
+        "assignment": "ownership",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "coo",
+        "name": "Beth Calder",
+        "role": "COO",
+        "grade": 7,
+        "home": "executive",
+        "manager": "owner",
+        "qualifications": [
+          "operational management"
+        ],
+        "assignment": "integration",
+        "availability": "5–8 voluntary hours/week"
+      },
+      {
+        "id": "safety-head",
+        "name": "Safety Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "safety",
+        "manager": "coo",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-1",
+        "name": "Safety Volunteer 2",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-2",
+        "name": "Safety Volunteer 3",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-3",
+        "name": "Safety Volunteer 4",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement",
+          "incident command"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-4",
+        "name": "Safety Volunteer 5",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-5",
+        "name": "Safety Volunteer 6",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-6",
+        "name": "Safety Volunteer 7",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-head",
+        "name": "Game Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "game",
+        "manager": "coo",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-1",
+        "name": "Game Volunteer 2",
+        "role": "People Lead",
+        "grade": 4,
+        "home": "game",
+        "manager": "game-head",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-2",
+        "name": "Game Volunteer 3",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-3",
+        "name": "Game Volunteer 4",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session command"
+        ],
+        "assignment": "qualified Session Commander",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-4",
+        "name": "Game Volunteer 5",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session command"
+        ],
+        "assignment": "qualified Session Commander",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-5",
+        "name": "Game Volunteer 6",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-6",
+        "name": "Game Volunteer 7",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-7",
+        "name": "Game Volunteer 8",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-8",
+        "name": "Game Volunteer 9",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-head",
+        "name": "Community Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "community",
+        "manager": "coo",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-1",
+        "name": "Community Volunteer 2",
+        "role": "Contributor",
+        "grade": 5,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality",
+          "executive coordination"
+        ],
+        "assignment": "Personnel coordinator; CoS concurrent only if qualified",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-2",
+        "name": "Community Volunteer 3",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-3",
+        "name": "Community Volunteer 4",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-4",
+        "name": "Community Volunteer 5",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-5",
+        "name": "Community Volunteer 6",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "technology-head",
+        "name": "Technology Volunteer 1",
+        "role": "Technical Lead",
+        "grade": 5,
+        "home": "technology",
+        "manager": "coo",
+        "qualifications": [
+          "technical and access handling"
+        ],
+        "assignment": "engineering/access",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "technology-1",
+        "name": "Technology Volunteer 2",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "technology",
+        "manager": "technology-head",
+        "qualifications": [
+          "technical and access handling"
+        ],
+        "assignment": "engineering/access",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "technology-2",
+        "name": "Technology Volunteer 3",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "technology",
+        "manager": "technology-head",
+        "qualifications": [
+          "technical and access handling"
+        ],
+        "assignment": "engineering/access",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "commissioner",
+        "name": "Galen Price",
+        "role": "Commissioner",
+        "grade": 7,
+        "home": "oversight",
+        "manager": "owner",
+        "qualifications": [
+          "oversight administration"
+        ],
+        "assignment": "Commissioner",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "ia",
+        "name": "Hazel Rowe",
+        "role": "Investigator",
+        "grade": 1,
+        "home": "oversight",
+        "manager": "commissioner",
+        "qualifications": [
+          "investigation/evidence"
+        ],
+        "assignment": "Investigator",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "appeals",
+        "name": "Idris Snow",
+        "role": "Appeals Reviewer",
+        "grade": 1,
+        "home": "oversight",
+        "manager": "commissioner",
+        "qualifications": [
+          "independent case review"
+        ],
+        "assignment": "Appeals Reviewer",
+        "availability": "2–4 voluntary hours/week"
+      }
+    ],
+    "60": [
+      {
+        "id": "owner",
+        "name": "Alex Rowan",
+        "role": "Owner",
+        "grade": 8,
+        "home": "ownership",
+        "manager": null,
+        "qualifications": [
+          "actual ownership"
+        ],
+        "assignment": "ownership",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "coo",
+        "name": "Beth Calder",
+        "role": "COO",
+        "grade": 7,
+        "home": "executive",
+        "manager": "owner",
+        "qualifications": [
+          "operational management"
+        ],
+        "assignment": "integration",
+        "availability": "5–8 voluntary hours/week"
+      },
+      {
+        "id": "safety-head",
+        "name": "Safety Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "safety",
+        "manager": "coo",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-1",
+        "name": "Safety Volunteer 2",
+        "role": "People Lead",
+        "grade": 3,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-2",
+        "name": "Safety Volunteer 3",
+        "role": "People Lead",
+        "grade": 3,
+        "home": "safety",
+        "manager": "safety-head",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-3",
+        "name": "Safety Volunteer 4",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-2",
+        "qualifications": [
+          "current enforcement",
+          "incident command"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-4",
+        "name": "Safety Volunteer 5",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-1",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-5",
+        "name": "Safety Volunteer 6",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-2",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-6",
+        "name": "Safety Volunteer 7",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-1",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-7",
+        "name": "Safety Volunteer 8",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-2",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-8",
+        "name": "Safety Volunteer 9",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-1",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-9",
+        "name": "Safety Volunteer 10",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-2",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-10",
+        "name": "Safety Volunteer 11",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-1",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-11",
+        "name": "Safety Volunteer 12",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-2",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-12",
+        "name": "Safety Volunteer 13",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-1",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-13",
+        "name": "Safety Volunteer 14",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-2",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-14",
+        "name": "Safety Volunteer 15",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-1",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "safety-15",
+        "name": "Safety Volunteer 16",
+        "role": "Contributor",
+        "grade": 2,
+        "home": "safety",
+        "manager": "safety-2",
+        "qualifications": [
+          "current enforcement"
+        ],
+        "assignment": "Discord/game enforcement",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-head",
+        "name": "Game Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "game",
+        "manager": "coo",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-1",
+        "name": "Game Volunteer 2",
+        "role": "People Lead",
+        "grade": 4,
+        "home": "game",
+        "manager": "game-head",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-2",
+        "name": "Game Volunteer 3",
+        "role": "People Lead",
+        "grade": 4,
+        "home": "game",
+        "manager": "game-head",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-3",
+        "name": "Game Volunteer 4",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session command"
+        ],
+        "assignment": "qualified Session Commander",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-4",
+        "name": "Game Volunteer 5",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session command"
+        ],
+        "assignment": "qualified Session Commander",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-5",
+        "name": "Game Volunteer 6",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-6",
+        "name": "Game Volunteer 7",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-7",
+        "name": "Game Volunteer 8",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-8",
+        "name": "Game Volunteer 9",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-9",
+        "name": "Game Volunteer 10",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-10",
+        "name": "Game Volunteer 11",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-11",
+        "name": "Game Volunteer 12",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-12",
+        "name": "Game Volunteer 13",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-13",
+        "name": "Game Volunteer 14",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-14",
+        "name": "Game Volunteer 15",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-15",
+        "name": "Game Volunteer 16",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-16",
+        "name": "Game Volunteer 17",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-17",
+        "name": "Game Volunteer 18",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-18",
+        "name": "Game Volunteer 19",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-19",
+        "name": "Game Volunteer 20",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-2",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "game-20",
+        "name": "Game Volunteer 21",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "game",
+        "manager": "game-1",
+        "qualifications": [
+          "session/program qualification"
+        ],
+        "assignment": "session or RP delivery",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-head",
+        "name": "Community Volunteer 1",
+        "role": "Division Head",
+        "grade": 6,
+        "home": "community",
+        "manager": "coo",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-1",
+        "name": "Community Volunteer 2",
+        "role": "People Lead",
+        "grade": 5,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality",
+          "executive coordination"
+        ],
+        "assignment": "Personnel coordinator; CoS concurrent only if qualified",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-2",
+        "name": "Community Volunteer 3",
+        "role": "People Lead",
+        "grade": 4,
+        "home": "community",
+        "manager": "community-head",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-3",
+        "name": "Community Volunteer 4",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-2",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-4",
+        "name": "Community Volunteer 5",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-1",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-5",
+        "name": "Community Volunteer 6",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-2",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-6",
+        "name": "Community Volunteer 7",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-1",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-7",
+        "name": "Community Volunteer 8",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-2",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-8",
+        "name": "Community Volunteer 9",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-1",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-9",
+        "name": "Community Volunteer 10",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-2",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-10",
+        "name": "Community Volunteer 11",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-1",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-11",
+        "name": "Community Volunteer 12",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-2",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-12",
+        "name": "Community Volunteer 13",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-1",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-13",
+        "name": "Community Volunteer 14",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-2",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "community-14",
+        "name": "Community Volunteer 15",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "community",
+        "manager": "community-1",
+        "qualifications": [
+          "support/personnel confidentiality"
+        ],
+        "assignment": "support or People function",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "technology-head",
+        "name": "Technology Volunteer 1",
+        "role": "Technical Lead",
+        "grade": 5,
+        "home": "technology",
+        "manager": "coo",
+        "qualifications": [
+          "technical and access handling"
+        ],
+        "assignment": "engineering/access",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "technology-1",
+        "name": "Technology Volunteer 2",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "technology",
+        "manager": "technology-head",
+        "qualifications": [
+          "technical and access handling"
+        ],
+        "assignment": "engineering/access",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "technology-2",
+        "name": "Technology Volunteer 3",
+        "role": "Contributor",
+        "grade": 1,
+        "home": "technology",
+        "manager": "technology-head",
+        "qualifications": [
+          "technical and access handling"
+        ],
+        "assignment": "engineering/access",
+        "availability": "3–6 voluntary hours/week; agreed windows only"
+      },
+      {
+        "id": "commissioner",
+        "name": "Galen Price",
+        "role": "Commissioner",
+        "grade": 7,
+        "home": "oversight",
+        "manager": "owner",
+        "qualifications": [
+          "oversight administration"
+        ],
+        "assignment": "Commissioner",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "ia",
+        "name": "Hazel Rowe",
+        "role": "Investigator",
+        "grade": 1,
+        "home": "oversight",
+        "manager": "commissioner",
+        "qualifications": [
+          "investigation/evidence"
+        ],
+        "assignment": "Investigator",
+        "availability": "2–4 voluntary hours/week"
+      },
+      {
+        "id": "appeals",
+        "name": "Idris Snow",
+        "role": "Appeals Reviewer",
+        "grade": 1,
+        "home": "oversight",
+        "manager": "commissioner",
+        "qualifications": [
+          "independent case review"
+        ],
+        "assignment": "Appeals Reviewer",
+        "availability": "2–4 voluntary hours/week"
+      }
+    ]
+  },
+  "council": [
+    "owner",
+    "coo",
+    "safety-head",
+    "game-3",
+    "community-3"
+  ],
+  "case_separation": {
+    "investigator": "ia",
+    "adjudicator": "safety-head",
+    "appeal": "appeals",
+    "assessor": "external-unconflicted-reserve"
+  }
+}

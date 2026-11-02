@@ -1,6 +1,8 @@
 # Everyday staff tasks
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Instructional guide under existing authority, not a new policy.** Start at your task, contact the named owner and keep the required record once. Canonical links control exceptions and full procedures. New v1.1 procedures remain approval-dependent; this guide does not activate them. Actual team contacts, qualifications and enforcement/session playbooks must be supplied by the organization.
 
@@ -12,7 +14,7 @@ Apply for a real vacancy through Talent Acquisition. The receiving team assesses
 
 ## Complete initial training
 
-Ask the receiving lead/Learning & Development for your role's assessment and supervised work. Complete that qualification, then confirm the authorized assignment/access before independent duty. Course completion alone does not grant moderation or privileged permissions. If no role-specific standard or assessor exists, ask the Director/P&C; remain supervised or pause that work.
+Ask the receiving lead/Learning & Development for your role's assessment and supervised work. Complete that qualification, then confirm the authorized assignment/access before independent duty. Course completion alone does not grant moderation or privileged permissions. If no role-specific standard or assessor exists, ask the Division Head/P&C; remain supervised or pause that work.
 
 **Owner:** relevant qualification assessor/receiving team. **Record:** qualification result in existing personnel entry. [Recruitment qualification/onboarding](../personnel/recruitment.md#hiring-workflow).
 
@@ -24,7 +26,7 @@ Check the accepted window, task lead, current qualification, necessary access an
 
 ## Issue a routine moderation action
 
-Check the applicable rule, evidence/context, your enforcement authorization and permitted action. Take the delegated action, record concise reasons/evidence and provide the published appeal route. No separate Director/ED/COO approval for an action already within your remit. If the action exceeds your delegation or platform permission, refer to the authorized T&S role; do not improvise a sanction or use rank to bypass technical limits.
+Check the applicable rule, evidence/context, your enforcement authorization and permitted action. Take the delegated action, record concise reasons/evidence and provide the published appeal route. No separate Division Head/ED/COO approval for an action already within your remit. If the action exceeds your delegation or platform permission, refer to the authorized T&S role; do not improvise a sanction or use rank to bypass technical limits.
 
 **Owner:** qualified authorized Moderator/Officer. **Record:** enforcement case note. [Decision matrix](authority-and-escalation.md#delegated-decision-matrix). A local enforcement playbook is still required; this guide is not an offence/penalty list.
 
@@ -78,19 +80,19 @@ Send the decision/reference, receipt date, disputed error/grounds, relevant mate
 
 ## Apply for promotion or a leadership vacancy
 
-Ask for the published responsibility, relevant qualification and appointor; provide work evidence against those criteria. Moderator grades use T&S assessment/approval. Grade 04/05 uses relevant Director and P&C process check, with portfolio/COO review for exceptional scope. Director standing follows actual appointment; technical candidates do not need moderation experience. A real appointment and its grade can be decided together; no extra prestige-promotion committee.
+Ask for the published responsibility, relevant qualification and appointor; provide work evidence against those criteria. Moderator grades use T&S assessment/approval. Grade 04/05 uses relevant Division Head and P&C process check, with COO review for exceptional scope. Division Head standing follows actual appointment; technical candidates do not need moderation experience. A real appointment and its grade can be decided together; no extra prestige-promotion committee.
 
 **Owner:** specified grade/appointment authority. **Record:** existing assessment/appointment and personnel entry. [Rank progression](../personnel/ranks-and-appointments.md#promotions-appointments-transfers-and-reversions). Detailed v1.1 assessment clarifications remain GOV-03 proposals; challenge unfair process through independent Appeals.
 
 ## Transfer between home teams
 
-Ask the releasing and receiving Directors for agreement, with qualifications, capacity, new home manager and handover identified. Workforce facilitates and Personnel records; neither is a third appointor. A blocked transfer follows the existing portfolio/COO escalation. Do not silently change home team or assume a temporary host lead became your permanent manager.
+Ask the releasing and receiving Division Heads for agreement, with qualifications, capacity, new home manager and handover identified. Workforce facilitates and Personnel records; neither is a third appointor. A blocked transfer follows the existing COO escalation. Do not silently change home team or assume a temporary host lead became your permanent manager.
 
-**Owners:** releasing + receiving Directors. **Record:** existing transfer/personnel entry. [Assignment authority](../personnel/assignments.md#who-is-responsible-for-what).
+**Owners:** releasing + receiving Division Heads. **Record:** existing transfer/personnel entry. [Assignment authority](../personnel/assignments.md#who-is-responsible-for-what).
 
 ## Resolve conflicting assignments
 
-Tell both task leads about the clash. Use the documented priority: genuine scoped emergency, previously accepted live duty, approved primary, approved secondary, optional work. Leads negotiate first; unresolved conflict goes to Directors, active portfolio lead(s), then COO as needed. An inactive ED office is skipped. This is an exception route, not required approval from every level for an agreed adjustment.
+Tell both task leads about the clash. Use the documented priority: genuine scoped emergency, previously accepted live duty, approved primary, approved secondary, optional work. Leads negotiate first; unresolved conflict goes to Division Heads, COO as needed. An inactive ED office is skipped. This is an exception route, not required approval from every level for an agreed adjustment.
 
 **Owner:** relevant leads within allocations; escalation owner only if unresolved. **Record:** one roster/allocation update. [Priority rule](../personnel/assignments.md#priorities-when-assignments-collide).
 
@@ -99,3 +101,7 @@ Tell both task leads about the clash. Use the documented priority: genuine scope
 Check for an already-valid named alternate/delegation; otherwise contact the next **active** line authority. Existing routine work within your own mandate continues. A missing supervisor does not create self-promotion or permission to perform their reserved decisions. If nobody can validly authorize consequential work, defer it or reduce service; qualified emergency protection remains available within its scope. OIO uses independent case alternates, not ordinary executive substitution.
 
 **Owner:** next valid appointing/line authority. **Record:** existing exception/acting mandate if needed. [Continuity matrix](continuity.md#who-may-designate-coverage) is a GOV-04 specification; no automatic acting authority is granted by this guide.
+
+## Target transfer rule
+
+Within one merged division, the Head approves a home transfer after both managers are consulted. Across divisions or Technology Office, releasing and receiving owners both approve. This R13 change is inactive before ratified cutover; old two-Director approval remains in force until then.

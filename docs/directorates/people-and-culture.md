@@ -1,30 +1,33 @@
+# People functions — Community & People
+
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Selected target specification — Proposed, pending R13 ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
+
+Accountable owner: **Community & People Division Head**, directly reporting to COO. Preserved functions: **Talent Acquisition; Learning & Development; Personnel Operations; Workforce Allocation; Staff Experience & Retention**. Each function has one named working coordinator; this is not a separate supervisory office. Actual People Manager is the Head or recorded working People Lead (Technical Lead for office staff). All original function scope transfers under the [complete map](../operations/function-map.md).
+
+Head owns functional standards, capacity and appointment decisions within [delegated authority](../operations/authority-and-escalation.md). Coordinators route work, not personnel discipline. Role-specific qualifications remain required; rank grants no blanket powers. Cross-function coordination inside the division is settled by its Head, cross-division by COO. Protected complaints and appeals go to [OIO](../oversight/independent-oversight.md).
+
+Personnel/applicant/wellbeing files remain in separate need-to-know stores. Support, events and public feedback staff gain no personnel or case access through shared division membership. P&C process verification remains separate from substantive hiring selection.
+
+Historical filename retained for stable repository navigation; it does not retain the former Directorate Director appointment.
+
 <a id="people--culture-directorate"></a>
-# People & Culture Directorate
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
+<a id="example-h--retaining-a-burned-out-volunteer"></a>
 
-**Director:** Director of People & Culture ([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))  
-**Reports to:** Executive Director — Community & Services ([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)  
-**Mandate:** Fair staffing processes, capability development, workforce allocation, retention, volunteer well-being and records.
+<a id="staff-experience-check-in-record-restricted"></a>
 
-| Team | Roles | Staffing pattern |
-|---|---|---|
-| **Talent Acquisition** | Recruitment Lead / Coordinator → Recruiting Officers and Assessors | Approx. 1–4 |
-| **Learning & Development** | Training Lead → Trainers / Qualification Assessors | Approx. 2–5 |
-| **Personnel Operations** | Personnel Manager → **Workforce / Assignment Coordinator**, Records Coordinator | Approx. 1–4 |
-| **Staff Experience & Retention** | Staff Experience Coordinator / existing Personnel Operations lead; trained peer mentors when available | **Dedicated responsibility**, initially combined with Personnel Operations rather than automatically adding headcount |
+<a id="voluntary-staff-check-in"></a>
 
-**The Workforce / Assignment Coordinator is a new key role.** They maintain the shared capacity calendar, map primary and secondary assignments, flag over-allocation and facilitate handoffs. They do not become a second boss for everybody and cannot override operational team leads.
+<a id="role-profiles"></a>
 
-**Owns:** Vacancy process, recruitment administration, onboarding records, approved assignments, career framework, training coordination, allocation consistency, **staff experience, retention and voluntary-availability safeguards**.  
-**Does not own:** Operational task priorities within another team, unilateral appointments of every directorate's specialists, individual independent appeals or disciplinary findings.
+<a id="v11-procedure-dependencies"></a>
 
-<a id="staff-experience--retention-framework"></a>
 ## Staff Experience & Retention Framework
 
-**Accountable owner:** Director of People & Culture. **Process owner:** Staff Experience Coordinator (may initially be the Personnel Operations Manager). **Personal support:** Each staff member's **one Home People Manager**. **Independent challenge:** The elected Staff Representative may raise systemic issues to the Governance Council; suspected abuse of authority goes to Internal Affairs, not to a manager implicated in the report.
+**Accountable owner:** Community & People Division Head. **Process owner:** Staff Experience Coordinator (may initially be the Personnel Operations Manager). **Personal support:** Each staff member's **one Home People Manager**. **Independent challenge:** The elected Staff Representative may raise systemic issues to the Governance Council; suspected abuse of authority goes to Internal Affairs, not to a manager implicated in the report.
 
 | Stage / cadence | Practical action | Responsible party | Constraint |
 |---|---|---|---|
@@ -45,44 +48,3 @@ Canonical home for this directorate's mandate and internal structure. [Executive
 - **Confidentiality:** Store individual feedback and availability narrowly; restrict access to the Home People Manager and authorized People & Culture staff on a need-to-know basis. Publish only sufficiently aggregated trends; small groups where staff can be identified should be combined or omitted.
 
 **Quarterly review indicators:** Voluntary retention by cohort/team, departures and stated reasons where voluntarily supplied, coverage reliability, time-to-qualification, use of leave/breaks, unresolved workload concerns, and pulse-survey themes. Treat these as **signals for improvement**, not quotas or grounds for ranking individual volunteers. People & Culture shares a short anonymized summary with the COO and Governance Council and owns the follow-through.
-
-<a id="example-h--retaining-a-burned-out-volunteer"></a>
-## Example H — Retaining a burned-out volunteer
-
-A Game Enforcement Officer has missed several *optional* patrols but still wants to help. Their Home People Manager offers a private check-in; People & Culture discusses a temporary break or narrower availability and the Workforce Coordinator adjusts their secondary assignment. No misconduct case is opened simply for reduced activity. If an accepted live duty is affected, a documented handoff protects session coverage.
-
-<a id="staff-experience-check-in-record-restricted"></a>
-## Staff Experience check-in record (restricted)
-
-```markdown
-# Voluntary staff check-in
-Staff member / home team:
-Home People Manager or unconflicted contact:
-Date and consent to record a summary:
-Role clarity or support requested:
-Availability change or preferred break (optional):
-Training / mentoring requested:
-Agreed action, owner and review date:
-Sensitive personal details intentionally excluded:
-```
-
-**Privacy:** Do not demand diagnoses, personal explanations or public disclosures. Record only what is necessary for the agreed action; do not reuse a support conversation as disciplinary evidence without a separate, justified process.
-
-## Role profiles
-
-Summaries of existing responsibility, not new grade or decision rules. Use [eligibility](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight), [recruitment](../personnel/recruitment.md) and each person's actual assignment for authority and named People Manager.
-
-| Position / rank relationship | Home and permanent supervisor | Main work and independent decisions | Qualification / limits / escalation and review |
-|---|---|---|---|
-| Recruiter / Recruiting Assessor, 01 baseline | Talent Acquisition; recorded Lead/Director | Publish approved vacancies, administer screening and communication | Recruiting/confidentiality competence; host hiring authority selects. Conflict or disputed process to unconflicted P&C contact/Director; independent appeal through OIO |
-| Trainer / Qualification Assessor, 01 baseline | Learning & Development; recorded Lead/Director | Assess the relevant functional standard; record supported qualification evidence | Domain assessment competence; training does not grant unrelated access or appointment. Missing standard to relevant Director/P&C; unfair process to Appeals |
-| Personnel / Workforce / Staff Experience Coordinator, 01 baseline unless substantive management | Personnel Operations or recorded Staff Experience assignment; home Manager/Director | Record allocations, flag overlaps, facilitate consenting support and handoffs | Records/privacy/allocation competence; no second-boss power or compulsory hours. Conflicts to home/host leads, Director if unresolved; coercion/retaliation to IA |
-| Recruitment / Training Lead / Personnel Manager, 04 when supervising staff | Relevant P&C function; P&C Director | Manage real function, support assessors and check process consistency | Relevant management assessment; cannot appoint every other directorate's specialist or determine independent case outcomes |
-
-## v1.1 procedure dependencies
-
-Use [management and development](../personnel/management-and-development.md) for non-disciplinary review and fair selection, [rank assessment](../personnel/ranks-and-appointments.md#assessment-criteria-and-specialist-access) for eligibility, and [capacity controls](../operations/operating-practices.md#capacity-and-service-levels) for voluntary workload. IA handles alleged abuse, not ordinary coaching. New procedure activation remains subject to the [approval register](../proposals/review-register.md).
-
----
-
-[Documentation index](../../README.md) · [Status and review register](../proposals/review-register.md)

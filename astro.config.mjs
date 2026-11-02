@@ -9,7 +9,7 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [starlight({
     title: 'ER:LC Organization',
-    description: 'Roles, everyday tasks, governance and independent review for the ER:LC Organization. Documentation v1.2.0; adoption tracked separately.',
+    description: 'Roles, everyday tasks, governance and independent review for the ER:LC Organization. Documentation v1.3.0; adoption tracked separately.',
     social: [{ icon: 'github', label: 'GitHub repository', href: repository }],
     sidebar,
     customCss: ['./src/styles/custom.css'],

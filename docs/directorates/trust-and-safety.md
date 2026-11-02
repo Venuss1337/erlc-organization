@@ -1,41 +1,18 @@
+# Trust & Safety Division
+
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Selected target specification — Proposed, pending R13 ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
+
+Accountable owner: **Trust & Safety Division Head**, directly reporting to COO. Preserved functions: **Discord Moderation; Game Enforcement; Case Operations; Critical Incident Response**. Each function has one named working coordinator; this is not a separate supervisory office. Actual People Manager is the Head or recorded working People Lead (Technical Lead for office staff). All original function scope transfers under the [complete map](../operations/function-map.md).
+
+Head owns functional standards, capacity and appointment decisions within [delegated authority](../operations/authority-and-escalation.md). Coordinators route work, not personnel discipline. Role-specific qualifications remain required; rank grants no blanket powers. Cross-function coordination inside the division is settled by its Head, cross-division by COO. Protected complaints and appeals go to [OIO](../oversight/independent-oversight.md).
+
+
+Historical filename retained for stable repository navigation; it does not retain the former Directorate Director appointment.
+
 <a id="trust--safety-directorate"></a>
-# Trust & Safety Directorate
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+<a id="role-profiles"></a>
 
-Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
-
-**Director:** Director of Trust & Safety ([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight))  
-**Reports to:** Executive Director — Operations ([grade 06 — Director](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight); portfolio appointment)  
-**Mandate:** Consistent, fair enforcement of community and in-game rules; case quality; safety response.
-
-| Team or function | Roles and hierarchy | Staffing pattern |
-|---|---|---|
-| **Discord Moderation** | Discord Moderation Lead → Senior Discord Moderators → Discord Moderators; trainee placement if needed | One or multiple coverage teams; approx. 5–10 total to start scaling |
-| **Game Enforcement** | Game Enforcement Manager → Game Enforcement Team Leads → Senior Enforcement Officers / Enforcement Officers | Often the largest enforcement function; scale by session coverage; approx. 6–14+ |
-| **Case Operations** | Case Coordinator → Case Reviewers / Evidence Custodians | Compact expert team; approx. 1–4 |
-| **Critical Incident Response** | Duty Incident Commander + cross-trained responders from existing teams | **Rotation**, not necessarily a permanent extra team |
-
-**Owns:** Warnings, routine discipline, evidence review, game and chat enforcement, incident escalation and enforcement playbooks.  
-**Does not own:** Police department promotions, scheduling ordinary sessions, independent appeals, hiring decisions outside its own positions.
-
-**Separation:** Case Operations handles evidence and internal quality checks; allegations of staff misconduct go to **Internal Affairs within the Office of Independent Oversight**. Ordinary moderation appeals go to its **Appeals & Member Advocacy** function, not to the deciding moderator or Case Operations. Trust & Safety Case Operations audits its own evidence quality, not staff integrity or independent appeal outcomes.
-
-## Role profiles
-
-Reading aid for the mandate above; [rank mapping](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight), [assignment record](../personnel/assignments.md#the-permanent-reporting-rule) and [decision matrix](../operations/authority-and-escalation.md#delegated-decision-matrix) control. Home team and supervisor below describe the normal structure; confirm the actual named People Manager. Task direction stays assignment-scoped.
-
-| Position / rank relationship | Home and permanent supervisor | Main work and independent decisions | Qualification / limits / escalation and review |
-|---|---|---|---|
-| Discord Moderator / Game Enforcement Officer, 02; Senior roles, 03 | Discord Moderation or Game Enforcement; recorded home Lead | Enforce within qualified Discord/game delegation, preserve reasons and evidence; senior roles mentor within remit | Current domain enforcement qualification and actual permissions; permanent bans only if specifically delegated. Beyond scope: T&S Lead/authorized approver; independent challenge: OIO Appeals |
-| Enforcement Team Lead, 03 minimum; Game Enforcement Manager, 04 minimum | Relevant enforcement team/unit; Manager or Director as recorded | Lead accepted work, coaching and team delivery inside mandate | Current enforcement competency plus management suitability. No unilateral secondary-staff career decisions; Director for staffing/appointment exceptions; IA for abuse, Appeals for adverse decisions |
-| Case Coordinator / Reviewer / Evidence Custodian, 01 baseline; management mapping if applicable | Case Operations; recorded Lead/Director | Evidence custody, case routing and internal evidence-quality checks within assigned access | Case/evidence handling competence; no independent appeal or staff-integrity adjudication. Escalate case quality to T&S; abuse to IA; systemic defects to Assurance |
-| Duty Incident Commander / responder, qualification-gated | Existing home team/manager unchanged | Bounded activated command or specialist response, never general seniority command | Incident/domain qualifications and logged scope; no final staff discipline. [Incident command](../operations/incident-response.md) and OIO review boundaries apply |
-
-## v1.1 procedure dependencies
-
-Use [incident response](../operations/incident-response.md) for bounded emergency command and [case handling](../oversight/case-handling.md) for staff misconduct/adjudication/appeal. Case Operations remains an internal quality function, never the independent appeal authority. New procedure activation remains subject to the [approval register](../proposals/review-register.md).
-
----
-
-[Documentation index](../../README.md) · [Status and review register](../proposals/review-register.md)
+<a id="v11-procedure-dependencies"></a>

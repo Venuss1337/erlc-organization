@@ -1,6 +1,8 @@
 # v1.1.0 readiness, validation and tabletop record
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Historical pre-reform record.** Target organization and current approval dependencies are in [R13 reform](proposals/v1-3-reform.md). Earlier office names and staffing figures below describe the previous design, not active target positions.
 
 Repository-only engineering evidence. This is not an active policy, appointment record, independent re-audit or evidence of operational adoption. The user commissioned implementation of the prior audit findings; no independent audit artifact was found in this working repository or the inspected nearby files. The supplied audit findings and preceding audit conversation are the assessment input. No proposal is ratified by this report.
 

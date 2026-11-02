@@ -585,7 +585,7 @@
       "reason": "Route every original template to its owning process; templates do not establish approval or permission."
     }
   ],
-  "project_version": "1.2.0",
+  "project_version": "1.3.0",
   "release_date": "2026-11-02",
   "release_status": "Official release",
   "baseline_role": "Unreleased development draft; historical source path and hashes are provenance, not official release identifiers.",
@@ -673,7 +673,7 @@
       "authorization": "User commission: v1.1.0 Operational Readiness & Governance Improvements; documentation specification only, formal adoption tracked in docs/proposals/v1-1-ratification.md"
     }
   ],
-  "release_name": "Operational Simplicity & Staff Experience",
+  "release_name": "Organizational Restructuring & Management Efficiency",
   "adoption_status": "Documentation specification released; formal governance adoption and operational controls not verified.",
   "usability_baseline": {
     "commit": "8e45c4773ae990e566bf8ce08bfe1884cbe8e327",
@@ -701,5 +701,39 @@
       "docs/readiness-v1-1.md"
     ],
     "rule": "All v1.1 canonical policy content blocks remain present; release metadata excluded. New guides are summaries, not authorized policy supersessions."
+  },
+  "reform": {
+    "commit": "cf094e4993658ceaa453eb18c3744684072aeb47",
+    "authorization": "Explicit user v1.3 structural redesign commission; adoption pending R13",
+    "paths": {
+      "docs/index.md": "cb15fb4267eb0e8630a98b36bbe03ecf6b66d897953a91ecbe6c08290b20af91",
+      "docs/migration-report.md": "c68cbb326d960337ae81d0261bd22ed80518063ceca9d0b951a413344581bfe6",
+      "docs/readiness-v1-1.md": "d8d797ffead9d269bfc3a7bf13a3699ed2865627d8faf93718b2290d657aa7e8",
+      "docs/usability-v1-2.md": "7f4948371fc452a494ab2cfbb95acb8a53d54dfac5e399f424012ae02814e9e0",
+      "docs/directorates/community-experience.md": "03fcc0eeff99ca97c918ad74dfff92db685655632a78336edd6ee31e75a44620",
+      "docs/directorates/live-operations.md": "ca33b290dede3ae28367e2918b30ec8d1da1ed1dfe7d859e3d6e8277bb9ca942",
+      "docs/directorates/people-and-culture.md": "808864f245f2a94d4f21737c3ce11b3b5da2f2bd14780121b3ca648aa2fc725a",
+      "docs/directorates/roleplay-programs.md": "ec26cb9566b9cf16b6c47b6349ca0e73af17db2454c5c8e1adf6608903974183",
+      "docs/directorates/technology-and-systems.md": "2a779ca4de1d324804225cc9bcb2e2cee325e396f62eabe0c70048845eff480a",
+      "docs/directorates/trust-and-safety.md": "34b2950fbc7db63d63c1e30e0664fa69ac93a4c8d2226ed71c42049336b385d9",
+      "docs/governance/governance-council.md": "43c1e21b38ec605a9d0770a22713ff61924d855fa0992d0164b8650c8edceb7a",
+      "docs/governance/structure.md": "dcde8b881232ad6fb10b80fa8d9f362bf1f0087f3beb1480ca7441cbe724bbdc",
+      "docs/operations/authority-and-escalation.md": "efa2ac2d7d2a8388657a47e04faaba008575b26f1ff60b379ad6d69e182f5678",
+      "docs/operations/continuity.md": "70d52e1201224a1ace2ba20789d57a6e082f5d4a6fefa3a04063be0777e08124",
+      "docs/operations/discord-permissions.md": "3ad193b476a65849640be08f162b98ff7a2ac00ca8c6d836cd5bd243688cdb92",
+      "docs/operations/everyday-work.md": "ac318ea7d1dd1ddf8eb3b9bc1d889ce3e8eb51880e23a4ad833e2a498c9d4b9f",
+      "docs/operations/incident-response.md": "961648b5c00b2896be7fe6cd2b1f6ca2122920c80f9a7f6dca6d1003f8e2a2de",
+      "docs/operations/operating-practices.md": "7ca42d24235b4036246afceb268ec79d887a73fddc2f452f613ccdcb01400869",
+      "docs/oversight/case-handling.md": "9c5dcfed42a47c67175cd8a3f7e16b136418f0e7fcba5f4fdc42f941bda0ccab",
+      "docs/oversight/get-help.md": "d8313f929a7c677d5924867070cc0a1d7a47e1de7417b8411d99ed3875e3e9e3",
+      "docs/oversight/independent-oversight.md": "338d1708645e2364a769387b7f4b3c48015de628b32653e77932cbc26959518b",
+      "docs/personnel/assignments.md": "3781b1b0311ddb6d400bc1838964c373d59a20f18b49beec72d0143171801010",
+      "docs/personnel/management-and-development.md": "95f2530e1218ee9996faec733c485715503be2024aaddd2aea9504615a8b1699",
+      "docs/personnel/ranks-and-appointments.md": "acfa4abf0c01c051b889ddb9bd76bb5ff49868a0a049c32f886b0f9a37da9083",
+      "docs/personnel/recruitment.md": "f49599bde0eb8e48af4fa4ba99f34f7232b35c68cb187c049af2b3c6e13e6119",
+      "docs/proposals/review-register.md": "33dd55ac68063453511d5d8113cae39c67bcdc9d2a4f1364bc3e8bc74025158e",
+      "docs/proposals/v1-1-ratification.md": "24a749b30755268903709876d5cc129f17b2ed4bace5ed92d7f64a3dfcdae0af",
+      "docs/start-here/staff-guide.md": "4b0bc6358d412bae8a39dec9804afde51de886d6acbb34b0bf86909da4b1a71d"
+    }
   }
 }

@@ -2,7 +2,7 @@
 
 - Read [README.md](README.md), [CONTRIBUTING.md](CONTRIBUTING.md), the relevant canonical policies and [review register](docs/proposals/review-register.md) before editing.
 - This is a Markdown documentation repository with an Astro Starlight static website. Use lightweight text tooling for ordinary documentation edits. Use Bun exclusively for site packages and scripts; do not introduce other frameworks or infrastructure.
-- The current project version is **1.2.0**, status **Official release**, dated **2026-11-02**. It releases Operational Simplicity & Staff Experience guidance; v1.0.0 remains the first official release. Earlier iterations were unreleased development drafts. Keep release metadata aligned with README and CHANGELOG. Do not infer resolution of open governance decisions from a release label.
+- The current project version is **1.3.0**, status **Official release**, dated **2026-11-02**. It releases Organizational Restructuring & Management Efficiency guidance; v1.0.0 remains the first official release. Earlier iterations were unreleased development drafts. Keep release metadata aligned with README and CHANGELOG. Do not infer resolution of open governance decisions from a release label.
 - Do not change policy without authorization. Preserve ranks, appointment eligibility, reporting, voting, reserved powers, independent case safeguards, volunteer protections and permission boundaries. If wording conflicts, record it for review rather than inventing a resolution.
 - Each rule has one canonical home in the README index. Edit that home and use relative links elsewhere. Charts, decision-routing tables, examples and checklists summarize the linked rules; do not make them competing policy definitions.
 - Keep all substantive examples, tables, fenced records and templates. Blank templates are not approval records. Never add completed confidential records to this repository.
@@ -16,7 +16,7 @@
 - Markdown links remain relative repository paths in the sources. The generator converts published links to `/erlc-organization/` routes and repository-only links to GitHub. Preserve legacy section anchors. Derive display titles from each source's H1, and do not rewrite policy wording for presentation.
 - Use `bun install`, `bun run dev`, `bun run check`, and `bun run build`. Commit only `bun.lock` as the package lockfile. `bun run build` includes output-link/publication checks; also run the Python preservation validator. Do not commit dependencies, `.astro/`, staging content or `dist/`.
 - Keep `site` and `base` aligned with the GitHub remote. The Pages workflow builds on pushes to `main` or manual dispatch; deploying requires Pages Source = GitHub Actions. Do not change Pages settings, visibility, push or publish without explicit authorization.
-- Project version is 1.2.0. Framework/dependency versions and the LBDT template version are unrelated. Preserve LICENSE and its upstream notice; the website footer links to the generated license display.
+- Project version is 1.3.0. Framework/dependency versions and the LBDT template version are unrelated. Preserve LICENSE and its upstream notice; the website footer links to the generated license display.
 
 ## Context7
 
@@ -35,3 +35,7 @@ When a task asks about a library, framework, SDK, API, CLI tool or cloud service
 - `published` is an explicit source allowlist independent of the task-based sidebar. Navigation uses Starlight slug links; keep each public source reachable once without copying its Markdown. `repositoryOnly` is not a privacy boundary; never store confidential data in this repository.
 - `usability_baseline` checks every v1.1 policy content block against immutable commit `8e45c4773ae990e566bf8ce08bfe1884cbe8e327`, excluding release metadata. Editorial additions do not authorize altering case powers, approval gates, rank eligibility or volunteer protections.
 - Do not claim approval/time/retention gains from navigation changes. `docs/usability-v1-2.md` records scenario-specific decisions, approvals, handoffs and reading paths. Walkthroughs are analytical, not actual user research.
+
+## R13 precedence
+
+The user explicitly authorized structural replacement. Three divisions plus Technology Office, no ED or Unit Manager office, is the selected pending target. R13 adoption/cutover is not verified. Historical preservation now compares old content against immutable pre-reform Git snapshots and hashes every amended target source; do not treat preserved history as active authority. Structural validator governs roster/reporting and ownership.

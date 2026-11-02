@@ -1,6 +1,8 @@
 # Management review and professional development
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Procedure specification; GOV-03 adoption not verified.** No new adverse-action or appeal power takes effect merely through release. [Rank definitions](ranks-and-appointments.md) remain canonical; [case adjudication](../oversight/case-handling.md) owns misconduct and independent appeal. This procedure implements volunteer-first management without a parallel promotion ladder.
 
@@ -19,12 +21,7 @@ Appointors review ongoing management mandates at least every six months, and aft
 
 ## Proportionate review and reassignment
 
-1. **Understand:** Supervisor privately gives concrete examples and the relevant accepted expectation, asks for response, and checks training, scope, workload and conflicting instructions. P&C can supply an alternative unconflicted contact. Record a short agreed summary, not private diagnoses.
-2. **Support:** Agree two or three observable improvements, training/mentor, decisions to delegate, reduced duties if wanted, evidence to review and a realistic review point—normally two to four weeks of agreed opportunities, extended for leave. No compulsory shifts, unpaid hours quota or guaranteed promotion.
-3. **Review:** Supervisor considers actual opportunities and the volunteer's response. Close if resolved; adapt support if realistic; otherwise recommend smaller remit, lateral transfer or removal from the management appointment. Missing staffing or permissions should result in service reduction/escalation, not a fabricated personal failure.
-4. **Decide:** The **original appointing authority** decides appointment removal/reassignment: Directorate Director for team/unit appointments; COO for Directorate Director; Owner for Executive Director, COO or Commissioner; COO for Chief of Staff. OIO functional appointments follow the protected Commissioner process and external review where conflicted. Give written reasons and normally seven days to respond before an adverse decision. A conflicted authority uses the case-procedure external route; no subordinate quietly adjudicates their superior.
-5. **Challenge:** An affected volunteer has the independent 14-day appeal route in the case procedure once GOV-02 is active. Pending activation, offer independent advisory procedural review and record any remedy not delegated. Popularity does not block review; an appeal does not automatically entitle someone to continue an unsafe managerial role.
-6. **Close and hand over:** Record retained grade separately from appointment-linked reversion, non-punitive transfer/leave options, limited access changes and continuity owner. Do not label administrative reassignment as misconduct. Removal from an appointment does not itself dismiss someone from staff or automatically remove a valid earned grade.
+Target reporting: Division Heads and Technical Lead report directly to COO; no permanent portfolio intermediary. See [target structure](../governance/structure.md). Reserved appointment and protected-case powers remain gated by R13 and GOV-02.
 
 If protective restriction is necessary, give the risk reason and use the case procedure's independent review and expiry safeguards. Repeat management concerns involving the COO or Commissioner use Owner decision plus external review; Owner-related concerns have only the explicitly limited advisory panel route.
 

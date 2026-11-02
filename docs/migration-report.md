@@ -1,6 +1,8 @@
 # Migration and validation report
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Historical pre-reform record.** Target organization and current approval dependencies are in [R13 reform](proposals/v1-3-reform.md). Earlier office names and staffing figures below describe the previous design, not active target positions.
 
 This report records the migration from an unreleased development draft and the establishment of the first official release. The release changes version/status labels and release history, without changing organizational policies or resolving open decisions.
 

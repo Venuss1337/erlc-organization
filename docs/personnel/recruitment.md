@@ -1,11 +1,11 @@
-<a id="recruitment-and-onboarding"></a>
 # Recruitment and onboarding
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 Canonical home for recruitment, selection, onboarding and leadership confirmation. [Rank requirements](ranks-and-appointments.md), [secondary assignments](assignments.md) and [delegated decision owners](../operations/authority-and-escalation.md#delegated-decision-matrix) remain in their respective homes.
 
-<a id="three-entry-paths-not-one-blanket-application"></a>
 ## Three entry paths, not one blanket application
 
 | Route | When to use | Example |
@@ -16,11 +16,10 @@ Canonical home for recruitment, selection, onboarding and leadership confirmatio
 
 **Default recommendation:** Use **role-specific recruitment for operational vacancies**, with a short general staff interest form available year-round. Every vacancy lists whether its rank is directly linked, a minimum eligibility threshold, or qualification-gated only. Don't recruit 25 undirected “staff” and then invent jobs for them.
 
-<a id="hiring-workflow"></a>
 ## Hiring workflow
 
 1. **Team Lead identifies a staffing need** using volume, coverage gaps, or specialist requirement — not vanity headcount.
-2. **Director (or delegated Unit Manager) approves a position request**, its mandate, vacancy count, proposed organizational grade relationship, and training requirements. Portfolio leadership reviews large changes in capacity.
+2. **Division Head (or delegated working People Lead) approves a position request**, its mandate, vacancy count, proposed organizational grade relationship, and training requirements. Portfolio leadership reviews large changes in capacity.
 3. **Talent Acquisition posts the vacancy**, manages forms, consistent screening and applicant communication.
 4. **Host team conducts a work-relevant assessment** — e.g. sample moderation scenario, mock session plan, support ticket response, short technical exercise.
 5. **Host hiring authority selects the candidate** from qualified applicants. People & Culture verifies standards, grade eligibility and any justified grade transition, and records the decision; it is not an alternate shadow director.
@@ -28,14 +27,13 @@ Canonical home for recruitment, selection, onboarding and leadership confirmatio
 7. **Personnel Operations assigns a Home Team, People Manager, functional job title and one organizational grade**, registers the grade basis (earned, direct correlation, appointment-linked or acting), retained prior standing, qualifications and access requests; Technology provisions limited permissions after approval.
 8. **An initial review** checks actual readiness and fit; unsuccessful candidates get a documented, appropriate exit or reassignment path.
 
-**Leadership roles** follow a higher standard: published responsibilities, grade eligibility or combined appointment-promotion review, evidence of judgment, panel assessment or structured interview, conflict-of-interest screening, and the specified appointing authority. A qualified non-moderator may obtain an Administrator-level appointment without first working as a Moderator. Director appointments are confirmed by the COO (and, if designated as owner-reserved, the Owner). Executive Directors and the Oversight Commissioner are appointed by the Owner; the COO is appointed by the Owner.
+Target reporting: Division Heads and Technical Lead report directly to COO; no permanent portfolio intermediary. See [target structure](../governance/structure.md). Reserved appointment and protected-case powers remain gated by R13 and GOV-02.
 
-<a id="a-position-request-template"></a>
 ## A position-request template
 
 ```markdown
 ## Position request
-Team / directorate:
+Team / division:
 Requested title:
 Rank relationship: direct | minimum | qualification-only
 Required/assigned organizational grade (01–08, if applicable):

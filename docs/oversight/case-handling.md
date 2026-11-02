@@ -1,6 +1,8 @@
 # Case handling, adjudication and appeals
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 Only reporting a concern or requesting an appeal? Use the short [reporting and appeal guide](get-help.md). Authorized case officers still use this full procedure and its adoption gates.
 
@@ -33,17 +35,17 @@ Anyone may submit a complaint privately to OIO intake or a protected functional 
 
 Intake rejection or closure without adjudication may be challenged to an uninvolved Appeals reviewer within 14 days of notice. They can order intake reconsideration, referral or reasons; cannot conjure missing evidence or technical powers.
 
+Target initial authority is explicitly [assigned in the decision matrix](../operations/authority-and-escalation.md): COO for Heads/Technical Lead, unconflicted Head for staff/People Leads, COO for Office staff, Owner for COO, and protected external routes for OIO. Original investigator and initial actor cannot hear final appeal.
+
 ## Disciplinary authority matrix
 
 This matrix assigns **initial adjudication**, not investigation or final appeal. The Commissioner appoints the investigator and appeal reviewer subject to the special routes below, but does not select the factual outcome. Determine the row by the office implicated, not merely grade; a Senior Administrator without an executive appointment follows the ordinary staff/manager row. No disciplinary decision by the Council as a group.
 
 | Subject / office implicated | Initial adjudicator and source of appointment | Conflict fallback and execution limits |
 |---|---|---|
-| Ordinary staff; Team Lead; Unit Manager | Home Directorate Director, or an unconflicted director specifically delegated by that Director in the case record | Commissioner assigns an unconflicted director from another directorate if original director is implicated, a witness or dependent on the subject. Delegation cannot include the investigator. |
-| Directorate Director | Relevant Executive Director; COO if portfolio inactive | If either implicated, Owner appoints unconflicted external adjudicator under GOV-02. COO remains appointment executor unless conflicted; then Owner executes. |
+| Ordinary staff; Team Lead; working People Lead | Home Division Head, or an unconflicted director specifically delegated by that Division Head in the case record | Commissioner assigns an unconflicted director from another division if original director is implicated, a witness or dependent on the subject. Delegation cannot include the investigator. |
 | Chief of Staff | COO | If COO implicated, Owner appoints external adjudicator. |
 | Elected Staff Representative, where seat removal is sought | Independent external adjudicator under GOV-01/GOV-02 | Ordinary work coaching does not remove the elected mandate. A contested seat removal requires the separate charter safeguards; no unilateral home-manager or COO dismissal. |
-| Executive Director | Owner | If Owner implicated use Owner-related route; otherwise independent external appeal. |
 | COO | Owner | External investigator and external appeal reviewer are mandatory; Owner cannot hear appeal of own decision. Only actual Owner executes removal of COO. |
 | OIO personnel / protected functional lead | Unconflicted external adjudicator appointed by Owner | Unconflicted Commissioner administers assignment, not a subordinate of the subject; investigator and appeal reviewer external to implicated function. |
 | Oversight Commissioner | Owner, after external investigation | Owner appoints separate external investigator and appeal reviewer; no Commissioner intake veto. Removal safeguards in GOV-02 apply. |

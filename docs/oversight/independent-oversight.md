@@ -1,13 +1,13 @@
-<a id="office-of-independent-oversight"></a>
 # Office of Independent Oversight
 
-**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 Canonical home for OIO structure, case jurisdiction, investigation independence, recusals and protected evidence access. [Operating reporting lines](../governance/structure.md) do not place this office under the COO or Council.
 
 **Official name:** Office of Independent Oversight (OIO). **Reports to:** Owner/CEO, outside the COO and Governance Council command chain. **Office head:** Oversight Commissioner (**grade 07 — Executive**, by appointment), appointed by the Owner under a published eligibility, conflict and removal procedure. The Office consolidates governance support and intake; it does **not** merge investigation, appeal adjudication and systemic audit into one person's authority.
 
-<a id="internal-organization-appointments-and-staffing"></a>
 ## Internal organization, appointments and staffing
 
 ```text
@@ -34,7 +34,6 @@ OWNER / CEO  [appoints Commissioner; cannot guarantee technical independence]
 
 The Commissioner is the **single accountable administrative head**. Functional leads have protected professional discretion in their own cases: the Commissioner can enforce procedure and request documented correction of process errors, but may not secretly rewrite findings, order a desired outcome or deny appeal intake to protect executives. Serious interference is reportable directly to the Owner under the independent reviewer protocol.
 
-<a id="one-intake-one-case-owner--jurisdiction-and-referrals"></a>
 ## One intake, one case owner — jurisdiction and referrals
 
 A single OIO intake route may accept confidential complaints, appeals and systemic reports. **Triage classifies and routes** them without giving a general triage volunteer unrestricted access to all underlying evidence. An incident may generate separate linked records with different scopes; one unit remains the **primary case owner for each question**.
@@ -52,7 +51,6 @@ A single OIO intake route may accept confidential complaints, appeals and system
 
 **Anti-duplication rule:** When a referral crosses units, record `(a) the owner for each question, (b) what evidence can be shared, (c) why a linked record is needed, and (d) which outcome each unit may decide`. Do not launch three full investigations for one ordinary case. A misconduct report and the appeal of the underlying player ban can proceed separately if their decision questions differ; coordinate only as confidentiality and fairness permit.
 
-<a id="decision-integrity-and-safeguards"></a>
 ## Decision integrity and safeguards
 
 - **Separation of duties:** IA investigates facts; an independently authorized and unconflicted adjudicator determines consequences. Appeals reviews the original decision and may refer newly discovered misconduct to IA. Assurance audits **systems**, not individual guilt. The Commissioner cannot be investigator, initial disciplinary decision-maker and appeals reviewer for one matter.
@@ -82,7 +80,6 @@ The [case-handling specification](case-handling.md) is the canonical home for li
 
 Do not accept a serious case as fully executable unless unconflicted investigation, separate adjudication and a credible independent appeal route actually exist. Preserve safe intake/referrals and log a blocker instead. An external reviewer has only the written delegated or advisory mandate; no reviewer acquires ownership or broad technical access. The specification never makes the Commissioner supervisor of protected findings.
 
-<a id="what-happens-after-a-finding"></a>
 ## What happens after a finding?
 
 An IA finding is sent to the predesignated **unconflicted disciplinary authority** (normally the authorized management/Owner level under the sanction policy; never the subject or investigating officer). The appeal reviewer is chosen independently of both that authority and the investigation. An Assurance finding names a corrective **operational owner** and a review date; the relevant director/COO implements it, with Governance Council approval only when an organization-wide policy change is necessary. An Appeals determination uses the published remedy charter, not an informal request for the initial moderator to approve their own reversal.
@@ -91,17 +88,14 @@ An IA finding is sent to the predesignated **unconflicted disciplinary authority
 
 ---
 
-<a id="example-e--report-against-executive-staff"></a>
 ## Example E — Report against executive staff
 
-A member reports the Executive Director — Operations (**Director, grade 06**). Member Services routes it to the OIO's **Internal Affairs** function; the subject's chain of command cannot block intake or alter evidence. An unconflicted investigator gathers facts. A separately authorized adjudicator determines action. Appeals, if applicable, goes to an independent reviewer. Serious findings reach the Owner through an OIO reporting channel. The Commissioner ensures assignment to an unconflicted reviewer but cannot choose the investigation's factual conclusions.
+Target reporting: Division Heads and Technical Lead report directly to COO; no permanent portfolio intermediary. See [target structure](../governance/structure.md). Reserved appointment and protected-case powers remain gated by R13 and GOV-02.
 
-<a id="example-g--one-incident-no-duplicate-investigations"></a>
 ## Example G — One incident, no duplicate investigations
 
 A session host is accused of unfairly removing a player. The **ban/removal appeal** belongs to OIO Appeals, while **suspected staff abuse** (if factually alleged) belongs to OIO Internal Affairs. Live Operations may separately coach host readiness and OIO Assurance may later review a recurring systemic policy issue. Each question has a named case owner and a limited evidence-sharing record; four teams do **not** independently retry the same ban.
 
-<a id="oversight-intake-and-routing-record-restricted"></a>
 ## Oversight intake and routing record (restricted)
 
 ```markdown

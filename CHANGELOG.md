@@ -5,6 +5,17 @@ the Keep a Changelog structure and Semantic Versioning (`MAJOR.MINOR.PATCH`).
 
 Earlier development drafts, experiments and organizational mockups were never official releases. They remain accessible through Git history.
 
+## [1.3.0] - 2026-11-02
+
+### Changed
+
+- Selected three divisions plus compact Technology Office; removed permanent Executive Directors and Unit Manager layer from the target.
+- Reassigned all original functions, revised ranks/appointments, authority, succession and staffing, and reduced intra-division home-transfer approval to one Head.
+- Proposed an elected five-seat Council independent of optional executive offices, with formal ratification and fair personnel cutover gates.
+- Added complete 20/30/60 staffing models, 60-person fictional roster, paired stress tests and structural negative checks.
+
+Target specification only: R13 and outstanding case/operational powers require actual adoption. No appointments, controls or improved performance are claimed; prior history and LICENSE retained.
+
 ## [1.2.0] - 2026-11-02
 
 ### Added

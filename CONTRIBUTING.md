@@ -19,7 +19,7 @@ After the required decision is documented, record the outcome and minutes/ratifi
 
 ## Release conventions
 
-The current official project version is **1.2.0**, released **2026-11-02**, named **Operational Simplicity & Staff Experience**. v1.0.0 remains the first official release. Use `MAJOR.MINOR.PATCH` in metadata and changelog entries, `vMAJOR.MINOR.PATCH` in titles and Git tags, and **Official release** as the released-document status. README is the version entry point; align policy-page metadata and the source map with it. Keep the changelog in Keep a Changelog style with newest official releases first. Earlier development iterations are historical drafts, not release entries. New proposals remain **Proposed** until authorized; release labeling does not resolve open decisions. Preserve existing commits and tags, and never push or publish a release without authorization.
+The current official project version is **1.3.0**, released **2026-11-02**, named **Organizational Restructuring & Management Efficiency**. v1.0.0 remains the first official release. Use `MAJOR.MINOR.PATCH` in metadata and changelog entries, `vMAJOR.MINOR.PATCH` in titles and Git tags, and **Official release** as the released-document status. README is the version entry point; align policy-page metadata and the source map with it. Keep the changelog in Keep a Changelog style with newest official releases first. Earlier development iterations are historical drafts, not release entries. New proposals remain **Proposed** until authorized; release labeling does not resolve open decisions. Preserve existing commits and tags, and never push or publish a release without authorization.
 
 ## Before committing
 
