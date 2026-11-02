@@ -1,6 +1,6 @@
 # Temporary authority and continuity
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -60,3 +60,7 @@ At return, original appointing authority records resumption, briefs the returnin
 ## Continuity readiness check
 
 Division Heads review single-person dependencies when staffing changes and during monthly exception review: critical task, primary, consenting qualified backup, real access/recovery path, last exercise date, safe degraded mode. OIO separately checks independent case alternates. Mark each **untested**, **tested with date/evidence**, or **unavailable**. No completed confidential register belongs in Git. Absence of a backup is a service constraint, not a volunteer's moral failure.
+
+## R15 workload and protected reserve handover
+
+Acting duty replaces accepted original work inside the same capacity budget; suspend conflicting functional duties, use named qualified backups or reduce services. Do not sum original/acting hours. Protected case replacement follows [QORP](../oversight/qualified-reserve-pool.md) and special appointors, never automatic operating succession. R14 prepared COO/Owner technical limits remain unchanged.

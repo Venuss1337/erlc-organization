@@ -1,6 +1,6 @@
 # Organization handbook
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 ER:LC Organization supports an independently operated Roblox Emergency Response: Liberty County community and its Discord. Staff deliver safe roleplay sessions, moderation, member support, training and dependable systems.
 
@@ -41,7 +41,7 @@ The [target structure](governance/structure.md) has three divisions plus a Techn
 
 ## Documentation and approval status
 
-**v1.4.0 — Office of the COO & Distributed Executive Management** improves instructions and navigation with actual changes to reporting, management offices and intra-division transfer approval, pending R14; protected case safeguards remain. v1.0.0–v1.3.0 remain official historical releases.
+**v1.5.0 — Management Capacity & Oversight Resilience** preserves the R14 architecture while specifying functional delegation, protected coaching capacity and category-qualified oversight reserves, pending R15 and retained R14/GOV approvals; protected case safeguards remain. v1.0.0–v1.4.0 remain official historical releases.
 
 - **Existing framework:** the [current-authority reference](governance/current-authority.md) describes pre-cutover rules; this repository does not verify every local adoption or delegation record.
 - **Staff guidance:** summaries and role profiles help you apply those rules; they do not grant powers or require new forms.
@@ -53,3 +53,7 @@ The [target structure](governance/structure.md) has three divisions plus a Techn
 ## Full procedures for responsible officers
 
 Use these when the work or exception requires them: [decision ownership](operations/authority-and-escalation.md), [recruitment](personnel/recruitment.md), [assignments](personnel/assignments.md), [management review](personnel/management-and-development.md), [service capacity and reporting](operations/operating-practices.md), [incident command](operations/incident-response.md), [continuity](operations/continuity.md), [technical permissions/privacy](operations/discord-permissions.md), and [case handling](oversight/case-handling.md). Each specification retains its approval/qualification limits.
+
+## Capacity and independent backup
+
+[Functional ownership and management capacity](operations/management-capacity.md) protects coaching time and assigns routine work without new management layers. [Qualified Oversight Reserve Pool](oversight/qualified-reserve-pool.md) defines separate investigation, appeal and assurance qualifications. Both are released specifications pending [R15 approvals](proposals/v1-5-ratification.md), not actual qualified volunteers or service guarantees.

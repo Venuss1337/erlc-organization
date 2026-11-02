@@ -1,6 +1,6 @@
 # People functions — Community & People
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target specification — Proposed, pending ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
 
@@ -59,3 +59,7 @@ Consenting contact / role expectations / volunteered concern:
 Accepted availability action / support requested / next agreed check:
 Authorized viewers / support closure and deletion date:
 ```
+
+## Protected management capacity
+
+Personnel/training functional owners administer relevant processes under the [capacity matrix](../operations/management-capacity.md); hiring authority still selects. Home People Managers retain coaching/leave/development. Budget management, functional, Office and case duties ONCE per person, reducing prior delivery before activation. Restricted records do not become available to community support or QORP applicants. [QORP](../oversight/qualified-reserve-pool.md) case assignments remain protected from line interference.

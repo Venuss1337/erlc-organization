@@ -1,5 +1,5 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "status": "proposed",
   "ratified": false,
   "divisions": [
@@ -51,7 +51,8 @@
         "assignment": "ownership",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/owner"
       },
       {
         "id": "coo",
@@ -66,7 +67,8 @@
         "assignment": "integration",
         "availability": "5–8 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/coo"
       },
       {
         "id": "safety-head",
@@ -82,7 +84,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.4,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/safety-head"
       },
       {
         "id": "safety-1",
@@ -92,12 +95,14 @@
         "home": "safety",
         "manager": "safety-head",
         "qualifications": [
-          "current enforcement"
+          "current enforcement",
+          "enforcement_quality functional scenario assessment"
         ],
-        "assignment": "Discord/game enforcement",
+        "assignment": "Discord/game enforcement; enforcement_quality scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/safety-1"
       },
       {
         "id": "safety-2",
@@ -112,7 +117,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/safety-2"
       },
       {
         "id": "safety-3",
@@ -128,7 +134,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/safety-3"
       },
       {
         "id": "game-head",
@@ -146,7 +153,8 @@
         "assignment": "session or RP delivery; concurrent Integration Director",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 2,
-        "delivery_hours": 4
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/game-head"
       },
       {
         "id": "game-1",
@@ -156,12 +164,14 @@
         "home": "game",
         "manager": "game-head",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "sessions functional scenario assessment"
         ],
-        "assignment": "session or RP delivery",
+        "assignment": "session or RP delivery; sessions scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/game-1"
       },
       {
         "id": "game-2",
@@ -171,12 +181,14 @@
         "home": "game",
         "manager": "game-head",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "roleplay functional scenario assessment"
         ],
-        "assignment": "session or RP delivery",
+        "assignment": "session or RP delivery; roleplay scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/game-2"
       },
       {
         "id": "game-3",
@@ -191,7 +203,8 @@
         "assignment": "qualified Session Commander",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/game-3"
       },
       {
         "id": "game-4",
@@ -206,7 +219,8 @@
         "assignment": "qualified Session Commander",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/game-4"
       },
       {
         "id": "community-head",
@@ -222,7 +236,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.4,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/community-head"
       },
       {
         "id": "community-1",
@@ -235,12 +250,14 @@
           "support/personnel confidentiality",
           "executive coordination",
           "executive coordination",
-          "Council secretariat"
+          "Council secretariat",
+          "people_administration functional scenario assessment"
         ],
-        "assignment": "Personnel coordinator; CoS concurrent only if qualified; concurrent Chief of Staff",
+        "assignment": "Personnel coordinator; CoS concurrent only if qualified; concurrent Chief of Staff; people_administration scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 1.5,
-        "delivery_hours": 4.5
+        "delivery_hours": 1.5,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/community-1"
       },
       {
         "id": "community-2",
@@ -250,12 +267,15 @@
         "home": "community",
         "manager": "community-head",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "community_service functional scenario assessment",
+          "reserve appeal synthetic assessment"
         ],
-        "assignment": "support or People function",
+        "assignment": "support or People function; community_service scoped functional owner; proposed reserve appeal (case-specific consent required)",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/community-2"
       },
       {
         "id": "community-3",
@@ -270,7 +290,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/community-3"
       },
       {
         "id": "technology-head",
@@ -286,7 +307,8 @@
         "assignment": "engineering/access",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/technology-head"
       },
       {
         "id": "technology-1",
@@ -296,12 +318,14 @@
         "home": "technology",
         "manager": "technology-head",
         "qualifications": [
-          "technical and access handling"
+          "technical and access handling",
+          "technical_records functional scenario assessment"
         ],
-        "assignment": "engineering/access",
+        "assignment": "engineering/access; technical_records scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/technology-1"
       },
       {
         "id": "commissioner",
@@ -316,7 +340,8 @@
         "assignment": "Commissioner",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/commissioner"
       },
       {
         "id": "ia",
@@ -331,7 +356,8 @@
         "assignment": "Investigator",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/ia"
       },
       {
         "id": "appeals",
@@ -346,7 +372,8 @@
         "assignment": "Appeals Reviewer",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/20/people/appeals"
       }
     ],
     "30": [
@@ -363,7 +390,8 @@
         "assignment": "ownership",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/owner"
       },
       {
         "id": "coo",
@@ -378,7 +406,8 @@
         "assignment": "integration",
         "availability": "5–8 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/coo"
       },
       {
         "id": "safety-head",
@@ -393,7 +422,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.4,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/safety-head"
       },
       {
         "id": "safety-1",
@@ -408,7 +438,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/safety-1"
       },
       {
         "id": "safety-2",
@@ -423,7 +454,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/safety-2"
       },
       {
         "id": "safety-3",
@@ -439,7 +471,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/safety-3"
       },
       {
         "id": "safety-4",
@@ -449,12 +482,14 @@
         "home": "safety",
         "manager": "safety-head",
         "qualifications": [
-          "current enforcement"
+          "current enforcement",
+          "enforcement_quality functional scenario assessment"
         ],
-        "assignment": "Discord/game enforcement",
+        "assignment": "Discord/game enforcement; enforcement_quality scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/safety-4"
       },
       {
         "id": "safety-5",
@@ -464,12 +499,14 @@
         "home": "safety",
         "manager": "safety-head",
         "qualifications": [
-          "current enforcement"
+          "current enforcement",
+          "reserve assurance synthetic assessment"
         ],
-        "assignment": "Discord/game enforcement",
+        "assignment": "Discord/game enforcement; proposed reserve assurance (case-specific consent required)",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/safety-5"
       },
       {
         "id": "safety-6",
@@ -484,7 +521,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/safety-6"
       },
       {
         "id": "game-head",
@@ -499,7 +537,8 @@
         "assignment": "session or RP delivery",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.4,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-head"
       },
       {
         "id": "game-1",
@@ -514,7 +553,8 @@
         "assignment": "session or RP delivery",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-1"
       },
       {
         "id": "game-2",
@@ -524,12 +564,14 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "sessions functional scenario assessment"
         ],
-        "assignment": "session or RP delivery",
+        "assignment": "session or RP delivery; sessions scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-2"
       },
       {
         "id": "game-3",
@@ -544,7 +586,8 @@
         "assignment": "qualified Session Commander",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-3"
       },
       {
         "id": "game-4",
@@ -559,7 +602,8 @@
         "assignment": "qualified Session Commander",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-4"
       },
       {
         "id": "game-5",
@@ -577,7 +621,8 @@
         "assignment": "session or RP delivery; concurrent Integration Director",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 4,
-        "delivery_hours": 2
+        "delivery_hours": 0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-5"
       },
       {
         "id": "game-6",
@@ -588,12 +633,14 @@
         "manager": "game-1",
         "qualifications": [
           "session/program qualification",
-          "Law Enforcement program scenario assessment"
+          "Law Enforcement program scenario assessment",
+          "roleplay functional scenario assessment"
         ],
-        "assignment": "Law Enforcement program coordination/training",
+        "assignment": "Law Enforcement program coordination/training; roleplay scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-6"
       },
       {
         "id": "game-7",
@@ -604,12 +651,14 @@
         "manager": "game-1",
         "qualifications": [
           "session/program qualification",
-          "Fire & EMS program scenario assessment"
+          "Fire & EMS program scenario assessment",
+          "reserve investigation synthetic assessment"
         ],
-        "assignment": "Fire & EMS program coordination/training",
+        "assignment": "Fire & EMS program coordination/training; proposed reserve investigation (case-specific consent required)",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.5,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-7"
       },
       {
         "id": "game-8",
@@ -625,7 +674,8 @@
         "assignment": "DOT program coordination/training",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/game-8"
       },
       {
         "id": "community-head",
@@ -641,7 +691,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.4,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/community-head"
       },
       {
         "id": "community-1",
@@ -654,12 +705,14 @@
           "support/personnel confidentiality",
           "executive coordination",
           "executive coordination",
-          "Council secretariat"
+          "Council secretariat",
+          "people_administration functional scenario assessment"
         ],
-        "assignment": "Personnel coordinator; CoS concurrent only if qualified; concurrent Chief of Staff",
+        "assignment": "Personnel coordinator; CoS concurrent only if qualified; concurrent Chief of Staff; people_administration scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 2,
-        "delivery_hours": 4
+        "delivery_hours": 1.25,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/community-1"
       },
       {
         "id": "community-2",
@@ -674,7 +727,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/community-2"
       },
       {
         "id": "community-3",
@@ -684,12 +738,14 @@
         "home": "community",
         "manager": "community-head",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "community_service functional scenario assessment"
         ],
-        "assignment": "support or People function",
+        "assignment": "support or People function; community_service scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/community-3"
       },
       {
         "id": "community-4",
@@ -699,12 +755,14 @@
         "home": "community",
         "manager": "community-head",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "reserve appeal synthetic assessment"
         ],
-        "assignment": "support or People function",
+        "assignment": "support or People function; proposed reserve appeal (case-specific consent required)",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/community-4"
       },
       {
         "id": "community-5",
@@ -719,7 +777,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/community-5"
       },
       {
         "id": "technology-head",
@@ -736,7 +795,8 @@
         "assignment": "engineering/access",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/technology-head"
       },
       {
         "id": "technology-1",
@@ -746,12 +806,14 @@
         "home": "technology",
         "manager": "technology-head",
         "qualifications": [
-          "technical and access handling"
+          "technical and access handling",
+          "technical_records functional scenario assessment"
         ],
-        "assignment": "engineering/access",
+        "assignment": "engineering/access; technical_records scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/technology-1"
       },
       {
         "id": "technology-2",
@@ -766,7 +828,8 @@
         "assignment": "engineering/access",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/technology-2"
       },
       {
         "id": "commissioner",
@@ -781,7 +844,8 @@
         "assignment": "Commissioner",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/commissioner"
       },
       {
         "id": "ia",
@@ -796,7 +860,8 @@
         "assignment": "Investigator",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/ia"
       },
       {
         "id": "appeals",
@@ -811,7 +876,8 @@
         "assignment": "Appeals Reviewer",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/30/people/appeals"
       }
     ],
     "60": [
@@ -828,7 +894,8 @@
         "assignment": "ownership",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/owner"
       },
       {
         "id": "coo",
@@ -843,7 +910,8 @@
         "assignment": "integration",
         "availability": "5–8 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/coo"
       },
       {
         "id": "safety-head",
@@ -858,7 +926,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.4,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-head"
       },
       {
         "id": "safety-1",
@@ -873,7 +942,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-1"
       },
       {
         "id": "safety-2",
@@ -888,7 +958,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-2"
       },
       {
         "id": "safety-3",
@@ -904,7 +975,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-3"
       },
       {
         "id": "safety-4",
@@ -914,12 +986,14 @@
         "home": "safety",
         "manager": "safety-1",
         "qualifications": [
-          "current enforcement"
+          "current enforcement",
+          "enforcement_quality functional scenario assessment"
         ],
-        "assignment": "Discord/game enforcement",
+        "assignment": "Discord/game enforcement; enforcement_quality scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-4"
       },
       {
         "id": "safety-5",
@@ -934,7 +1008,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-5"
       },
       {
         "id": "safety-6",
@@ -949,7 +1024,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-6"
       },
       {
         "id": "safety-7",
@@ -964,7 +1040,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-7"
       },
       {
         "id": "safety-8",
@@ -979,7 +1056,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-8"
       },
       {
         "id": "safety-9",
@@ -994,7 +1072,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-9"
       },
       {
         "id": "safety-10",
@@ -1004,12 +1083,14 @@
         "home": "safety",
         "manager": "safety-1",
         "qualifications": [
-          "current enforcement"
+          "current enforcement",
+          "reserve assurance synthetic assessment"
         ],
-        "assignment": "Discord/game enforcement",
+        "assignment": "Discord/game enforcement; proposed reserve assurance (case-specific consent required)",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-10"
       },
       {
         "id": "safety-11",
@@ -1024,7 +1105,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-11"
       },
       {
         "id": "safety-12",
@@ -1039,7 +1121,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-12"
       },
       {
         "id": "safety-13",
@@ -1054,7 +1137,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-13"
       },
       {
         "id": "safety-14",
@@ -1069,7 +1153,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-14"
       },
       {
         "id": "safety-15",
@@ -1084,7 +1169,8 @@
         "assignment": "Discord/game enforcement",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/safety-15"
       },
       {
         "id": "game-head",
@@ -1100,7 +1186,8 @@
         "assignment": "session or RP delivery",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.4,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-head"
       },
       {
         "id": "game-1",
@@ -1115,7 +1202,8 @@
         "assignment": "session or RP delivery",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-1"
       },
       {
         "id": "game-2",
@@ -1130,7 +1218,8 @@
         "assignment": "session or RP delivery",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-2"
       },
       {
         "id": "game-3",
@@ -1145,7 +1234,8 @@
         "assignment": "qualified Session Commander",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-3"
       },
       {
         "id": "game-4",
@@ -1160,7 +1250,8 @@
         "assignment": "qualified Session Commander",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-4"
       },
       {
         "id": "game-5",
@@ -1178,7 +1269,8 @@
         "assignment": "Integration Director",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 6,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-5"
       },
       {
         "id": "game-6",
@@ -1189,12 +1281,14 @@
         "manager": "game-1",
         "qualifications": [
           "session/program qualification",
-          "Law Enforcement program scenario assessment"
+          "Law Enforcement program scenario assessment",
+          "roleplay functional scenario assessment"
         ],
-        "assignment": "Law Enforcement program coordination/training",
+        "assignment": "Law Enforcement program coordination/training; roleplay scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-6"
       },
       {
         "id": "game-7",
@@ -1210,7 +1304,8 @@
         "assignment": "Fire & EMS program coordination/training",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-7"
       },
       {
         "id": "game-8",
@@ -1226,7 +1321,8 @@
         "assignment": "DOT program coordination/training",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-8"
       },
       {
         "id": "game-9",
@@ -1242,7 +1338,8 @@
         "assignment": "Civilian RP program coordination/training",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-9"
       },
       {
         "id": "game-10",
@@ -1253,12 +1350,14 @@
         "manager": "game-1",
         "qualifications": [
           "session/program qualification",
-          "dispatch/readiness assessment"
+          "dispatch/readiness assessment",
+          "sessions functional scenario assessment"
         ],
-        "assignment": "Scheduling and dispatch",
+        "assignment": "Scheduling and dispatch; sessions scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-10"
       },
       {
         "id": "game-11",
@@ -1274,7 +1373,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-11"
       },
       {
         "id": "game-12",
@@ -1285,12 +1385,14 @@
         "manager": "game-1",
         "qualifications": [
           "session/program qualification",
-          "hosting/control assessment"
+          "hosting/control assessment",
+          "reserve investigation synthetic assessment"
         ],
-        "assignment": "Session hosting/control",
+        "assignment": "Session hosting/control; proposed reserve investigation (case-specific consent required)",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.5,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-12"
       },
       {
         "id": "game-13",
@@ -1306,7 +1408,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-13"
       },
       {
         "id": "game-14",
@@ -1322,7 +1425,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-14"
       },
       {
         "id": "game-15",
@@ -1338,7 +1442,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-15"
       },
       {
         "id": "game-16",
@@ -1354,7 +1459,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-16"
       },
       {
         "id": "game-17",
@@ -1370,7 +1476,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-17"
       },
       {
         "id": "game-18",
@@ -1386,7 +1493,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-18"
       },
       {
         "id": "game-19",
@@ -1402,7 +1510,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-19"
       },
       {
         "id": "game-20",
@@ -1418,7 +1527,8 @@
         "assignment": "Session hosting/control",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/game-20"
       },
       {
         "id": "community-head",
@@ -1434,7 +1544,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 1.4,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-head"
       },
       {
         "id": "community-1",
@@ -1450,7 +1561,8 @@
         "assignment": "Personnel coordination and coaching; no Office appointment",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-1"
       },
       {
         "id": "community-2",
@@ -1465,7 +1577,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-2"
       },
       {
         "id": "community-3",
@@ -1480,7 +1593,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-3"
       },
       {
         "id": "community-4",
@@ -1504,7 +1618,8 @@
           "scope": "Member Services support only, no private Personnel/OIO access",
           "hours": 2,
           "home_and_host_consent_in_tabletop_only": true
-        }
+        },
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-4"
       },
       {
         "id": "community-5",
@@ -1528,7 +1643,8 @@
           "scope": "Member Services support only, no private Personnel/OIO access",
           "hours": 4,
           "home_and_host_consent_in_tabletop_only": true
-        }
+        },
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-5"
       },
       {
         "id": "community-6",
@@ -1538,12 +1654,14 @@
         "home": "community",
         "manager": "community-1",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "community_service functional scenario assessment"
         ],
-        "assignment": "support or People function",
+        "assignment": "support or People function; community_service scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-6"
       },
       {
         "id": "community-7",
@@ -1553,12 +1671,14 @@
         "home": "community",
         "manager": "community-2",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "people_administration functional scenario assessment"
         ],
-        "assignment": "support or People function",
+        "assignment": "support or People function; people_administration scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-7"
       },
       {
         "id": "community-8",
@@ -1573,7 +1693,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-8"
       },
       {
         "id": "community-9",
@@ -1583,12 +1704,14 @@
         "home": "community",
         "manager": "community-2",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "reserve appeal synthetic assessment"
         ],
-        "assignment": "support or People function",
+        "assignment": "support or People function; proposed reserve appeal (case-specific consent required)",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-9"
       },
       {
         "id": "community-10",
@@ -1603,7 +1726,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-10"
       },
       {
         "id": "community-11",
@@ -1618,7 +1742,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-11"
       },
       {
         "id": "community-12",
@@ -1633,7 +1758,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-12"
       },
       {
         "id": "community-13",
@@ -1648,7 +1774,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-13"
       },
       {
         "id": "community-14",
@@ -1663,7 +1790,8 @@
         "assignment": "support or People function",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/community-14"
       },
       {
         "id": "technology-head",
@@ -1679,7 +1807,8 @@
         "assignment": "engineering/access",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 2,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/technology-head"
       },
       {
         "id": "technology-1",
@@ -1694,7 +1823,8 @@
         "assignment": "engineering/access",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/technology-1"
       },
       {
         "id": "technology-2",
@@ -1704,12 +1834,14 @@
         "home": "technology",
         "manager": "technology-head",
         "qualifications": [
-          "technical and access handling"
+          "technical and access handling",
+          "technical_records functional scenario assessment"
         ],
-        "assignment": "engineering/access",
+        "assignment": "engineering/access; technical_records scoped functional owner",
         "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
         "office_hours": 0,
-        "delivery_hours": 6
+        "delivery_hours": 3,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/technology-2"
       },
       {
         "id": "commissioner",
@@ -1724,7 +1856,8 @@
         "assignment": "Commissioner",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/commissioner"
       },
       {
         "id": "ia",
@@ -1739,7 +1872,8 @@
         "assignment": "Investigator",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/ia"
       },
       {
         "id": "appeals",
@@ -1754,7 +1888,8 @@
         "assignment": "Appeals Reviewer",
         "availability": "2–4 voluntary hours/week",
         "office_hours": 0,
-        "delivery_hours": 0
+        "delivery_hours": 0.0,
+        "whole_role_capacity_source": "docs/management-capacity.json#models/60/people/appeals"
       }
     ]
   },
@@ -1878,5 +2013,117 @@
       "technology-head",
       "community-head"
     ]
-  }
+  },
+  "functional_owners": {
+    "20": {
+      "sessions": "game-1",
+      "roleplay": "game-2",
+      "enforcement_quality": "safety-1",
+      "community_service": "community-2",
+      "people_administration": "community-1",
+      "technical_records": "technology-1"
+    },
+    "30": {
+      "sessions": "game-2",
+      "roleplay": "game-6",
+      "enforcement_quality": "safety-4",
+      "community_service": "community-3",
+      "people_administration": "community-1",
+      "technical_records": "technology-1"
+    },
+    "60": {
+      "sessions": "game-10",
+      "roleplay": "game-6",
+      "enforcement_quality": "safety-4",
+      "community_service": "community-6",
+      "people_administration": "community-7",
+      "technical_records": "technology-2"
+    }
+  },
+  "reserve_pool": {
+    "20": [
+      {
+        "person": "community-2",
+        "category": "appeal",
+        "status": "fictional-assessed-not-appointed",
+        "actual_authorized": false,
+        "actual_accepted": false,
+        "actual_access_verified": false,
+        "case_hours": 1,
+        "scope": "unrelated cases only; exclude subject chain, own work and close collaborators",
+        "expires_months": 6
+      }
+    ],
+    "30": [
+      {
+        "person": "game-7",
+        "category": "investigation",
+        "status": "fictional-assessed-not-appointed",
+        "actual_authorized": false,
+        "actual_accepted": false,
+        "actual_access_verified": false,
+        "case_hours": 1.5,
+        "scope": "unrelated cases only; exclude subject chain, own work and close collaborators",
+        "expires_months": 6
+      },
+      {
+        "person": "community-4",
+        "category": "appeal",
+        "status": "fictional-assessed-not-appointed",
+        "actual_authorized": false,
+        "actual_accepted": false,
+        "actual_access_verified": false,
+        "case_hours": 1,
+        "scope": "unrelated cases only; exclude subject chain, own work and close collaborators",
+        "expires_months": 6
+      },
+      {
+        "person": "safety-5",
+        "category": "assurance",
+        "status": "fictional-assessed-not-appointed",
+        "actual_authorized": false,
+        "actual_accepted": false,
+        "actual_access_verified": false,
+        "case_hours": 1,
+        "scope": "unrelated cases only; exclude subject chain, own work and close collaborators",
+        "expires_months": 6
+      }
+    ],
+    "60": [
+      {
+        "person": "game-12",
+        "category": "investigation",
+        "status": "fictional-assessed-not-appointed",
+        "actual_authorized": false,
+        "actual_accepted": false,
+        "actual_access_verified": false,
+        "case_hours": 1.5,
+        "scope": "unrelated cases only; exclude subject chain, own work and close collaborators",
+        "expires_months": 6
+      },
+      {
+        "person": "community-9",
+        "category": "appeal",
+        "status": "fictional-assessed-not-appointed",
+        "actual_authorized": false,
+        "actual_accepted": false,
+        "actual_access_verified": false,
+        "case_hours": 1,
+        "scope": "unrelated cases only; exclude subject chain, own work and close collaborators",
+        "expires_months": 6
+      },
+      {
+        "person": "safety-10",
+        "category": "assurance",
+        "status": "fictional-assessed-not-appointed",
+        "actual_authorized": false,
+        "actual_accepted": false,
+        "actual_access_verified": false,
+        "case_hours": 1,
+        "scope": "unrelated cases only; exclude subject chain, own work and close collaborators",
+        "expires_months": 6
+      }
+    ]
+  },
+  "capacity_note": "Office hours are accepted allocation envelopes, not extra work or a second availability budget; full demand including unaccepted allocation conflicts is in management-capacity.json."
 }

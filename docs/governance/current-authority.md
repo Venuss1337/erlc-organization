@@ -1,6 +1,6 @@
 # Current authority before reform cutover
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Controlling-reference view, not a new adoption instrument.** No R13, R14 or GOV-01–04 approval evidence exists here. This page makes the pre-reform rules accessible without requiring staff to inspect Git. It summarizes the immutable v1.2 reference (cf094e4993658ceaa453eb18c3744684072aeb47); actual valid local appointments/delegations still need to be identified. Proposed target pages do not supersede these rules until recorded cutover.
 
@@ -35,3 +35,7 @@ Owner appoints COO/Commissioner and retains actual ownership-level powers. A nom
 | Conflicting local evidence | Stop the disputed consequential action; obtain actual instrument and record discrepancy in the review process |
 
 At one recorded cutover the adopted R14 text replaces the relevant pre-reform rules. Until then do not run parallel competing chains. This reference then becomes clearly historical; it never authorizes an unrecorded cutover or bypasses local evidence.
+
+## R15 status
+
+R15 is a pending capacity/reserve supplement to R14, not a new constitutional cutover or evidence any previous proposal was adopted. Its functional mandates/QORP powers remain inactive until actual required decisions. Existing valid local instruments govern; this pre-cutover reference remains in force as a reference view. [R15 approvals](../proposals/v1-5-ratification.md).

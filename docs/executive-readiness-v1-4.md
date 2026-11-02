@@ -1,6 +1,8 @@
 # v1.4 executive workload, staffing and comparative readiness
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Historical R14 simulation.** Current whole-person data and corrected data-derived mixed queue are in [R15 evidence](capacity-readiness-v1-5.md). The old 4.25h mixed-sequence prose incorrectly used governance demand for the last busy week; actual JSON sequence yields 4.0h at 4h availability. This note corrects interpretation without erasing historical evidence.
 
 **Repository-only implementation evidence.** All people, skills, availability, signatures and outcomes in table tops are hypothetical. No actual adoption, qualified reserve, acceptance, appointment or security test is verified. The independent audit supplied in the conversation is the input; no standalone audit file is fabricated. This report is not public handbook policy.
 

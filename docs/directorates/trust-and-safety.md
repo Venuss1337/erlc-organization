@@ -1,6 +1,6 @@
 # Trust & Safety Division
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target specification — Proposed, pending ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
 
@@ -21,3 +21,7 @@ Historical filename retained for stable repository navigation; it does not retai
 | Working People Lead where justified | Trust & Safety; accountable owner | Coaching, accepted work/coverage and handoff; no second home boss for secondary staff | Relevant management/domain qualification; [decision matrix](../operations/authority-and-escalation.md) and [continuity](../operations/continuity.md) control consequential decisions |
 
 Heads/Technical Lead report directly to COO. Integration can decide only its adopted domain; it does not supervise them. One agreed record replaces duplicate Office requests.
+
+## Working functional owners
+
+Qualified contributors own enforcement rotation/quality, readiness and training within published scope under the [capacity matrix](../operations/management-capacity.md#binding-functional-responsibility-matrix). People Leads protect coaching time before accepting frontline shifts. T&S quality checks are NOT independent Appeals or staff-misconduct IA. If functional workload cannot be accepted safely, reduce optional patrol/session commitments; no new management tier or punishment quota.

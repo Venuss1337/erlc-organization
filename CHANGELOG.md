@@ -5,6 +5,22 @@ the Keep a Changelog structure and Semantic Versioning (`MAJOR.MINOR.PATCH`).
 
 Earlier development drafts, experiments and organizational mockups were never official releases. They remain accessible through Git history.
 
+## [1.5.0] - 2026-11-02
+
+### Added
+
+- Capacity-aware functional ownership for session/RP, enforcement quality, Community/People and small technical functions without new supervisory layers.
+- Whole-person workload vectors, fixed 20/30/60 rosters, explicit displaced delivery, dependency states and data-derived four-week backlog validation.
+- Proposed Qualified Oversight Reserve Pool: separate investigator, appeal and assurance category assessments, registration, case-specific independence/consent/access and special external routes.
+- Fifteen managerial and eighteen oversight stress tests, low-availability/correlated-loss failures and protected implementation gates.
+
+### Fixed
+
+- Corrected mixed-week executive backlog interpretation and replaced hardcoded sequence inputs with actual workload data.
+- Updated task routes, divided review-record ownership and clarified functional versus permanent management and reserve versus adjudicator authority.
+
+R14 executive/division architecture remains unchanged. R15 and outstanding R14/GOV authority require actual adoption; no reserve signatures, qualifications, available outsiders, live controls or improved operational performance are verified. License and all earlier releases remain unchanged.
+
 ## [1.4.0] - 2026-11-02
 
 ### Added

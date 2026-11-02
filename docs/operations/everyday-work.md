@@ -1,6 +1,6 @@
 # Everyday staff tasks
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -109,3 +109,7 @@ Within one merged division, the Head approves a home transfer after both manager
 ## Office decisions without another approval chain
 
 If a recorded Integration mandate covers the unresolved resource question, its unconflicted holder decides after consultation; do not seek routine COO reapproval. Heads still report directly to COO. CoS can request minimum status from an existing commitment record, not command work or demand private evidence. An acting COO requires prior actual authorization and accepted activation; no Office title is automatic succession. Before ratified cutover use the [current-authority reference](../governance/current-authority.md).
+
+## Accept functional or reserve work
+
+Check relevant qualification, actual mandate, conflicts and compatible windows with the existing home/host or protected appointor. Record which prior duties stop before accepting. Functional ownership does not change your permanent manager. QORP needs separate category assessment, consent, case mandate and safe access; no reserve is automatically on call. Use [capacity](management-capacity.md) and [reserve activation](../oversight/qualified-reserve-pool.md#case-activation-and-independence).

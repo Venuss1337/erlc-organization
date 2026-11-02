@@ -1,6 +1,6 @@
 # Find your role and start work
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -93,3 +93,7 @@ If the actual assignment, qualification, approver or contact is missing, ask the
 ## Office quick start
 
 Division Heads retain direct COO reporting. Consult [Office roles](../governance/office-of-the-coo.md#positions-and-appointment-authority) for Integration, CoS and conditional Planning. Check an actual adopted domain mandate before seeking a binding Integration decision; no committee signoff or routine COO reapproval follows. [Prepared succession](../operations/continuity.md#prepared-coo-succession) requires prior Owner authorization, qualification, consent, validity and actual activation. [Current authority](../governance/current-authority.md) controls until recorded cutover.
+
+## Functional help and protected backups
+
+Use the assigned qualified functional owner for ordinary session, RP, quality, support or training questions; your People Manager still owns coaching/availability. Functional title does not create personnel command. [Capacity guide](../operations/management-capacity.md) explains scope and workload; [QORP](../oversight/qualified-reserve-pool.md) explains independent backups. Actual local names/windows must be provided outside this public handbook.

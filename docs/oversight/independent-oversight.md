@@ -1,6 +1,6 @@
 # Office of Independent Oversight
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -115,3 +115,7 @@ Retention/access category:
 ---
 
 [Documentation index](../../README.md) · [Status and review register](../proposals/review-register.md)
+
+## Qualified Oversight Reserve Pool
+
+[QORP](qualified-reserve-pool.md) is the canonical proposed reserve capability/registration/activation framework under R15-O and retained GOV-02. It supplies separate qualified investigation, appeal and assurance routes, not a fourth protected function, new manager or COO-controlled unit. Initial adjudicators remain separately qualified and assigned. Registration, real acceptance, case mandate and verified access are distinct; no actual reserve is evidenced. Commissioner coordinates capacity without controlling conclusions.

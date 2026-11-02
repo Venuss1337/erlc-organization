@@ -1,6 +1,6 @@
 # Case handling, adjudication and appeals
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -169,3 +169,7 @@ Outstanding safety referrals / lessons without identities:
 Access revoked / retention category / review-delete date / hold reason:
 Closure notice / owner / date:
 ```
+
+## R15 reserve interface
+
+After explicit R15-O/GOV-02 adoption, [QORP](qualified-reserve-pool.md) refines ordinary reserve eligibility, category assessment, registration and case activation. Existing special COO/OIO/Commissioner/Owner appointors, external requirements, senior initial judges, notice/proof/appeal/retention and separation remain controlling. QORP never appoints its subject's reviewer or merges case roles. If any earlier ordinary reserve paragraph is less specific, QORP supplies those registration/activation details only after adoption; before that existing valid mandates govern.

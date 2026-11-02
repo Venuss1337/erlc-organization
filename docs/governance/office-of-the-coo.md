@@ -1,6 +1,6 @@
 # Office of the Chief Operating Officer
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target — Proposed, pending required approval.** No adoption, appointments or control tests are evidenced. Before cutover use the [current-authority reference](current-authority.md); a release grants no new powers.
 
@@ -73,3 +73,7 @@ Access approval separate / actual acceptance / review-revocation:
 ```
 
 See the [decision matrix](../operations/authority-and-escalation.md), [case policy](../oversight/case-handling.md) and [R14 adoption package](../proposals/v1-4-ratification.md). Blank records are not valid appointments.
+
+## R15 capacity interface
+
+Office architecture/decision powers remain unchanged. Heads maintain source capacity entries, CoS owns executive commitment tracking and Planning synthesizes permitted aggregates; do not create competing reports for the same review. [Whole-role accounting](../operations/management-capacity.md) includes Office, primary, functional and case duties once. Active Office members are excluded from QORP assignments under its proposed conflict safeguard; no automatic protected powers or private files.

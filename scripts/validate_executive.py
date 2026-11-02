@@ -6,7 +6,7 @@ import re
 import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
-HISTORICAL = {'docs/reform-evidence.md', 'docs/readiness-v1-1.md', 'docs/usability-v1-2.md', 'docs/migration-report.md'}
+HISTORICAL = {'docs/reform-evidence.md', 'docs/readiness-v1-1.md', 'docs/usability-v1-2.md', 'docs/migration-report.md', 'docs/executive-readiness-v1-4.md'}
 
 def check_coverage(model):
     assert model['ratified'] is False and model['actual_appointments_verified'] is False
@@ -60,11 +60,15 @@ def check_workload(work):
         assert len(w['allocation']) == len(w['overhead']) == 5
         assert min(w['allocation'] + w['overhead']) >= 0
         assert sum(w['allocation']) + sum(w['overhead']) >= w['baseline']
-    assert queue([11]*4, 8) == [3,6,9,12]
-    assert queue([4.5]*4, 4) == [.5,1,1.5,2]
-    assert queue([4.5,6,5,4.75], 4) == [.5,2.5,3.5,4.25]
-    assert queue([11,16,13,11], 12) == [0,4,5,4]
-    assert queue([4.5,6,5,4.75], 8) == [0,0,0,0]
+    for keys in work['sequences'].values():
+        for cap in [4,8,12]:
+            original=[work['weeks'][k]['baseline'] for k in keys]
+            redistributed=[work['weeks'][k]['allocation'][0]+work['weeks'][k]['overhead'][0] for k in keys]
+            for demands in [original,redistributed]:
+                b=0
+                for i,value in enumerate(queue(demands,cap)):
+                    b=max(0,b+demands[i]-cap)
+                    assert abs(value-b)<1e-9
 
 def semantic_errors(pages):
     errors = []

@@ -1,15 +1,15 @@
 # Proposal status, references and review register
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**Historical pre-reform record.** Target organization and current approval dependencies are in [R13 reform](v1-3-reform.md). Earlier office names and staffing figures below describe the previous design, not active target positions.
+**Current R15 supplement and retained historical traceability.** No earlier ratification is evidenced; R15 preserves the selected R14 architecture.
 
 Review material only. This register does not ratify the source or resolve open policy choices. [Council adoption rules](../governance/governance-council.md) govern policy changes; Owner-reserved decisions require the specified ratification.
 
 <a id="current-approval-and-implementation-register"></a>
-## Current R14 approval and implementation register
+## Current R15 approval and implementation register
 
-Use the [R14 issue register](v1-4-ratification.md#review-register) for live R14 status, [approval units](v1-4-ratification.md#approval-units) for exact authorities and [current authority](../governance/current-authority.md) before cutover. No ratification, appointments, reserves, elections or security tests are evidenced. R13 is superseded as a target, not recorded as adopted. The older tables below are historical traceability; unresolved dependencies remain carried into R14 unless explicitly superseded.
+Use the [R15 live issues](v1-5-ratification.md#open-implementation-register) and [R15 approval units](v1-5-ratification.md#approval-and-effective-scope). R14 requirements remain pending: use the [R14 issue register](v1-4-ratification.md#review-register) for live R14 status, [approval units](v1-4-ratification.md#approval-units) for exact authorities and [current authority](../governance/current-authority.md) before cutover. No ratification, appointments, reserves, elections or security tests are evidenced. R13 is superseded as a target, not recorded as adopted. The older tables below are historical traceability; unresolved dependencies remain carried into R14 unless explicitly superseded.
 
 ## Historical v1.1 approval and implementation register
 

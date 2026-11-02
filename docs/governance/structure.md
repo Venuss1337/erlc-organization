@@ -1,6 +1,6 @@
 # Organizational structure and operating model
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target — Proposed, pending required approval.** No adoption, appointments or control tests are evidenced. Before cutover use the [current-authority reference](current-authority.md); a release grants no new powers.
 
@@ -72,3 +72,7 @@ Canonical safeguards: [one manager/assignments](../personnel/assignments.md); [r
 ## Transition
 
 [Current authority](current-authority.md) remains accessible. R13 is historical unadopted design; [R14](../proposals/v1-4-ratification.md) is the sole selected target package. No appointments, ballots or technical tests are claimed.
+
+## R15 focused capacity supplement
+
+The Office/three divisions/Technology/OIO reporting architecture is unchanged. [Management capacity](../operations/management-capacity.md) separates routine functional decisions from permanent coaching, and [QORP](../oversight/qualified-reserve-pool.md) adds protected category reserves without a management hierarchy. [R15 adoption supplement](../proposals/v1-5-ratification.md) preserves all unverified R14 gates.

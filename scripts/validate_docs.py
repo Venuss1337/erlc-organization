@@ -151,6 +151,27 @@ def main():
     for path, body in pages.items():
         if re.search(r'\bv3\.\d|\b3\.2\.\d|\*\*Source version:\*\*', body):
             errors.append(f'{path.relative_to(ROOT)}: obsolete project draft metadata')
+    capacity = manifest.get('capacity_reform')
+    def previous_material(name):
+        if capacity and name in capacity['changes']:
+            return subprocess.check_output(['git', 'show', f"{capacity['commit']}:{name}"], cwd=ROOT)
+        return (ROOT / name).read_bytes()
+    if capacity:
+        if not capacity.get('authorization'):
+            errors.append('Missing R15 commission authorization')
+        for name, change in capacity['changes'].items():
+            before = subprocess.check_output(['git', 'show', f"{capacity['commit']}:{name}"], cwd=ROOT)
+            if (hashlib.sha256(before).hexdigest() != change['before_sha256']
+                    or hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != change['after_sha256']
+                    or not change.get('reason')):
+                errors.append('Unrecorded R15 supersession: ' + name)
+        for name, expected in capacity['additions'].items():
+            if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != expected:
+                errors.append('Unrecorded R15 specification: ' + name)
+    if capacity:
+        for name, expected in capacity.get('artifacts', {}).items():
+            if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != expected:
+                errors.append('Unrecorded R15 model/validator artifact: ' + name)
     executive = manifest.get('executive_reform')
     if executive:
         if not executive.get('authorization'):
@@ -158,17 +179,17 @@ def main():
         for name, change in executive['changes'].items():
             before = subprocess.check_output(['git', 'show', f"{executive['commit']}:{name}"], cwd=ROOT)
             if (hashlib.sha256(before).hexdigest() != change['before_sha256']
-                    or hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != change['after_sha256']
+                    or hashlib.sha256(previous_material(name)).hexdigest() != change['after_sha256']
                     or not change.get('reason')):
                 errors.append(f'Unrecorded R14 amendment: {name}')
         for name, expected in executive.get('additions', {}).items():
-            if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != expected:
+            if hashlib.sha256(previous_material(name)).hexdigest() != expected:
                 errors.append(f'Unrecorded R14 added specification: {name}')
     reform = manifest.get('reform')
     historical_views = {}
     if reform:
         for name, expected in reform['paths'].items():
-            if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != expected:
+            if hashlib.sha256(previous_material(name)).hexdigest() != expected:
                 errors.append(f'Unrecorded target amendment: {name}')
             historical_views[name] = subprocess.check_output(
                 ['git', 'show', f"{reform['commit']}:{name}"], cwd=ROOT).decode('utf-8')

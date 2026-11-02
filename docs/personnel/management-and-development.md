@@ -1,6 +1,6 @@
 # Management review and professional development
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -41,3 +41,7 @@ Relevant specialist experience can demonstrate leadership and organizational jud
 ## Expertise recognition without another hierarchy
 
 Use existing functional titles, current qualifications, credited mentoring and a consented contribution note: for example `Systems Developer · Staff Member (01) · qualified recovery maintainer`. Record competence, scope, evidence and refresher/review date; show training state where needed. No universal Expert rank, numbered specialist levels, honorary grade 04/05, command over unrelated staff or permissions by badge. Specialists may decline management without losing recognition or access needed for authorized work. A proposed recognition scheme that changes standing or command must return to Council rather than quietly become another ladder.
+
+## Coaching capacity before delivery
+
+Give Working People Leads a realistic management budget based on actual reports, needs and accepted opportunities. Use [capacity accounting](../operations/management-capacity.md) to reduce delivery rather than make mentoring invisible overtime. A Head's repeated failure to delegate despite qualified willing capacity belongs in the restored capability-review process; training/absence is not automatically misconduct. Do not add a permanent Lead unless safe redistribution/service reduction leaves a demonstrable supervisory need.

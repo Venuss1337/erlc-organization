@@ -3,6 +3,7 @@ export const site = 'https://venuss1337.github.io';
 export const base = '/erlc-organization';
 export const repository = 'https://github.com/Venuss1337/erlc-organization';
 export const published = [
+  'docs/operations/management-capacity.md', 'docs/oversight/qualified-reserve-pool.md',
   'docs/governance/office-of-the-coo.md', 'docs/governance/current-authority.md',
   'docs/operations/function-map.md',
   'docs/index.md', 'docs/start-here/staff-guide.md',
@@ -20,6 +21,7 @@ export const published = [
 ];
 // Repository-only is a publication distinction, never a confidentiality guarantee.
 export const repositoryOnly = [
+  'docs/proposals/v1-5-ratification.md', 'docs/capacity-readiness-v1-5.md', 'docs/management-capacity.json',
   'docs/proposals/v1-4-ratification.md', 'docs/executive-readiness-v1-4.md', 'docs/executive-workload.json',
   'docs/proposals/v1-3-reform.md', 'docs/reform-evidence.md', 'docs/structure-model.json',
   'docs/proposals/review-register.md', 'docs/proposals/v1-1-ratification.md',
@@ -56,6 +58,7 @@ export const groups = [
   { label: 'Independent Oversight', collapsed: true, items: [
     { source: 'docs/oversight/independent-oversight.md' },
     { source: 'docs/oversight/case-handling.md' },
+    { source: 'docs/oversight/qualified-reserve-pool.md' },
   ] },
   { label: 'Policies & Procedures', collapsed: true, items: [
     { source: 'docs/operations/function-map.md' },
@@ -63,14 +66,15 @@ export const groups = [
     { source: 'docs/personnel/management-and-development.md' },
     { source: 'docs/operations/authority-and-escalation.md' },
     { source: 'docs/operations/operating-practices.md' },
+    { source: 'docs/operations/management-capacity.md' },
     { source: 'docs/operations/incident-response.md' },
     { source: 'docs/operations/continuity.md' },
     { source: 'docs/operations/discord-permissions.md' },
   ] },
   { label: 'Proposals & Implementation', collapsed: true, items: [
     { label: 'Approval register (repository)', link: `${repository}/blob/main/docs/proposals/review-register.md` },
-    { label: 'Pending ratification (repository)', link: `${repository}/blob/main/docs/proposals/v1-4-ratification.md` },
-    { label: 'Walkthrough evidence (repository)', link: `${repository}/blob/main/docs/executive-readiness-v1-4.md` },
+    { label: 'Pending ratification (repository)', link: `${repository}/blob/main/docs/proposals/v1-5-ratification.md` },
+    { label: 'Walkthrough evidence (repository)', link: `${repository}/blob/main/docs/capacity-readiness-v1-5.md` },
   ] },
 ];
 export const sidebar = groups.map(({ items, ...group }) => ({

@@ -1,6 +1,6 @@
 # Recruitment and onboarding
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -56,3 +56,7 @@ Approved by:
 ---
 
 [Documentation index](../../README.md) · [Status and review register](../proposals/review-register.md)
+
+## Recruit capability gaps, not reserve titles
+
+Use the existing vacancy/assessment workflow for functional delivery gaps. QORP applicants use its [proportionate eligibility process](../oversight/qualified-reserve-pool.md#eligibility-assessment-and-reserve-registration), without real case access or irrelevant moderation prerequisites. Publish actual work/accepted scope; no rank promotion or confirmed reviewer promise from a vacancy announcement.

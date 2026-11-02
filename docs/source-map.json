@@ -585,7 +585,7 @@
       "reason": "Route every original template to its owning process; templates do not establish approval or permission."
     }
   ],
-  "project_version": "1.4.0",
+  "project_version": "1.5.0",
   "release_date": "2026-11-02",
   "release_status": "Official release",
   "baseline_role": "Unreleased development draft; historical source path and hashes are provenance, not official release identifiers.",
@@ -957,6 +957,220 @@
       "docs/governance/current-authority.md": "dd441e206ed5b6375f3be0c75eb4da1a4f55dfea150e6b0cb45bfccc39eb0349",
       "docs/proposals/v1-4-ratification.md": "5eb89abe8b57be736ec677a6b0fcb9be6c4a0c0327d82638f018e9e8304f1a98",
       "docs/executive-readiness-v1-4.md": "fc074247741ab68fe193fc64e3f12b9165de68c83a15d0718d0c8021352cdc74"
+    }
+  },
+  "capacity_reform": {
+    "commit": "0768f8f700ef59fa997b2b525d2d7e8988fd60ed",
+    "authorization": "User attached v1.5 implementation commission; R15-M/O and retained R14/GOV approvals not evidenced",
+    "changes": {
+      "AGENTS.md": {
+        "before_sha256": "4eb0b4bedbc91513f0775038129e9fafb895614bbb0abb0d1faab6274651a1a7",
+        "after_sha256": "6162e69b3320ce7c4bbae3814d9f0fdf33df3a874d9f10365d898972f3f6b2b4",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "CHANGELOG.md": {
+        "before_sha256": "8f836719d5f463a8f836c00c924657f6de119919f0069265c0f66855efc3c611",
+        "after_sha256": "6314b6344c150aec90faa9e27ef7e30bdbd3e4d275c09f1a2adf40faaa07a080",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "CONTRIBUTING.md": {
+        "before_sha256": "f5a9e6a282c9cebe6403df6830596e6d786f6c826b1682b8b6ffaa2026287c35",
+        "after_sha256": "ef749cd76f0ccd44f3971d7fcb8a7cef4ac65f4d2e4dff4daabfa84843ec9716",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "README.md": {
+        "before_sha256": "4f3bfb47ac2e85b8fbd71cafe95e10068374f581e4fda185b22ba0a4253293a2",
+        "after_sha256": "e6bf0d496a5bc31c8d47561ddf641383f2f5357f1287e489f434bce0348c8c74",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/directorates/community-experience.md": {
+        "before_sha256": "dadf2296aa942b8a80ab5c9343e36f0c3bad02c71fe0994356ec2af1f6a43c01",
+        "after_sha256": "d6d62801edb61a4f63bdfb0249afe94ee937c2edcaea2e65b99067727a457e6e",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/directorates/live-operations.md": {
+        "before_sha256": "bb3ea5b724507d7e8a8c00925df6eefdc388bb6ec874ed5da9fe1f3a526e686e",
+        "after_sha256": "5f084b4b8669091dba23af3c5aff42db150cf17e62b20ec0b4037175a243a926",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/directorates/people-and-culture.md": {
+        "before_sha256": "a3c78002cda2319bfff01eda8d9514db58241d3a97b12d9299a216a773f5de65",
+        "after_sha256": "087f627b46bc89326fe3babc20c5718808feaa9ed4012bacf1ceaef8e56ecf1c",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/directorates/roleplay-programs.md": {
+        "before_sha256": "dcd6a832830cdfa91717505562dbd95eb48b0961ec1caebe6dede34d77d715b7",
+        "after_sha256": "fc93f8d397bede8897ac7d7c9b25b2b52342835db0fe323bf90936af15b3e99b",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/directorates/technology-and-systems.md": {
+        "before_sha256": "83fc9ec952ac2fb769dc13863ffd2baf33c29771b92b17c4408255f09d0621f0",
+        "after_sha256": "f81fbe6f6b541b6683a21e02883ecae06f39279b84c29095c19a9e6fb26ef81e",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/directorates/trust-and-safety.md": {
+        "before_sha256": "d4f4c78bd31fbff2b1734a31dc2da8f9c7a6d3b539e4c3281c0e8d69d58eaa98",
+        "after_sha256": "3966bb474a09e0b7cb22ca5b48580226973e1e9a51f8127abf78af7fed23a2e8",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/executive-readiness-v1-4.md": {
+        "before_sha256": "fc074247741ab68fe193fc64e3f12b9165de68c83a15d0718d0c8021352cdc74",
+        "after_sha256": "b72f3aacf7ac22ca00827e33a1d7763c1e256e14246efcd33a53b2bcac37894e",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/governance/current-authority.md": {
+        "before_sha256": "dd441e206ed5b6375f3be0c75eb4da1a4f55dfea150e6b0cb45bfccc39eb0349",
+        "after_sha256": "552fbf11c8bde01abf0b72783580ef70c27ae20b57dfc6958afc8c706508e14e",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/governance/governance-council.md": {
+        "before_sha256": "af5d66ee670ed063ddfd3be8e8949a8b0046de6854d893699627654b58421fa3",
+        "after_sha256": "6a165525a46698deb333077f2656ab90bb0a00e75498aaaf125a125774a71d7d",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/governance/office-of-the-coo.md": {
+        "before_sha256": "afe14ef52f0b087c4e9f98951c974efd7d23771b66dcd158fe9073744279a122",
+        "after_sha256": "ab6d3a285db912c0fb8bb8834f9ec22edfc4ea35b54d4b34abeae98a75500caf",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/governance/structure.md": {
+        "before_sha256": "9f3c41207262bcbd9ed6c1ecb5e6818de8922b884d3ff1ed7cce4e289b53f6a0",
+        "after_sha256": "abb27b4a511912f3a59329695b871b905ee6d2077b71ba42eb55e25ecb9e698e",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/index.md": {
+        "before_sha256": "8732c7858a5e42c6aa674766dbef612b7692061cf8c6dc058c96646e5e1bfbb4",
+        "after_sha256": "c6d70bde1654e73625f4d4169b4d8e84ee03927ee2c79c2351b2e7df5215ad79",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/migration-report.md": {
+        "before_sha256": "6a0f3a70a58858900e70f6a259a03f92f591c6ef72464d04d72c6e0b6f3d5395",
+        "after_sha256": "8f253f06180f3da0170b9604133c8849002769a72c37ed1d1ebe69ad77cca3a7",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/operations/authority-and-escalation.md": {
+        "before_sha256": "6f6ff913a6328ce0bf1abf801bff23c16f3ce20ab552373d08c86d5a706ef1e7",
+        "after_sha256": "027e318bae201f7b201f65f2f48f8317458d634c2099622ca2bd753892e767eb",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/operations/continuity.md": {
+        "before_sha256": "fca29b3979f8b07893514e770c783992310c1e3ecca016a1f845e424d2fde1ec",
+        "after_sha256": "1d61ca30367ae87c5753b4ced9fbfcf2d412c43d907f8f7cc2f0666dd4eb7765",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/operations/discord-permissions.md": {
+        "before_sha256": "dfcdc86757e570f59184342cdc54d34cabcf1f82cb617bea758bec607523da1a",
+        "after_sha256": "4d1c1407a604b18239bccfd1abc501e31e11132fc2028118825c2b47ed0a1aab",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/operations/everyday-work.md": {
+        "before_sha256": "89c66f374b10eebd9151e92dad6cb1cb196d28846be689ce26dd988b4e7ac8a4",
+        "after_sha256": "41429d80a9965707d70e4be72d7ac1e7fdc06acc28e09d53073945aa93c1cf02",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/operations/function-map.md": {
+        "before_sha256": "fbaf485b34107cef2329561c9e9fa6186f5f6256d937363f425fd69da25e8901",
+        "after_sha256": "0f2719959a2cd0a77c85a04c227e2eb71bd05c26bc2d5a3a3b56891c0f13a53b",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/operations/incident-response.md": {
+        "before_sha256": "7583af62e40cda20d75fde87c2c84d134ee8ee4aa41eced54e08cac29f78a6b2",
+        "after_sha256": "2186f4f833995e9d2007a4306d2d9809ebb5f825d498884fee1f51ffbe8bfbb6",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/operations/operating-practices.md": {
+        "before_sha256": "9409cec2de19445b22897c163523e8850cab96d94dc6df259022745d82880c86",
+        "after_sha256": "471046c30538ec3b886919ec4742ab56ad43facae99745a1e017c4c7ddedaf35",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/oversight/case-handling.md": {
+        "before_sha256": "4bae092a396d9f5b9cce44928c4fbda25c8399c395d2d718b6ee277319415905",
+        "after_sha256": "664904a3bed4df3b203cb98b119950dec77d897f9ca7625476c53febe98ef23a",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/oversight/get-help.md": {
+        "before_sha256": "f58e5dab435346ee43d4808357d2cd5d2c4c6a72f51ad8b9abc980dc5eb1cebf",
+        "after_sha256": "fd2239f8c16718024ef50a569f70c2e05620be04687dffb3d2b142707422204b",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/oversight/independent-oversight.md": {
+        "before_sha256": "eca516bd4729abfdd2633bba23acc1dff336950db39c5371b90c083072c3a6df",
+        "after_sha256": "28bc1be4cd5a90ec5944919ca537306a90db3051785990870038131d2ae35abc",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/personnel/assignments.md": {
+        "before_sha256": "1c0024bbdf4836e33a68f021ce7d58800bcb5c5f6eb332b9db5f602dfa85ca8d",
+        "after_sha256": "9c3663a14cc2c2b6ffa4fea4a93b55b30786860e3c056f4a411f3723ed1bbf70",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/personnel/management-and-development.md": {
+        "before_sha256": "89b33becbbddbdc93c8dbf0db2cbce5990eb5cdde358f08388f18e533af69d68",
+        "after_sha256": "f22dd85dac848997717b889f9d0acf30dc42cb67aeca5364ea08c9135d1d8c6d",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/personnel/ranks-and-appointments.md": {
+        "before_sha256": "0ac261da7a37464a7cada7ae07d144edbad845474df1c75b1a23a79c2eeaeb33",
+        "after_sha256": "794cbee608aae41dd93971d9b0037e65e7d236f748cfcacb22d71c6edf053408",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/personnel/recruitment.md": {
+        "before_sha256": "b8395a2db4d1b6bd1bc39e8c1e3b77fc3bb7307ddd8f0e8a17ac58273b1e3b2d",
+        "after_sha256": "beaadf532bee181e892c8e78c196bab8f9a38d97aad77a47a4c259bc2a5e546c",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/proposals/review-register.md": {
+        "before_sha256": "e6b86f87847885cc4c0c855ec1b90f1c42f8d18b1c9e23e3a8487e2d34803d76",
+        "after_sha256": "f68f0ca4f61381b10f44492ea327e177ddd28567daed8dce33218cdbdb86d67a",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/proposals/v1-1-ratification.md": {
+        "before_sha256": "dcc025441350d9c9aa42649873f70cc2e7bed671815aace1525d564cdb8d2100",
+        "after_sha256": "6f06da7c69123b2fe6d4599b3a4438fb72ef1d4e7178d5f637da90540baec6aa",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/proposals/v1-3-reform.md": {
+        "before_sha256": "5847d2779ef64afa1fef231121c9565f6c865e1999226968d28f08641779fd22",
+        "after_sha256": "de857a3c61fab6f6d2dbb43fd82e07160b4930e4ba01ebd4f130bf4e44b2fc0d",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/proposals/v1-4-ratification.md": {
+        "before_sha256": "5eb89abe8b57be736ec677a6b0fcb9be6c4a0c0327d82638f018e9e8304f1a98",
+        "after_sha256": "281646800122a069d908318a368288f617b73707ec5154d472252f164381bd0c",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/readiness-v1-1.md": {
+        "before_sha256": "1a39b59237a48bbea4d73158679846edc8573393264cf57e47bfe03e7724354e",
+        "after_sha256": "f1288264246b9cc9a96e2c6276a6070f750f4ab889f81671d26369006be2fcc3",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/reform-evidence.md": {
+        "before_sha256": "7562e41e784282266eb1f6d7be4e5f0d4b3b79ab0bebfa8069b45b5ebcae0ee9",
+        "after_sha256": "cf4f4a33f1ffe454f6ca9e69db880480c1655e9d06711138644d5510c3a136f1",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/start-here/staff-guide.md": {
+        "before_sha256": "25a045389b9197f2b6b76bd9a6521e5ea2043f8b8ed732f27bcd95e8b1900529",
+        "after_sha256": "05af05722a87dda44f1327a83517dfdc535ed98d8f29216ea94e91377ff60d81",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      },
+      "docs/usability-v1-2.md": {
+        "before_sha256": "e3a4686d359f1f2ea0c55afb2ab5003e082f88b3c8e7aedb9f4e121f780a21f1",
+        "after_sha256": "3f5378646aa2f4cc332a3aa7951740b8a9c7b0b4bed6a9b2bffae34f50c144dd",
+        "reason": "Explicit R15 capacity/QORP implementation commission: scoped functional delegation, protected reserves, capacity metadata and references; governance adoption remains pending"
+      }
+    },
+    "additions": {
+      "docs/operations/management-capacity.md": "b99bdb3c268b5509cc03ee1a3b6e953125705c920825462a8ff5c0ad9c3a0848",
+      "docs/oversight/qualified-reserve-pool.md": "933de2c18f9aa5cc6646c852bd9215af0cea8173a11b90f9e7de7df649f13e2e",
+      "docs/proposals/v1-5-ratification.md": "9c6f71f7c88b62a33b356e4bd0639c716c5960f3ad7605c1b2e1e307e54e79da",
+      "docs/capacity-readiness-v1-5.md": "218b9f9f4141a011f92cd5f3dc59f73be498955111434ca802c30023d7a34938"
+    },
+    "artifacts": {
+      "docs/management-capacity.json": "d89cbdba6c74cc727380080a9486b3193a1e2abcf1461013cbc10063cfc3724e",
+      "docs/structure-model.json": "6c03363b23ea73d03988975c28ac6b0024f4b54543e90082a850168d7561ec5a",
+      "scripts/capacity_model.py": "9f0ca2eb2a3dec5f5ac4ff6fd2fd22428731350808d4e65689fa639f9c72ecb8",
+      "scripts/validate_capacity.py": "2dfbcd90ec09943ac8dbc956d50fcdeebe258a9fd4715fa6b10805dca4ff2e5f",
+      "scripts/validate_executive.py": "af29f32ba77c1ac0aec0296b8ab9d62dd1fd3c999bda5e81ac9649c798c44c6b"
     }
   }
 }

@@ -13,4 +13,7 @@ const structure = Bun.spawn([...command, 'scripts/validate_structure.py'], { std
 const structureCode = await structure.exited;
 if (structureCode) process.exit(structureCode);
 const executive = Bun.spawn([...command, 'scripts/validate_executive.py'], { stdin: 'inherit', stdout: 'inherit', stderr: 'inherit' });
-process.exit(await executive.exited);
+const executiveCode = await executive.exited;
+if (executiveCode) process.exit(executiveCode);
+const capacity = Bun.spawn([...command, 'scripts/validate_capacity.py'], { stdin: 'inherit', stdout: 'inherit', stderr: 'inherit' });
+process.exit(await capacity.exited);

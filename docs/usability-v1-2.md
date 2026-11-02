@@ -1,6 +1,6 @@
 # v1.2.0 simplicity and staff-experience evidence
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Historical reference; not the selected target.** [R14 adoption package](proposals/v1-4-ratification.md) is the sole selected reform. Earlier proposals remain unratified unless actual evidence is supplied; retained office names describe their historical context.
 

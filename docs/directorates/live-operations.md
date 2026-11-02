@@ -1,6 +1,6 @@
 # Game & Roleplay Operations Division
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target specification — Proposed, pending ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
 
@@ -26,3 +26,7 @@ Heads/Technical Lead report directly to COO. Integration can decide only its ado
 ## Example F — Staffing a new squad
 
 The Game Head first verifies actual consenting Commander/enforcement coverage and relevant access, then assigns a squad within approved capacity. Commander directs accepted session tasks, not automatic permanent personnel management. Missing qualified coverage reduces sessions; a new title cannot fill it.
+
+## Session Operations functional ownership
+
+[Management capacity](../operations/management-capacity.md#binding-functional-responsibility-matrix) assigns routine scheduling/readiness/quality to a qualified working Session Operations owner. Existing Commanders execute accepted live duties. Game Head retains division direction, service envelope and consequential exceptions; People Leads own permanent coaching. Functional scheduling is a binding delegated task decision after actual appointment, not another approval stage. Missing qualified Commander/responder coverage cancels service. [R15 fixtures](../capacity-readiness-v1-5.md) identify existing contributors and displaced delivery at each size.

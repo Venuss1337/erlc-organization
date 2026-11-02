@@ -1,6 +1,6 @@
 # Complete function ownership and consolidation map
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target specification — Proposed, pending ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
 
@@ -24,7 +24,7 @@ Former portfolio integration work is distributed among accountable Heads, named 
 - B: A solo Partnerships coordinator reports to the Community Head/recorded People Lead without an empty manager/deputy hierarchy.
 - C: A Game-only session procedure is decided by its Head; a cross-organization ban-policy change goes to Council.
 - D: A leave-framework amendment needs valid Council approval; individual availability remains voluntary.
-- E: A complaint against a Head goes to independent IA, separate COO adjudication and uninvolved appeal, never the Head's own review.
+- E: A complaint against a Head goes to independent IA, separate assigned unconflicted senior-pool adjudication and uninvolved appeal, never the Head's own review.
 - F: A new session squad needs accepted qualified coverage and approved capacity; its Commander is not automatically a People Manager.
 - G: A contested ban and alleged staff abuse receive linked, distinct Appeals and IA questions, not duplicate full investigations.
 - H: A burned-out volunteer may pause work without diagnosis disclosure; leads hand off or reduce service.
@@ -33,3 +33,7 @@ Former portfolio integration work is distributed among accountable Heads, named 
 ## Executive work ownership
 
 COO owns operating direction and reserved executive decisions; Integration owns only recorded cross-division residual domains; CoS owns executive/Council records and follow-through; conditional Planning owns aggregate capacity analysis. The [Office charter](../governance/office-of-the-coo.md) is canonical. No new delivery division, Office vote or intermediary personnel chain is created.
+
+## R15 working ownership
+
+Routine execution follows the [functional responsibility matrix](management-capacity.md#binding-functional-responsibility-matrix); Heads remain accountable, People Leads coach named reports, and operational owners do not become another permanent management chain. QORP capabilities remain under [protected oversight](../oversight/qualified-reserve-pool.md), separate from initial adjudicators.

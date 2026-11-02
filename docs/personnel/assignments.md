@@ -1,6 +1,6 @@
 # Staff assignments and reporting
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -171,3 +171,7 @@ last_review: null
 ## Target transfer rule
 
 Within one merged division, the Head approves a home transfer after both managers are consulted. Across divisions or Technology Office, releasing and receiving owners both approve. This R14 change is inactive before ratified cutover; old two-Director approval remains in force until then.
+
+## Whole-person assignment acceptance
+
+Before a functional or QORP assignment, use the [whole-person capacity process](../operations/management-capacity.md#whole-person-capacity-and-assignments) and existing allocation record: accepted windows, all duty categories, consent, scope, backup and displaced work. One permanent People Manager remains. Protected case work has case-specific functional accountability, not a second personnel manager; managers cannot veto findings or demand private evidence. Reserve registration alone is not an accepted secondary shift or access grant.

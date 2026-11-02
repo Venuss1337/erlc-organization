@@ -1,6 +1,6 @@
 # Community & People Division
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target specification — Proposed, pending ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
 
@@ -54,3 +54,7 @@ Issue / non-sensitive description / accountable owner:
 Received-review date / current status / next action / public reason:
 Implemented evidence or declined-not-now explanation:
 ```
+
+## Capacity-aware community ownership
+
+A qualified community service owner handles routine support, engagement and factual communication within scope. Separate restricted People ownership handles recruitment/records; shared Head does not merge access. [Capacity matrix](../operations/management-capacity.md#binding-functional-responsibility-matrix) controls qualifications, backup and decisions. Recruitment/support peaks require explicit reallocation or slower nonurgent support, not every ticket escalating to Head.

@@ -1,6 +1,6 @@
 # Organizational ranks, eligibility and appointments
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target specification — Proposed, pending ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
 
@@ -80,3 +80,7 @@ Removal and appeal procedure:
 | Acting COO | 07 only during valid actual conditional appointment activation | Owner assessment, prior written appointment and candidate acceptance | Expiry returns retained standing; title alone never activates |
 
 A concurrent Head/Integration holder displays one actual Head-linked 06 with separately recorded Integration qualification/mandate, not another grade. Exiting a 04/05 Office role prompts fair review of whether assessed earned responsibility still supports retained grade; no automatic punitive stripping or honorary retention without basis. Owner/Commissioner safeguards are unchanged.
+
+## Functional and reserve qualifications
+
+Functional owners and QORP reserves gain no automatic grade, permanent reports or permissions. Relevant capability is assessed for actual work; qualification-only assignments can remain 01, current enforcement keeps 02/03 requirements. Existing 04/05 management and senior adjudicator criteria are unchanged. [QORP category assessment](../oversight/qualified-reserve-pool.md#separate-capabilities-and-accountable-owners) does not qualify an initial adjudicator and vice versa.

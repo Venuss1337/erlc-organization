@@ -1,6 +1,6 @@
 # Authority, decision ownership and escalation
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 decision specification — Proposed, pending ratification and named mandates.** [Current authority](../governance/current-authority.md) governs before cutover. Decision, consultation, notification, execution and review are different; a consultation is not another approval. No Office-wide vote or routine COO reapproval.
 
@@ -42,3 +42,7 @@ Use direct local cooperation first. Escalate only unresolved questions within a 
 ## Example C — Cross-directorate new rule
 
 A Game-only session checklist stays with its qualified functional owner. A change to the organization-wide ban policy requires valid Council policy approval, with T&S and OIO consultation; Integration can coordinate the proposal but cannot adopt it. A routine safe maintenance window stays technical; an unresolved choice between safe windows may be decided by a valid Integration mandate without COO reapproval.
+
+## R15 functional and protected routing
+
+Within approved capacity, a valid appointed functional owner decides routine work in the [functional matrix](management-capacity.md#binding-functional-responsibility-matrix), without another Head reapproval. Head retains reserved divisional/personnel decisions; functional owners cannot discipline or change permanent reporting. [QORP](../oversight/qualified-reserve-pool.md) supplies category reserves under protected case mandate, not operating authority; senior initial judges remain separate. All new powers require explicit R15 adoption.

@@ -1,6 +1,6 @@
 # Operating practices, capacity and staffing
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Selected R14 target specification — Proposed, pending ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
 
@@ -8,7 +8,7 @@ Use accepted voluntary availability, not roster size. No mandatory weekly hours,
 
 One shared action/exception entry per operational question: owner, next action, review date, capacity/risk and decision reference. Weekly checks examine changed exceptions; monthly reviews use existing evidence asynchronously where possible. No duplicate CoS/Head/COO reports. Council notice/votes and restricted case records remain separate. Optional wellbeing check-ins, leave, pulse and exit feedback remain voluntary and confidential. Player consultations and public improvement updates remain Community functions with private complaints excluded.
 
-At 20: three working Heads, Technical Lead, COO and Commissioner directly manage actual staff; no People Leads or dedicated CoS required; Office work is explicitly allocated, not free. At 30: one working Game People Lead only where coaching work justifies it. At 60: two working Leads per large division and explicitly costed Office appointments; none is a Unit Manager above another Lead. [Current roster and workload model](../executive-readiness-v1-4.md) show actual unique people. Capability gaps trigger fewer sessions, slower nonurgent support, paused optional events and screened case alternates, never compelled work.
+At 20: three working Heads, Technical Lead, COO and Commissioner directly manage actual staff; no People Leads or dedicated CoS required; Office work is explicitly allocated, not free. At 30: one working Game People Lead only where coaching work justifies it. At 60: two working Leads per large division and explicitly costed Office appointments; none is a Unit Manager above another Lead. [Current roster and workload model](../capacity-readiness-v1-5.md) show unique fictional people and complete offered/ready demand. Capability gaps trigger fewer sessions, slower nonurgent support, paused optional events and screened case alternates, never compelled work.
 
 Review Head workload monthly using exceptions, accepted delivery and coaching quality. If Game program/session conflicts or Community privacy/people work exceed capacity, first narrow commitments and delegate concrete functions. Adding a permanent layer requires a new reasoned governance proposal; no title automatically appears at a headcount threshold. Acting coverage follows [continuity](continuity.md), not highest rank.
 
@@ -53,3 +53,7 @@ Dependencies / decision-challenge owner / review date:
 ## Implementation phases
 
 First establish legitimate governing authority and explicit adoption, then actual qualified appointments, consented assignments and scoped mandates. Verify protected case capacity/storage, access/recovery and duty coverage before services depend on them. Use one recorded cutover under [R14](../proposals/v1-4-ratification.md); review at 30/90 days. This sequence is not evidence that any step happened.
+
+## R15 capacity supplement
+
+[Management capacity](management-capacity.md) owns whole-person accounting and functional allocation; [QORP](../oversight/qualified-reserve-pool.md) owns protected reserves. Reuse existing exception/assignment/case records; no daily activity reports, quotas, new platform or recurring meeting. [Current staffing evidence](../capacity-readiness-v1-5.md) supersedes earlier staffing assumptions as a selected simulation, not actual acceptance.

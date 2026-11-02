@@ -1,6 +1,6 @@
 # R14 ratification and controlled transition
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Proposed — Pending Required Approval.** This is the sole selected target package. R13 was not evidenced as adopted and is superseded as a target; its historical proposal remains intact. GOV-01–04 are not silently adopted. The implementation commission authorizes documentation engineering, not Council votes, actual appointments or live cutover.
 

@@ -19,7 +19,7 @@ After the required decision is documented, record the outcome and minutes/ratifi
 
 ## Release conventions
 
-The current official project version is **1.4.0**, released **2026-11-02**, named **Office of the COO & Distributed Executive Management**. v1.0.0 remains the first official release. Use `MAJOR.MINOR.PATCH` in metadata and changelog entries, `vMAJOR.MINOR.PATCH` in titles and Git tags, and **Official release** as the released-document status. README is the version entry point; align policy-page metadata and the source map with it. Keep the changelog in Keep a Changelog style with newest official releases first. Earlier development iterations are historical drafts, not release entries. New proposals remain **Proposed** until authorized; release labeling does not resolve open decisions. Preserve existing commits and tags, and never push or publish a release without authorization.
+The current official project version is **1.5.0**, released **2026-11-02**, named **Management Capacity & Oversight Resilience**. v1.0.0 remains the first official release. Use `MAJOR.MINOR.PATCH` in metadata and changelog entries, `vMAJOR.MINOR.PATCH` in titles and Git tags, and **Official release** as the released-document status. README is the version entry point; align policy-page metadata and the source map with it. Keep the changelog in Keep a Changelog style with newest official releases first. Earlier development iterations are historical drafts, not release entries. New proposals remain **Proposed** until authorized; release labeling does not resolve open decisions. Preserve existing commits and tags, and never push or publish a release without authorization.
 
 ## Before committing
 
@@ -32,3 +32,7 @@ The [v1.1 ratification package](docs/proposals/v1-1-ratification.md) names each 
 For staff-facing changes, edit one of the three linked guides and relevant role profiles; check its summaries against the canonical authority, including pending adoption gates. Navigation/editorial changes do not alter approvals. Preserve the v1.1 policy-block baseline and report measured structural differences separately from hypothetical human outcomes.
 
 R14 has one selected target and a [current-authority reference](docs/governance/current-authority.md) before adoption. Edit the [Office charter](docs/governance/office-of-the-coo.md) for Office powers, not parallel rules in guides. Run `python scripts/validate_executive.py` with the existing validators; legacy fragments must lead to substantive matching content, not empty tail anchors. The exact amendment ledger separates documented engineering authorization from still-pending organizational approval.
+
+## R15 capacity and reserve supplement
+
+R15 preserves R14 architecture and adds pending functional/capacity and QORP refinements; neither release proves adoption. Read `docs/operations/management-capacity.md`, `docs/oversight/qualified-reserve-pool.md` and `docs/proposals/v1-5-ratification.md`. Whole-role data and rosters are fictional; actual reserve acceptance/access must never be inferred. Run four Python validators (including `validate_capacity.py`) plus Bun checks/build. `capacity_reform` records exact authorized R15 supersessions while older ledger hashes remain immutable historical checks. No free concurrent hours, self-review or operational control of OIO.

@@ -1,6 +1,6 @@
 # Get help, report misconduct or appeal
 
-**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.5.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
@@ -55,3 +55,7 @@ Raise investigator/reviewer involvement or retaliation with an uninvolved protec
 Alert available qualified safety/technical responders and pause unsafe activity within your own authority. Report relevant content directly using Discord/Roblox tools; credible imminent danger may warrant local emergency services. Do not wait for internal case approval, collect unnecessary personal details or copy suspected illegal sexual material. See [serious-safety reporting](../operations/incident-response.md#serious-safety-and-platform-escalation).
 
 [Full OIO safeguards](independent-oversight.md#decision-integrity-and-safeguards) · [Approval status](../index.md#documentation-and-approval-status) · [Everyday tasks](../operations/everyday-work.md)
+
+## If the usual reviewer is unavailable
+
+Ask the unconflicted protected lead for a category-qualified, consenting reserve under [QORP](qualified-reserve-pool.md). You do not choose your own adjudicator or need your manager's permission to complain. Missing independent capacity or safe storage can block merits review; request a safe status/update and valid referral rather than accept self-review. R15 powers remain pending actual approval.
