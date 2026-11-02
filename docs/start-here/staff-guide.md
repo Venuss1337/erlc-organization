@@ -1,8 +1,8 @@
 # Find your role and start work
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
+**R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Reading guide, not a delegation.** These summaries link to the canonical rules. Use your actual assignment and team playbook; a title on this page does not appoint you or grant access. New v1.1 procedures still have their stated approval gates. See [what is approved and what is pending](../index.md#documentation-and-approval-status).
 
@@ -44,7 +44,7 @@ Grade 01 can describe an experienced specialist. It is not a ranking of intellig
 
 Use your appointment's team scope. Assign tasks within accepted availability, check readiness, arrange handoffs and coach ordinary mistakes. A host lead directs a secondary contributor only within the agreed assignment; their permanent home manager still owns career and general performance matters.
 
-Send actual vacancies and team-lead appointments to the authorized Division Head; do not invent an executive signoff for routine task allocation. Secondary assignments still need home and host approval. Transfers still need releasing and receiving Division Heads. Misconduct, adverse appointment action and privileged access retain their separate safeguards.
+Send actual vacancies and team-lead appointments to the authorized Division Head; do not invent an executive signoff for routine task allocation. Secondary assignments still need home and host approval. Within-division transfers need one Head after consultation; across divisions they need both releasing and receiving owners, after valid R14 cutover. Misconduct, adverse appointment action and privileged access retain their separate safeguards.
 
 [Manage everyday work](../operations/everyday-work.md) · [Reporting without duplicate forms](../operations/operating-practices.md#records-updates-and-meetings) · [Coaching versus misconduct](../personnel/management-and-development.md)
 
@@ -52,15 +52,15 @@ Send actual vacancies and team-lead appointments to the authorized Division Head
 
 Own your published mandate, staffing within approved capacity, delegated decisions and service quality. Use team leads and qualified specialists; do not personally reapprove every task. Publish who holds any delegated approval—qualification, title and technical access must still match the action.
 
-For unresolved work across divisions, involve the relevant COO where needed. If that portfolio is inactive, go directly to COO. Organization-wide policy belongs to the Council; an individual case does not. The CoS can request a status update but cannot countermand your division.
+For unresolved cross-division work, use the named domain owner or valid Integration mandate. Escalate only reserved/out-of-scope questions to COO or valid acting COO. Organization-wide policy belongs to the Council; an individual case does not. The CoS can request a status update but cannot countermand your division.
 
 [Leadership profiles](../governance/structure.md#leadership-profiles) · [Divisions](../index.md#organizational-functions) · [Decision owners](../operations/authority-and-escalation.md#delegated-decision-matrix)
 
 ## Executive leadership
 
-Resolve real cross-division tradeoffs, maintain management quality and implement valid Council policy. The reporting chart is not a queue of required approvals. An ED owns their active portfolio; COO owns cross-portfolio operations; Owner retains reserved powers. Activate layers for actual work, not to fill grades or vacant Council votes.
+Resolve real cross-division tradeoffs, maintain management quality and implement valid Council policy. The reporting chart is not a queue of required approvals. Heads own divisions; named domain owners and valid Integration mandates decide covered cross-division matters; COO handles reserved exceptions and Owner retains reserved powers. Activate layers for actual work, not to fill grades or vacant Council votes.
 
-CoS reports directly to COO, coordinates commitments and keeps Council records without an extra vote or line authority over Division Heads. Use the shared record where adopted, not parallel briefings. OIO findings, appeals and confidential evidence remain outside executive command. Preserve valid notice/quorum/votes and explicit Owner ratification for reserved changes.
+CoS reports functionally to COO (concurrent holders retain one permanent home manager), coordinates commitments and keeps Council records without an extra vote or line authority over Division Heads. Use the shared record where adopted, not parallel briefings. OIO findings, appeals and confidential evidence remain outside executive command. Preserve valid notice/quorum/votes and explicit Owner ratification for reserved changes.
 
 [Executive profiles and layer value](../governance/structure.md#leadership-profiles) · [Council charter](../governance/governance-council.md)
 
@@ -89,3 +89,7 @@ Your **job** describes work. Your **appointment** identifies management responsi
 | Does higher rank override the IC? | No automatic command transfer. Valid domain qualifications and recorded mandate control; the v1.1 command/transfer procedure, including COO conflict resolution, remains GOV-04-dependent. [Incident command](../operations/incident-response.md#declare-classify-and-take-command) |
 
 If the actual assignment, qualification, approver or contact is missing, ask the owning lead to identify it. Do not fill the gap by choosing the highest visible Discord role.
+
+## Office quick start
+
+Division Heads retain direct COO reporting. Consult [Office roles](../governance/office-of-the-coo.md#positions-and-appointment-authority) for Integration, CoS and conditional Planning. Check an actual adopted domain mandate before seeking a binding Integration decision; no committee signoff or routine COO reapproval follows. [Prepared succession](../operations/continuity.md#prepared-coo-succession) requires prior Owner authorization, qualification, consent, validity and actual activation. [Current authority](../governance/current-authority.md) controls until recorded cutover.

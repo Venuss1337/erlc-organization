@@ -1,6 +1,8 @@
 # R13 structural amendment and migration
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Historical reference; not the selected target.** [R14 adoption package](v1-4-ratification.md) is the sole selected reform. Earlier proposals remain unratified unless actual evidence is supplied; retained office names describe their historical context.
 
 **Proposed — Pending Required Approval.** Driver: COO or named unconflicted sponsor when appointed; policy owner: Owner/Council, consulting Heads, Personnel and all protected OIO functions. No actual vote, officer acceptance or cutover is evidenced.
 

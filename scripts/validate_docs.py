@@ -151,6 +151,19 @@ def main():
     for path, body in pages.items():
         if re.search(r'\bv3\.\d|\b3\.2\.\d|\*\*Source version:\*\*', body):
             errors.append(f'{path.relative_to(ROOT)}: obsolete project draft metadata')
+    executive = manifest.get('executive_reform')
+    if executive:
+        if not executive.get('authorization'):
+            errors.append('Missing R14 engineering authorization')
+        for name, change in executive['changes'].items():
+            before = subprocess.check_output(['git', 'show', f"{executive['commit']}:{name}"], cwd=ROOT)
+            if (hashlib.sha256(before).hexdigest() != change['before_sha256']
+                    or hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != change['after_sha256']
+                    or not change.get('reason')):
+                errors.append(f'Unrecorded R14 amendment: {name}')
+        for name, expected in executive.get('additions', {}).items():
+            if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != expected:
+                errors.append(f'Unrecorded R14 added specification: {name}')
     reform = manifest.get('reform')
     historical_views = {}
     if reform:

@@ -3,6 +3,7 @@ export const site = 'https://venuss1337.github.io';
 export const base = '/erlc-organization';
 export const repository = 'https://github.com/Venuss1337/erlc-organization';
 export const published = [
+  'docs/governance/office-of-the-coo.md', 'docs/governance/current-authority.md',
   'docs/operations/function-map.md',
   'docs/index.md', 'docs/start-here/staff-guide.md',
   'docs/operations/everyday-work.md', 'docs/oversight/get-help.md',
@@ -19,6 +20,7 @@ export const published = [
 ];
 // Repository-only is a publication distinction, never a confidentiality guarantee.
 export const repositoryOnly = [
+  'docs/proposals/v1-4-ratification.md', 'docs/executive-readiness-v1-4.md', 'docs/executive-workload.json',
   'docs/proposals/v1-3-reform.md', 'docs/reform-evidence.md', 'docs/structure-model.json',
   'docs/proposals/review-register.md', 'docs/proposals/v1-1-ratification.md',
   'docs/readiness-v1-1.md', 'docs/usability-v1-2.md',
@@ -46,6 +48,8 @@ export const groups = [
     { source: 'docs/directorates/technology-and-systems.md' },
   ] },
   { label: 'Leadership & Governance', collapsed: true, items: [
+    { source: 'docs/governance/current-authority.md', label: 'Current authority before cutover' },
+    { source: 'docs/governance/office-of-the-coo.md' },
     { source: 'docs/governance/structure.md' },
     { source: 'docs/governance/governance-council.md' },
   ] },
@@ -65,8 +69,8 @@ export const groups = [
   ] },
   { label: 'Proposals & Implementation', collapsed: true, items: [
     { label: 'Approval register (repository)', link: `${repository}/blob/main/docs/proposals/review-register.md` },
-    { label: 'Pending ratification (repository)', link: `${repository}/blob/main/docs/proposals/v1-3-reform.md` },
-    { label: 'Walkthrough evidence (repository)', link: `${repository}/blob/main/docs/usability-v1-2.md` },
+    { label: 'Pending ratification (repository)', link: `${repository}/blob/main/docs/proposals/v1-4-ratification.md` },
+    { label: 'Walkthrough evidence (repository)', link: `${repository}/blob/main/docs/executive-readiness-v1-4.md` },
   ] },
 ];
 export const sidebar = groups.map(({ items, ...group }) => ({

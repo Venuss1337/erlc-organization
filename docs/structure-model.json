@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "status": "proposed",
   "ratified": false,
   "divisions": [
@@ -49,7 +49,9 @@
           "actual ownership"
         ],
         "assignment": "ownership",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "coo",
@@ -62,7 +64,9 @@
           "operational management"
         ],
         "assignment": "integration",
-        "availability": "5–8 voluntary hours/week"
+        "availability": "5–8 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "safety-head",
@@ -72,10 +76,13 @@
         "home": "safety",
         "manager": "coo",
         "qualifications": [
-          "current enforcement"
+          "current enforcement",
+          "acting COO scenario assessment"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-1",
@@ -88,7 +95,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-2",
@@ -101,7 +110,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-3",
@@ -115,7 +126,9 @@
           "incident command"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-head",
@@ -125,10 +138,15 @@
         "home": "game",
         "manager": "coo",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "integration arbitration",
+          "delegation limits",
+          "acting COO scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "session or RP delivery; concurrent Integration Director",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 2,
+        "delivery_hours": 4
       },
       {
         "id": "game-1",
@@ -141,7 +159,9 @@
           "session/program qualification"
         ],
         "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-2",
@@ -154,7 +174,9 @@
           "session/program qualification"
         ],
         "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-3",
@@ -167,7 +189,9 @@
           "session command"
         ],
         "assignment": "qualified Session Commander",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-4",
@@ -180,7 +204,9 @@
           "session command"
         ],
         "assignment": "qualified Session Commander",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-head",
@@ -190,10 +216,13 @@
         "home": "community",
         "manager": "coo",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "senior adjudication scenario assessment"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-1",
@@ -204,10 +233,14 @@
         "manager": "community-head",
         "qualifications": [
           "support/personnel confidentiality",
-          "executive coordination"
+          "executive coordination",
+          "executive coordination",
+          "Council secretariat"
         ],
-        "assignment": "Personnel coordinator; CoS concurrent only if qualified",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Personnel coordinator; CoS concurrent only if qualified; concurrent Chief of Staff",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 1.5,
+        "delivery_hours": 4.5
       },
       {
         "id": "community-2",
@@ -220,7 +253,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-3",
@@ -233,7 +268,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "technology-head",
@@ -243,10 +280,13 @@
         "home": "technology",
         "manager": "coo",
         "qualifications": [
-          "technical and access handling"
+          "technical and access handling",
+          "senior adjudication scenario assessment"
         ],
         "assignment": "engineering/access",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "technology-1",
@@ -259,7 +299,9 @@
           "technical and access handling"
         ],
         "assignment": "engineering/access",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "commissioner",
@@ -272,7 +314,9 @@
           "oversight administration"
         ],
         "assignment": "Commissioner",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "ia",
@@ -285,7 +329,9 @@
           "investigation/evidence"
         ],
         "assignment": "Investigator",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "appeals",
@@ -298,7 +344,9 @@
           "independent case review"
         ],
         "assignment": "Appeals Reviewer",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       }
     ],
     "30": [
@@ -313,7 +361,9 @@
           "actual ownership"
         ],
         "assignment": "ownership",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "coo",
@@ -326,7 +376,9 @@
           "operational management"
         ],
         "assignment": "integration",
-        "availability": "5–8 voluntary hours/week"
+        "availability": "5–8 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "safety-head",
@@ -339,7 +391,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-1",
@@ -352,7 +406,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-2",
@@ -365,7 +421,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-3",
@@ -379,7 +437,9 @@
           "incident command"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-4",
@@ -392,7 +452,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-5",
@@ -405,7 +467,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-6",
@@ -418,7 +482,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-head",
@@ -431,7 +497,9 @@
           "session/program qualification"
         ],
         "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-1",
@@ -444,7 +512,9 @@
           "session/program qualification"
         ],
         "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-2",
@@ -457,7 +527,9 @@
           "session/program qualification"
         ],
         "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-3",
@@ -470,7 +542,9 @@
           "session command"
         ],
         "assignment": "qualified Session Commander",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-4",
@@ -483,20 +557,27 @@
           "session command"
         ],
         "assignment": "qualified Session Commander",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-5",
         "name": "Game Volunteer 6",
         "role": "Contributor",
-        "grade": 1,
+        "grade": 5,
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "integration arbitration",
+          "delegation limits",
+          "acting COO scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "session or RP delivery; concurrent Integration Director",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 4,
+        "delivery_hours": 2
       },
       {
         "id": "game-6",
@@ -506,10 +587,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "Law Enforcement program scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Law Enforcement program coordination/training",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-7",
@@ -519,10 +603,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "Fire & EMS program scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Fire & EMS program coordination/training",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-8",
@@ -532,10 +619,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "DOT program scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "DOT program coordination/training",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-head",
@@ -545,10 +635,13 @@
         "home": "community",
         "manager": "coo",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "senior adjudication scenario assessment"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-1",
@@ -559,10 +652,14 @@
         "manager": "community-head",
         "qualifications": [
           "support/personnel confidentiality",
-          "executive coordination"
+          "executive coordination",
+          "executive coordination",
+          "Council secretariat"
         ],
-        "assignment": "Personnel coordinator; CoS concurrent only if qualified",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Personnel coordinator; CoS concurrent only if qualified; concurrent Chief of Staff",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 2,
+        "delivery_hours": 4
       },
       {
         "id": "community-2",
@@ -575,7 +672,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-3",
@@ -588,7 +687,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-4",
@@ -601,7 +702,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-5",
@@ -614,7 +717,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "technology-head",
@@ -624,10 +729,14 @@
         "home": "technology",
         "manager": "coo",
         "qualifications": [
-          "technical and access handling"
+          "technical and access handling",
+          "acting COO scenario assessment",
+          "senior adjudication scenario assessment"
         ],
         "assignment": "engineering/access",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "technology-1",
@@ -640,7 +749,9 @@
           "technical and access handling"
         ],
         "assignment": "engineering/access",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "technology-2",
@@ -653,7 +764,9 @@
           "technical and access handling"
         ],
         "assignment": "engineering/access",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "commissioner",
@@ -666,7 +779,9 @@
           "oversight administration"
         ],
         "assignment": "Commissioner",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "ia",
@@ -679,7 +794,9 @@
           "investigation/evidence"
         ],
         "assignment": "Investigator",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "appeals",
@@ -692,7 +809,9 @@
           "independent case review"
         ],
         "assignment": "Appeals Reviewer",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       }
     ],
     "60": [
@@ -707,7 +826,9 @@
           "actual ownership"
         ],
         "assignment": "ownership",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "coo",
@@ -720,7 +841,9 @@
           "operational management"
         ],
         "assignment": "integration",
-        "availability": "5–8 voluntary hours/week"
+        "availability": "5–8 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "safety-head",
@@ -733,7 +856,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-1",
@@ -746,7 +871,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-2",
@@ -759,7 +886,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-3",
@@ -773,7 +902,9 @@
           "incident command"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-4",
@@ -786,7 +917,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-5",
@@ -799,7 +932,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-6",
@@ -812,7 +947,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-7",
@@ -825,7 +962,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-8",
@@ -838,7 +977,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-9",
@@ -851,7 +992,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-10",
@@ -864,7 +1007,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-11",
@@ -877,7 +1022,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-12",
@@ -890,7 +1037,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-13",
@@ -903,7 +1052,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-14",
@@ -916,7 +1067,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "safety-15",
@@ -929,7 +1082,9 @@
           "current enforcement"
         ],
         "assignment": "Discord/game enforcement",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-head",
@@ -939,10 +1094,13 @@
         "home": "game",
         "manager": "coo",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "acting COO scenario assessment"
         ],
         "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-1",
@@ -955,7 +1113,9 @@
           "session/program qualification"
         ],
         "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-2",
@@ -968,7 +1128,9 @@
           "session/program qualification"
         ],
         "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-3",
@@ -981,7 +1143,9 @@
           "session command"
         ],
         "assignment": "qualified Session Commander",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-4",
@@ -994,20 +1158,27 @@
           "session command"
         ],
         "assignment": "qualified Session Commander",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-5",
         "name": "Game Volunteer 6",
-        "role": "Contributor",
-        "grade": 1,
-        "home": "game",
-        "manager": "game-2",
+        "role": "Integration Director",
+        "grade": 5,
+        "home": "executive",
+        "manager": "coo",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "integration arbitration",
+          "delegation limits",
+          "acting COO scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Integration Director",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 6,
+        "delivery_hours": 0
       },
       {
         "id": "game-6",
@@ -1017,10 +1188,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "Law Enforcement program scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Law Enforcement program coordination/training",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-7",
@@ -1030,10 +1204,13 @@
         "home": "game",
         "manager": "game-2",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "Fire & EMS program scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Fire & EMS program coordination/training",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-8",
@@ -1043,10 +1220,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "DOT program scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "DOT program coordination/training",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-9",
@@ -1056,10 +1236,13 @@
         "home": "game",
         "manager": "game-2",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "Civilian RP program scenario assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Civilian RP program coordination/training",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-10",
@@ -1069,10 +1252,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "dispatch/readiness assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Scheduling and dispatch",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-11",
@@ -1082,10 +1268,13 @@
         "home": "game",
         "manager": "game-2",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-12",
@@ -1095,10 +1284,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-13",
@@ -1108,10 +1300,13 @@
         "home": "game",
         "manager": "game-2",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-14",
@@ -1121,10 +1316,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-15",
@@ -1134,10 +1332,13 @@
         "home": "game",
         "manager": "game-2",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-16",
@@ -1147,10 +1348,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-17",
@@ -1160,10 +1364,13 @@
         "home": "game",
         "manager": "game-2",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-18",
@@ -1173,10 +1380,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-19",
@@ -1186,10 +1396,13 @@
         "home": "game",
         "manager": "game-2",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "game-20",
@@ -1199,10 +1412,13 @@
         "home": "game",
         "manager": "game-1",
         "qualifications": [
-          "session/program qualification"
+          "session/program qualification",
+          "hosting/control assessment"
         ],
-        "assignment": "session or RP delivery",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Session hosting/control",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-head",
@@ -1212,10 +1428,13 @@
         "home": "community",
         "manager": "coo",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "senior adjudication scenario assessment"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-1",
@@ -1228,8 +1447,10 @@
           "support/personnel confidentiality",
           "executive coordination"
         ],
-        "assignment": "Personnel coordinator; CoS concurrent only if qualified",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Personnel coordination and coaching; no Office appointment",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-2",
@@ -1242,7 +1463,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-3",
@@ -1255,33 +1478,57 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-4",
         "name": "Community Volunteer 5",
-        "role": "Contributor",
-        "grade": 1,
-        "home": "community",
-        "manager": "community-1",
+        "role": "Chief of Staff",
+        "grade": 5,
+        "home": "executive",
+        "manager": "coo",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "executive coordination",
+          "Council secretariat"
         ],
-        "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Chief of Staff; accepted secondary Member Services support (2h)",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 4,
+        "delivery_hours": 2,
+        "secondary_assignment": {
+          "home": "community",
+          "task_owner": "community-head",
+          "scope": "Member Services support only, no private Personnel/OIO access",
+          "hours": 2,
+          "home_and_host_consent_in_tabletop_only": true
+        }
       },
       {
         "id": "community-5",
         "name": "Community Volunteer 6",
-        "role": "Contributor",
-        "grade": 1,
-        "home": "community",
-        "manager": "community-2",
+        "role": "Planning Lead",
+        "grade": 4,
+        "home": "executive",
+        "manager": "coo",
         "qualifications": [
-          "support/personnel confidentiality"
+          "support/personnel confidentiality",
+          "capacity analysis",
+          "privacy-safe aggregate reporting"
         ],
-        "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "assignment": "Planning Lead; accepted secondary Member Services support (4h)",
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 2,
+        "delivery_hours": 4,
+        "secondary_assignment": {
+          "home": "community",
+          "task_owner": "community-head",
+          "scope": "Member Services support only, no private Personnel/OIO access",
+          "hours": 4,
+          "home_and_host_consent_in_tabletop_only": true
+        }
       },
       {
         "id": "community-6",
@@ -1294,7 +1541,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-7",
@@ -1307,7 +1556,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-8",
@@ -1320,7 +1571,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-9",
@@ -1333,7 +1586,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-10",
@@ -1346,7 +1601,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-11",
@@ -1359,7 +1616,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-12",
@@ -1372,7 +1631,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-13",
@@ -1385,7 +1646,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "community-14",
@@ -1398,7 +1661,9 @@
           "support/personnel confidentiality"
         ],
         "assignment": "support or People function",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "technology-head",
@@ -1408,10 +1673,13 @@
         "home": "technology",
         "manager": "coo",
         "qualifications": [
-          "technical and access handling"
+          "technical and access handling",
+          "senior adjudication scenario assessment"
         ],
         "assignment": "engineering/access",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "technology-1",
@@ -1424,7 +1692,9 @@
           "technical and access handling"
         ],
         "assignment": "engineering/access",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "technology-2",
@@ -1437,7 +1707,9 @@
           "technical and access handling"
         ],
         "assignment": "engineering/access",
-        "availability": "3–6 voluntary hours/week; agreed windows only"
+        "availability": "6 voluntary hours/week; illustrative accepted windows, not quota",
+        "office_hours": 0,
+        "delivery_hours": 6
       },
       {
         "id": "commissioner",
@@ -1450,7 +1722,9 @@
           "oversight administration"
         ],
         "assignment": "Commissioner",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "ia",
@@ -1463,7 +1737,9 @@
           "investigation/evidence"
         ],
         "assignment": "Investigator",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       },
       {
         "id": "appeals",
@@ -1476,7 +1752,9 @@
           "independent case review"
         ],
         "assignment": "Appeals Reviewer",
-        "availability": "2–4 voluntary hours/week"
+        "availability": "2–4 voluntary hours/week",
+        "office_hours": 0,
+        "delivery_hours": 0
       }
     ]
   },
@@ -1492,5 +1770,113 @@
     "adjudicator": "safety-head",
     "appeal": "appeals",
     "assessor": "external-unconflicted-reserve"
+  },
+  "actual_appointments_verified": false,
+  "office_reporting": "Direct to COO functionally; concurrent holder keeps one permanent home manager",
+  "office_appointments": {
+    "20": [
+      {
+        "role": "Integration Director",
+        "person": "game-head",
+        "hours": 2,
+        "concurrent": true,
+        "mandate": "scenario-domain-mandate",
+        "actual_adopted": false
+      },
+      {
+        "role": "Chief of Staff",
+        "person": "community-1",
+        "hours": 1.5,
+        "concurrent": true,
+        "actual_adopted": false
+      }
+    ],
+    "30": [
+      {
+        "role": "Integration Director",
+        "person": "game-5",
+        "hours": 4,
+        "concurrent": true,
+        "mandate": "scenario-domain-mandate",
+        "actual_adopted": false
+      },
+      {
+        "role": "Chief of Staff",
+        "person": "community-1",
+        "hours": 2,
+        "concurrent": true,
+        "actual_adopted": false
+      }
+    ],
+    "60": [
+      {
+        "role": "Integration Director",
+        "person": "game-5",
+        "hours": 6,
+        "concurrent": false,
+        "mandate": "scenario-domain-mandate",
+        "actual_adopted": false
+      },
+      {
+        "role": "Chief of Staff",
+        "person": "community-4",
+        "hours": 4,
+        "concurrent": false,
+        "actual_adopted": false
+      },
+      {
+        "role": "Planning Lead",
+        "person": "community-5",
+        "hours": 2,
+        "concurrent": false,
+        "actual_adopted": false
+      }
+    ]
+  },
+  "succession": {
+    "20": {
+      "primary": "game-head",
+      "reserve": "safety-head",
+      "authority": "actual Owner conditional appointment required",
+      "actual_signed": false,
+      "accepted_in_tabletop_only": true,
+      "standing_days": 90,
+      "max_active_days": 30,
+      "council_seat_requires_ratified_charter": true
+    },
+    "30": {
+      "primary": "game-5",
+      "reserve": "technology-head",
+      "authority": "actual Owner conditional appointment required",
+      "actual_signed": false,
+      "accepted_in_tabletop_only": true,
+      "standing_days": 90,
+      "max_active_days": 30,
+      "council_seat_requires_ratified_charter": true
+    },
+    "60": {
+      "primary": "game-5",
+      "reserve": "game-head",
+      "authority": "actual Owner conditional appointment required",
+      "actual_signed": false,
+      "accepted_in_tabletop_only": true,
+      "standing_days": 90,
+      "max_active_days": 30,
+      "council_seat_requires_ratified_charter": true
+    }
+  },
+  "adjudicator_pools": {
+    "20": [
+      "technology-head",
+      "community-head"
+    ],
+    "30": [
+      "technology-head",
+      "community-head"
+    ],
+    "60": [
+      "technology-head",
+      "community-head"
+    ]
   }
 }

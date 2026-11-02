@@ -1,11 +1,14 @@
 # Organization handbook
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 ER:LC Organization supports an independently operated Roblox Emergency Response: Liberty County community and its Discord. Staff deliver safe roleplay sessions, moderation, member support, training and dependable systems.
 
 You have **one permanent People Manager**. Your assigned task lead directs today's work within its scope. Rank, job, qualifications and technical access are different; the reporting chart is not an approval queue.
 
+<a id="explore-the-handbook"></a>
+<a id="operational-readiness-procedures"></a>
+<a id="reading-this-release"></a>
 ## Start here
 
 - **New or changing roles?** [Find your role and start work](start-here/staff-guide.md).
@@ -23,7 +26,6 @@ You have **one permanent People Manager**. Your assigned task lead directs today
 
 The guides explain the next step and link the controlling rule. Your actual team contacts, named supervisor, qualification records and local playbooks must still be supplied; this public handbook cannot verify them.
 
-<a id="explore-the-handbook"></a>
 ## Organizational functions
 
 | Function | Work it owns |
@@ -35,21 +37,19 @@ The guides explain the next step and link the controlling rule. Your actual team
 | [People & Culture](directorates/people-and-culture.md) | Recruitment, development, records, assignments and voluntary staff support |
 | [Technology & Systems](directorates/technology-and-systems.md) | Authorized technical work, reliability and access execution |
 
-The [target structure](governance/structure.md) has three divisions plus a Technology Office under COO, with protected OIO separately under Owner. [Function ownership](operations/function-map.md) maps every former directorate. [R13 migration](proposals/v1-3-reform.md) is pending; no cutover is verified.
+The [target structure](governance/structure.md) has three divisions plus a Technology Office under COO, with the [Office of the COO](governance/office-of-the-coo.md) distributing executive work and protected OIO separately under Owner. [Function ownership](operations/function-map.md) maps every former directorate. [R14 Office and migration](proposals/v1-4-ratification.md) is pending; no cutover is verified.
 
-<a id="reading-this-release"></a>
 ## Documentation and approval status
 
-**v1.3.0 — Organizational Restructuring & Management Efficiency** improves instructions and navigation with actual changes to reporting, management offices and intra-division transfer approval, pending R13; protected case safeguards remain. v1.0.0 and v1.1.0 remain official historical releases.
+**v1.4.0 — Office of the COO & Distributed Executive Management** improves instructions and navigation with actual changes to reporting, management offices and intra-division transfer approval, pending R14; protected case safeguards remain. v1.0.0–v1.3.0 remain official historical releases.
 
-- **Existing framework:** canonical authority rules retained from the baseline; this repository does not verify every local adoption or delegation record.
+- **Existing framework:** the [current-authority reference](governance/current-authority.md) describes pre-cutover rules; this repository does not verify every local adoption or delegation record.
 - **Staff guidance:** summaries and role profiles help you apply those rules; they do not grant powers or require new forms.
-- **Pending specification:** GOV-01–04 from v1.1.0 still need their recorded approvals and implementation checks. A documentation release or Git commit is not ratification.
+- **Pending specification:** R14 supersedes conflicting unapproved targets; retained GOV-02–04 controls need explicit effective scope. A documentation release or Git commit is not ratification.
 - **Verified implementation:** repository/link/build checks are evidence about documentation only. Actual officers, reviewers, private intake/storage, coverage and technical controls remain unverified.
 
-The [approval register](proposals/review-register.md), [ratification package](proposals/v1-1-ratification.md) and [v1.2 walkthrough evidence](usability-v1-2.md) open repository records, not private website pages or approved policy. Repository-only does **not** mean confidential: GitHub visibility also controls those files. Completed complaints, personnel records, credentials and recovery details belong in authorized restricted systems, never this handbook or Git history.
+[R14 adoption and transition](proposals/v1-4-ratification.md) is the selected package. The [approval register](proposals/review-register.md), [ratification package](proposals/v1-1-ratification.md) and [v1.2 walkthrough evidence](usability-v1-2.md) open repository records, not private website pages or approved policy. Repository-only does **not** mean confidential: GitHub visibility also controls those files. Completed complaints, personnel records, credentials and recovery details belong in authorized restricted systems, never this handbook or Git history.
 
-<a id="operational-readiness-procedures"></a>
 ## Full procedures for responsible officers
 
 Use these when the work or exception requires them: [decision ownership](operations/authority-and-escalation.md), [recruitment](personnel/recruitment.md), [assignments](personnel/assignments.md), [management review](personnel/management-and-development.md), [service capacity and reporting](operations/operating-practices.md), [incident command](operations/incident-response.md), [continuity](operations/continuity.md), [technical permissions/privacy](operations/discord-permissions.md), and [case handling](oversight/case-handling.md). Each specification retains its approval/qualification limits.

@@ -1,8 +1,8 @@
 # Incident response and emergency command
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
+**R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Procedure specification; GOV-04 adoption and actual qualification/access checks are not verified.** Existing qualified responders retain their existing safety authority; this page does not grant unapproved powers. See the [activation register](../proposals/review-register.md). Emergency command coordinates a bounded response, not discipline or independent investigations.
 
@@ -60,3 +60,7 @@ T&S is the internal safety-routing owner; any witness may report directly withou
 For suspected child sexual exploitation, grooming, credible threats or illegal content: stop public exposure within existing authority, preserve minimum message/account identifiers and reporting receipt, report through official platform routes, and seek appropriate professional/authority guidance where necessary. Do not request intimate images, government IDs, real names, home addresses, passwords, medical details or proof of victimhood; do not forward, download or reproduce suspected illegal sexual material. Do not interview minors as amateur criminal investigators or promise absolute secrecy. Platform decisions remain platform decisions; internal review may address community access and staff conduct without impeding reporting.
 
 Verified platform constraints and source links are in the [implementation evidence](../readiness-v1-1.md#research-and-design-basis); local controls remain untested until the implementation register says otherwise.
+
+## Executive Office interface
+
+IC retains incident coordination and specialists retain domain limits. Integration may settle unaffected service/resource conflicts under its valid mandate, CoS handles safe executive/Council notifications, Planning identifies aggregate capacity gaps, and COO/valid acting COO handles reserved priority exceptions. None must preapprove existing qualified containment. Misconduct runs through OIO separately; an Office coordination channel is not an evidence store. If simultaneous duties exceed accepted availability, assign consenting qualified relief or pause optional services.

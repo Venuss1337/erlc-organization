@@ -5,6 +5,22 @@ the Keep a Changelog structure and Semantic Versioning (`MAJOR.MINOR.PATCH`).
 
 Earlier development drafts, experiments and organizational mockups were never official releases. They remain accessible through Git history.
 
+## [1.4.0] - 2026-11-02
+
+### Added
+
+- Office of the COO charter: scoped Integration decisions, CoS coordination and conditional capacity/planning work, without intermediate Head reporting.
+- Owner-preauthorized, qualified, consenting acting-COO procedure and explicit Council chair/seat continuity; senior initial-adjudicator pool proposal retaining independent case separation.
+- Accessible pre-cutover authority reference, coherent R14 ratification/cutover package, fixed 20/30/60 rosters, conserved workload/backlog models and comparative adversarial tests.
+- Current semantic-reference, delegation, succession, case, workload and negative validation checks.
+
+### Fixed
+
+- Restored executable six-stage managerial capability review, meaningful role profiles, worked examples and templates behind legacy anchors.
+- Reconciled obsolete active portfolio escalation routes and updated task/website navigation, rank appointments and technical/incident interfaces.
+
+Documentation specification only: R14 supersedes conflicting unapproved targets; no ratification, actual staffing, reserve capacity, live security tests or measured performance improvement is claimed. Existing license and all prior official releases remain unchanged.
+
 ## [1.3.0] - 2026-11-02
 
 ### Changed

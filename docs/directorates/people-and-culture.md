@@ -1,30 +1,18 @@
 # People functions — Community & People
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**Selected target specification — Proposed, pending R13 ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
+**Selected R14 target specification — Proposed, pending ratification.** Until a recorded cutover, the pre-reform charter remains controlling; no vote or appointment is claimed.
 
 Accountable owner: **Community & People Division Head**, directly reporting to COO. Preserved functions: **Talent Acquisition; Learning & Development; Personnel Operations; Workforce Allocation; Staff Experience & Retention**. Each function has one named working coordinator; this is not a separate supervisory office. Actual People Manager is the Head or recorded working People Lead (Technical Lead for office staff). All original function scope transfers under the [complete map](../operations/function-map.md).
 
-Head owns functional standards, capacity and appointment decisions within [delegated authority](../operations/authority-and-escalation.md). Coordinators route work, not personnel discipline. Role-specific qualifications remain required; rank grants no blanket powers. Cross-function coordination inside the division is settled by its Head, cross-division by COO. Protected complaints and appeals go to [OIO](../oversight/independent-oversight.md).
+The accountable owner owns functional standards, capacity and appointment decisions within [delegated authority](../operations/authority-and-escalation.md). Coordinators route work, not personnel discipline. Role-specific qualifications remain required; rank grants no blanket powers. Cross-function coordination stays with the functional owner/Head. Heads cooperate bilaterally; only unresolved covered cross-division questions use the [Office mandate](../governance/office-of-the-coo.md#binding-integration-delegation), not an added reporting layer. Protected complaints and appeals go to [OIO](../oversight/independent-oversight.md).
 
 Personnel/applicant/wellbeing files remain in separate need-to-know stores. Support, events and public feedback staff gain no personnel or case access through shared division membership. P&C process verification remains separate from substantive hiring selection.
 
 Historical filename retained for stable repository navigation; it does not retain the former Directorate Director appointment.
 
 <a id="people--culture-directorate"></a>
-
-
-<a id="example-h--retaining-a-burned-out-volunteer"></a>
-
-<a id="staff-experience-check-in-record-restricted"></a>
-
-<a id="voluntary-staff-check-in"></a>
-
-<a id="role-profiles"></a>
-
-<a id="v11-procedure-dependencies"></a>
-
 ## Staff Experience & Retention Framework
 
 **Accountable owner:** Community & People Division Head. **Process owner:** Staff Experience Coordinator (may initially be the Personnel Operations Manager). **Personal support:** Each staff member's **one Home People Manager**. **Independent challenge:** The elected Staff Representative may raise systemic issues to the Governance Council; suspected abuse of authority goes to Internal Affairs, not to a manager implicated in the report.
@@ -48,3 +36,26 @@ Historical filename retained for stable repository navigation; it does not retai
 - **Confidentiality:** Store individual feedback and availability narrowly; restrict access to the Home People Manager and authorized People & Culture staff on a need-to-know basis. Publish only sufficiently aggregated trends; small groups where staff can be identified should be combined or omitted.
 
 **Quarterly review indicators:** Voluntary retention by cohort/team, departures and stated reasons where voluntarily supplied, coverage reliability, time-to-qualification, use of leave/breaks, unresolved workload concerns, and pulse-survey themes. Treat these as **signals for improvement**, not quotas or grounds for ranking individual volunteers. People & Culture shares a short anonymized summary with the COO and Governance Council and owns the follow-through.
+
+<a id="v11-procedure-dependencies"></a>
+## Role profiles
+
+| Position / grade | Home / permanent supervisor | Independent decisions and limits | Qualification / escalation |
+|---|---|---|---|
+| Recruitment / Personnel / training coordinator; 01 specialist; 04 for substantive process management | Community & People; recorded home People Lead or Community Head | Verify fair process/records; hiring authority selects; no shadow line management or broad case access | Relevant assessment, confidentiality, fair selection and minimal records; task issue to assigned lead, scope/capacity to accountable owner, misconduct/appeal to OIO |
+| Working People Lead where justified | Community & People; accountable owner | Coaching, accepted work/coverage and handoff; no second home boss for secondary staff | Relevant management/domain qualification; [decision matrix](../operations/authority-and-escalation.md) and [continuity](../operations/continuity.md) control consequential decisions |
+
+Heads/Technical Lead report directly to COO. Integration can decide only its adopted domain; it does not supervise them. One agreed record replaces duplicate Office requests.
+
+## Example H — Retaining a burned-out volunteer
+
+A volunteer asks for fewer duties without disclosing health details. Home manager records minimum accepted availability change, task leads hand off or reduce service, Personnel offers voluntary support. No automatic misconduct or coerced replacement shifts.
+
+<a id="voluntary-staff-check-in"></a>
+## Staff experience check-in record (restricted)
+
+```text
+Consenting contact / role expectations / volunteered concern:
+Accepted availability action / support requested / next agreed check:
+Authorized viewers / support closure and deletion date:
+```

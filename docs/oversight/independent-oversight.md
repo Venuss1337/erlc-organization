@@ -1,8 +1,8 @@
 # Office of Independent Oversight
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
+**R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 Canonical home for OIO structure, case jurisdiction, investigation independence, recusals and protected evidence access. [Operating reporting lines](../governance/structure.md) do not place this office under the COO or Council.
 
@@ -90,7 +90,7 @@ An IA finding is sent to the predesignated **unconflicted disciplinary authority
 
 ## Example E — Report against executive staff
 
-Target reporting: Division Heads and Technical Lead report directly to COO; no permanent portfolio intermediary. See [target structure](../governance/structure.md). Reserved appointment and protected-case powers remain gated by R13 and GOV-02.
+An allegation against an Office member goes through independent intake/IA, a separate unconflicted assigned senior adjudicator after R14-J, and uninvolved appeal. COO allegations retain Owner initial decision plus mandatory external investigation/appeal; Owner allegations retain limited advisory external review. Integration/CoS cannot select their own judge, retrieve case files or direct findings.
 
 ## Example G — One incident, no duplicate investigations
 

@@ -1,8 +1,8 @@
 # Everyday staff tasks
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
+**R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Instructional guide under existing authority, not a new policy.** Start at your task, contact the named owner and keep the required record once. Canonical links control exceptions and full procedures. New v1.1 procedures remain approval-dependent; this guide does not activate them. Actual team contacts, qualifications and enforcement/session playbooks must be supplied by the organization.
 
@@ -86,13 +86,13 @@ Ask for the published responsibility, relevant qualification and appointor; prov
 
 ## Transfer between home teams
 
-Ask the releasing and receiving Division Heads for agreement, with qualifications, capacity, new home manager and handover identified. Workforce facilitates and Personnel records; neither is a third appointor. A blocked transfer follows the existing COO escalation. Do not silently change home team or assume a temporary host lead became your permanent manager.
+Within one division ask its Head after both home managers are consulted; across divisions/Technology ask both releasing and receiving owners, with qualifications, capacity, new home manager and handover identified. Workforce facilitates and Personnel records; neither is a third appointor. A blocked transfer uses the named valid Integration/domain mandate; reserved questions go to COO/valid acting COO. Do not silently change home team or assume a temporary host lead became your permanent manager.
 
-**Owners:** releasing + receiving Division Heads. **Record:** existing transfer/personnel entry. [Assignment authority](../personnel/assignments.md#who-is-responsible-for-what).
+**Owners:** one Head within division; releasing + receiving owners across divisions. **Record:** existing transfer/personnel entry. [Assignment authority](../personnel/assignments.md#who-is-responsible-for-what).
 
 ## Resolve conflicting assignments
 
-Tell both task leads about the clash. Use the documented priority: genuine scoped emergency, previously accepted live duty, approved primary, approved secondary, optional work. Leads negotiate first; unresolved conflict goes to Division Heads, COO as needed. An inactive ED office is skipped. This is an exception route, not required approval from every level for an agreed adjustment.
+Tell both task leads about the clash. Use the documented priority: genuine scoped emergency, previously accepted live duty, approved primary, approved secondary, optional work. Leads negotiate first; unresolved conflict goes to the owning Head or named valid domain/Integration mandate; only reserved exceptions go to COO/valid acting COO. Use a valid named domain/Integration alternate if an Office appointment is inactive; no invented authority. This is an exception route, not required approval from every level for an agreed adjustment.
 
 **Owner:** relevant leads within allocations; escalation owner only if unresolved. **Record:** one roster/allocation update. [Priority rule](../personnel/assignments.md#priorities-when-assignments-collide).
 
@@ -104,4 +104,8 @@ Check for an already-valid named alternate/delegation; otherwise contact the nex
 
 ## Target transfer rule
 
-Within one merged division, the Head approves a home transfer after both managers are consulted. Across divisions or Technology Office, releasing and receiving owners both approve. This R13 change is inactive before ratified cutover; old two-Director approval remains in force until then.
+Within one merged division, the Head approves a home transfer after both managers are consulted. Across divisions or Technology Office, releasing and receiving owners both approve. This R14 change is inactive before ratified cutover; old two-Director approval remains in force until then.
+
+## Office decisions without another approval chain
+
+If a recorded Integration mandate covers the unresolved resource question, its unconflicted holder decides after consultation; do not seek routine COO reapproval. Heads still report directly to COO. CoS can request minimum status from an existing commitment record, not command work or demand private evidence. An acting COO requires prior actual authorization and accepted activation; no Office title is automatic succession. Before ratified cutover use the [current-authority reference](../governance/current-authority.md).

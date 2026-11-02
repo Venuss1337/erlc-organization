@@ -1,6 +1,8 @@
 # Structural comparison, staffing and stress tests
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+**Historical reference; not the selected target.** [R14 adoption package](proposals/v1-4-ratification.md) is the sole selected reform. Earlier proposals remain unratified unless actual evidence is supplied; retained office names describe their historical context.
 
 **Fictional comparative tabletop, not operational evidence.** Names are unique fictional identities; no real availability or appointment is verified. Baseline is v1.2 commit cf094e4993658ceaa453eb18c3744684072aeb47 and the earlier 60-person audit roster (18 actual permanent supervisors). Owner included once in both 60-person comparisons; RP players excluded. Same demand and volunteer windows are used in each paired scenario. No improved score or elapsed-time claim.
 

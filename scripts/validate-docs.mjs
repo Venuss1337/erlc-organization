@@ -10,4 +10,7 @@ const child = Bun.spawn([...command, 'scripts/validate_docs.py'], {
 const code = await child.exited;
 if (code) process.exit(code);
 const structure = Bun.spawn([...command, 'scripts/validate_structure.py'], { stdin: 'inherit', stdout: 'inherit', stderr: 'inherit' });
-process.exit(await structure.exited);
+const structureCode = await structure.exited;
+if (structureCode) process.exit(structureCode);
+const executive = Bun.spawn([...command, 'scripts/validate_executive.py'], { stdin: 'inherit', stdout: 'inherit', stderr: 'inherit' });
+process.exit(await executive.exited);

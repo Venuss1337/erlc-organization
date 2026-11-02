@@ -1,8 +1,8 @@
 # Get help, report misconduct or appeal
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
+**R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 **Staff-facing navigation, not a new case charter.** You can raise a concern without reading the full investigation manual or obtaining your manager's permission. Use a published local contact; this repository contains no real intake address or available reviewer roster. Never submit personal evidence through a GitHub issue, commit or public channel.
 

@@ -1,12 +1,17 @@
 # Proposal status, references and review register
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Historical pre-reform record.** Target organization and current approval dependencies are in [R13 reform](v1-3-reform.md). Earlier office names and staffing figures below describe the previous design, not active target positions.
 
 Review material only. This register does not ratify the source or resolve open policy choices. [Council adoption rules](../governance/governance-council.md) govern policy changes; Owner-reserved decisions require the specified ratification.
 
-## Current approval and implementation register
+<a id="current-approval-and-implementation-register"></a>
+## Current R14 approval and implementation register
+
+Use the [R14 issue register](v1-4-ratification.md#review-register) for live R14 status, [approval units](v1-4-ratification.md#approval-units) for exact authorities and [current authority](../governance/current-authority.md) before cutover. No ratification, appointments, reserves, elections or security tests are evidenced. R13 is superseded as a target, not recorded as adopted. The older tables below are historical traceability; unresolved dependencies remain carried into R14 unless explicitly superseded.
+
+## Historical v1.1 approval and implementation register
 
 Documentation release is authorized by the user's implementation commission. **No Council ratification, officer appointment, reviewer availability or technical test is evidenced.** Status categories below distinguish existing rules, released proposals, operational tasks and verified artifacts. See the [ratification package](v1-1-ratification.md) for exact text, authorities and bootstrap limits; see the [tabletop record](../readiness-v1-1.md) for simulation assumptions and validation evidence.
 

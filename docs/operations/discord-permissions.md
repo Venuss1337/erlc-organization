@@ -1,8 +1,8 @@
 # Discord implementation and permissions
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
+**R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 Canonical home for Discord role design, least-privilege implementation and platform limits. [Personnel grades](../personnel/ranks-and-appointments.md), [Council rights](../governance/governance-council.md) and [case access safeguards](../oversight/independent-oversight.md) define the organizational requirements this implementation must respect.
 
@@ -14,7 +14,7 @@ Canonical home for Discord role design, least-privilege implementation and platf
 | **Organizational grade (01–08)** | `Moderator [02]`, `Administrator [04]`, `Division Head [06]`, `Executive [07]` | Visible standing and appointment-eligibility metadata; **not a universal permission bundle** |
 | Functional assignment | `Discord Moderation`, `Game Enforcement`, `Session Squad Bravo` | Membership and scoped workspace access |
 | Qualified capabilities | `Approved Session Host`, `Ban Reviewer`, `Evidence Handler` | Capability record; technical access only if necessary |
-| Organizational appointment | `Game Enforcement Lead`, `Division Head of Live Operations`, `COO`, `Oversight Commissioner` | Actual named remit/reporting authority; no universal technical admin |
+| Organizational appointment | `Game Enforcement Lead`, `Head of Game & Roleplay Operations`, `COO`, `Oversight Commissioner` | Actual named remit/reporting authority; no universal technical admin |
 | Governance affiliation (optional) | `Governance Council`, `Staff Representative` | Discoverability and a restricted policy workspace, **not** automatic administrator or enforcement power |
 | Privileged technical roles | Restricted bot operator / server configuration maintainer | Actual Discord settings permission, closely controlled |
 
@@ -74,3 +74,7 @@ Custodians review due deletions monthly, delete authorized copies/exports and ac
 ---
 
 [Documentation index](../../README.md) · [Status and review register](../proposals/review-register.md)
+
+## Office and succession access
+
+Office membership and an activated acting mandate are not permissions. Record specific preapproved recovery assets and scope for each consenting custodian; test independently before relying on coverage. Technical Lead absence follows the [continuity appointment route](continuity.md#who-may-designate-coverage). A separate qualified unconflicted restoration approver must have valid technical delegation; if unavailable, remain offline. Integration can select a safe service window but cannot certify technical safety, approve its own privileges or obtain private case data. Actual ownership/application access cannot be manufactured while Owner is absent.

@@ -1,8 +1,8 @@
 # Staff assignments and reporting
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
+**R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 Canonical home for home-team reporting, cross-team allocation, capacity and assignment conflicts. Use [the rank framework](ranks-and-appointments.md) for grades and [OIO safeguards](../oversight/independent-oversight.md) for independent case conflicts.
 
@@ -48,7 +48,7 @@ Every organizational staff member has:
 - If both need Avery at the same time, **the previously approved roster / primary allocation wins unless a documented emergency override applies**. A new request is negotiated; neither lead can simply seize the person's time.
 - Bravo provides shift feedback to Avery's Home People Manager, who combines that input into the overall review.
 - The Workforce Coordinator records the overlap, recommends options and confirms the resulting schedule.
-- If the leads cannot resolve it, the directors decide; the executive portfolio or COO resolves inter-division deadlocks.
+- If the leads cannot resolve it, the directors decide; the named domain owner or unconflicted mandated Integration Director resolves covered inter-division deadlocks; COO handles reserved exceptions.
 
 ## An allocation agreement
 
@@ -73,7 +73,7 @@ secondary_assignments:
   - team: incident-response-rotation
     title: qualified-responder
     activation_only: true
-conflict_route: managers > directors > executive-directors > COO
+conflict_route: task leads > owning Head > named domain owner / mandated Integration > COO only outside delegated scope
 ```
 
 Time shares are **planning estimates of voluntary availability**, not work quotas, contracts or mandatory weekly hours. People can change their availability. Record expected duty windows, not invented obligations.
@@ -123,7 +123,7 @@ A secondary assignment **must not require resignation from the primary team** un
 
 ## Coverage, leave and continuity dependencies
 
-Use the [capacity/service checks](../operations/operating-practices.md#capacity-and-service-levels) to set real service availability and the [continuity procedure](../operations/continuity.md) for temporary mandates. They do not expand compulsory volunteer hours or create a second permanent manager. An emergency allocation uses [incident command](../operations/incident-response.md) within a qualified, logged scope; a new secondary request still needs consent and the existing home/host approval. If an ED office is inactive, unresolved conflicts go directly to COO. Managers first resolve workload clashes rather than sending every routine change through every layer.
+Use the [capacity/service checks](../operations/operating-practices.md#capacity-and-service-levels) to set real service availability and the [continuity procedure](../operations/continuity.md) for temporary mandates. They do not expand compulsory volunteer hours or create a second permanent manager. An emergency allocation uses [incident command](../operations/incident-response.md) within a qualified, logged scope; a new secondary request still needs consent and the existing home/host approval. If Integration is inactive, use the named valid domain owner or mandate alternate; unresolved reserved questions go to COO/valid acting COO or defer. Managers first resolve workload clashes rather than sending every routine change through every layer.
 
 ## Example A — Cross-team staff member
 
@@ -170,4 +170,4 @@ last_review: null
 
 ## Target transfer rule
 
-Within one merged division, the Head approves a home transfer after both managers are consulted. Across divisions or Technology Office, releasing and receiving owners both approve. This R13 change is inactive before ratified cutover; old two-Director approval remains in force until then.
+Within one merged division, the Head approves a home transfer after both managers are consulted. Across divisions or Technology Office, releasing and receiving owners both approve. This R14 change is inactive before ratified cutover; old two-Director approval remains in force until then.

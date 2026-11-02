@@ -1,8 +1,8 @@
 # Case handling, adjudication and appeals
 
-**Project version:** 1.3.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.4.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-**R13 target adaptation pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
+**R14 target specification — Proposed, pending ratification.** Existing case separation, confidentiality, volunteer consent and technical approval controls remain; no cutover is evidenced.
 
 Only reporting a concern or requesting an appeal? Use the short [reporting and appeal guide](get-help.md). Authorized case officers still use this full procedure and its adoption gates.
 
@@ -35,7 +35,7 @@ Anyone may submit a complaint privately to OIO intake or a protected functional 
 
 Intake rejection or closure without adjudication may be challenged to an uninvolved Appeals reviewer within 14 days of notice. They can order intake reconsideration, referral or reasons; cannot conjure missing evidence or technical powers.
 
-Target initial authority is explicitly [assigned in the decision matrix](../operations/authority-and-escalation.md): COO for Heads/Technical Lead, unconflicted Head for staff/People Leads, COO for Office staff, Owner for COO, and protected external routes for OIO. Original investigator and initial actor cannot hear final appeal.
+R14-J proposes a qualified initial-adjudicator pool below. Until its actual activation, existing valid adjudication mandates control; do not infer powers from an Office title. Investigation, adjudication, appeal and assurance stay separate.
 
 ## Disciplinary authority matrix
 
@@ -43,8 +43,8 @@ This matrix assigns **initial adjudication**, not investigation or final appeal.
 
 | Subject / office implicated | Initial adjudicator and source of appointment | Conflict fallback and execution limits |
 |---|---|---|
-| Ordinary staff; Team Lead; working People Lead | Home Division Head, or an unconflicted director specifically delegated by that Division Head in the case record | Commissioner assigns an unconflicted director from another division if original director is implicated, a witness or dependent on the subject. Delegation cannot include the investigator. |
-| Chief of Staff | COO | If COO implicated, Owner appoints external adjudicator. |
+| Ordinary division staff; Team Lead; working People Lead (Office appointments/Technical Office use senior-pool row) | Home Division Head, or an unconflicted Head specifically delegated by that Division Head in the case record | Commissioner assigns an unconflicted Head from another division if original Head is implicated, a witness or dependent on the subject. Delegation cannot include the investigator. |
+| Division Heads; Technical Lead; Office appointments, including CoS and Integration Director; Technical Office staff | Unconflicted senior pool adjudicator selected case-by-case by Commissioner under R14-J | No automatic COO/Integration adjudication. Actual appointor executes reserved appointment changes; external appeal for senior office cases; no self-review. |
 | Elected Staff Representative, where seat removal is sought | Independent external adjudicator under GOV-01/GOV-02 | Ordinary work coaching does not remove the elected mandate. A contested seat removal requires the separate charter safeguards; no unilateral home-manager or COO dismissal. |
 | COO | Owner | External investigator and external appeal reviewer are mandatory; Owner cannot hear appeal of own decision. Only actual Owner executes removal of COO. |
 | OIO personnel / protected functional lead | Unconflicted external adjudicator appointed by Owner | Unconflicted Commissioner administers assignment, not a subordinate of the subject; investigator and appeal reviewer external to implicated function. |
@@ -52,6 +52,16 @@ This matrix assigns **initial adjudication**, not investigation or final appeal.
 | Owner/CEO, or Owner jointly implicated | Independent advisory panel under GOV-02 | No compulsory sanction against Owner. Other subjects receive separately assigned unconflicted adjudication where possible. Publish only a privacy-safe process/outcome summary; explicitly label any refused remedy or blocked review. |
 
 If any listed authority is conflicted or unavailable, use the alternate procedure; do not fall back to the accused's subordinate. A conflict affecting the Owner as selector uses the unconflicted GOV-02 panel selectors, not Owner self-clearance, even if Owner is not the principal accused. Owner-reserved appointment changes remain with the actual Owner even where external review reaches binding findings for ordinary delegated matters. A refusal to execute is logged as unresolved, never as completion. Until GOV-02, external findings/remedies remain advisory unless valid existing delegation specifically authorizes them.
+
+## Qualified initial adjudicator pool
+
+**Proposed R14-J + GOV-02; no actual pool is evidenced.** Actual Owner approves senior-adjudicator eligibility after Commissioner and an unconflicted protected lead assess evidence evaluation, fair notice/response, proportionate outcomes, confidentiality, reasoned writing, relevant domain literacy and a scenario exercise. Grade 05 or equivalent demonstrated senior judgment is eligibility, not automatic power. Qualified unconflicted Heads, Office specialists or screened outsiders may qualify; an operational appointment alone is insufficient. Ordinary staff normally use the unconflicted Head row; serious senior/Office matters use the pool.
+
+Eligibility lasts at most six months, rechecked on role change. The Commissioner selects an available unconflicted officer for each case and records an explicit case delegation, scope, expiry and independent appeal route. The subject, investigator, prior decision adviser or dependent subordinate cannot select/control their own adjudicator. Screen reporting dependence, friendship, prior operational arbitration and personal stake; shared organizational membership alone neither proves nor cures conflict. Parties may raise objections through the existing alternate procedure. A Commissioner conflict uses the existing special external appointor, not COO case control.
+
+Pool membership grants no standing disciplinary command, personnel supervision or access to unrelated files. Case access lasts at most 30 days unless reasonedly renewed under the case policy. Removal from eligibility requires recorded capability/absence/confidentiality reasons and unconflicted advice; disagreement with findings is not grounds. Case replacement preserves records and party notice. Appointors execute reserved appointment remedies; if they refuse, log unresolved execution rather than call it completed. Pool delegation never transfers Owner powers.
+
+COO cases still require Owner initial decision with separate external investigation/appeal. Commissioner/OIO and Owner cases retain the protected special routes below; this pool cannot bypass them. No willing qualified unconflicted adjudicator or feasible independent appeal means merits adjudication is blocked: preserve/referral, review interim restrictions and reduce optional services; do not assign the investigator or original actor. External availability remains an implementation dependency, not a fictional reserve.
 
 ## Evidence, fairness and outcomes
 
