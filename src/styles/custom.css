@@ -1,0 +1,35 @@
+:root {
+  --sl-color-accent-low: #102f29;
+  --sl-color-accent: #51b39a;
+  --sl-color-accent-high: #b5e3d6;
+  --sl-content-width: 52rem;
+  --sl-text-5xl: 2.45rem;
+}
+:root[data-theme='light'] {
+  --sl-color-accent-low: #e0eee8;
+  --sl-color-accent: #226953;
+  --sl-color-accent-high: #184c3d;
+  --sl-color-bg: #fcfcfa;
+}
+h1, h2, h3 { letter-spacing: -0.025em; }
+h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500; }
+.sl-markdown-content { line-height: 1.75; }
+.sl-markdown-content table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 0.875rem;
+}
+.sl-markdown-content th { white-space: nowrap; }
+.sl-markdown-content pre { max-width: 100%; }
+.license-notice {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--sl-color-hairline-light);
+  color: var(--sl-color-gray-2);
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+@media (max-width: 50rem) {
+  :root { --sl-text-5xl: 2rem; }
+}

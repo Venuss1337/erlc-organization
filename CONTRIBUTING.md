@@ -7,6 +7,7 @@
 - Preserve the distinction between rank, job, appointment, qualification, authority and permissions. Mark planning examples, suggestions, service targets and proposals as such.
 - Keep tables and fenced examples readable. Use UTF-8 and LF line endings. Record substantive document changes in [CHANGELOG.md](CHANGELOG.md); editorial refactors do not automatically change the organizational version.
 - Keep completed personnel, applicant, well-being, investigation and appeal records in authorized restricted systems. Repository templates are blank examples, not permission to publish sensitive records.
+- Website publication is opt-in via `site.config.mjs`; keep approved public sources in `docs/` and never edit generated `src/content/docs/`. Proposals and maintenance records remain repository-only. Review the publication list for confidential content; run `bun run check` and `bun run build` when changing site behavior or published content. Use Bun and commit its lockfile. See the [website instructions](README.md#documentation-website).
 
 ## Proposing and approving changes
 

@@ -10,3 +10,9 @@ Desktop.ini
 # Python validation cache
 __pycache__/
 *.py[cod]
+
+# Site dependencies, build products and generated Markdown (canonical source: docs/)
+node_modules/
+dist/
+.astro/
+src/content/docs/

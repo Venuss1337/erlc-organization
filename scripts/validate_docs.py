@@ -62,8 +62,12 @@ def visible_text(text):
 
 def main():
     errors = []
-    pages = {p: p.read_text(encoding='utf-8') for p in ROOT.rglob('*.md')
-             if '.git' not in p.relative_to(ROOT).parts}
+    # Inspect maintained sources, not dependencies, generated content or static output.
+    markdown_paths = subprocess.check_output(
+        ['git', 'ls-files', '--cached', '--others', '--exclude-standard', '-z', '--', '*.md'],
+        cwd=ROOT).decode('utf-8').split('\0')
+    pages = {ROOT / name: (ROOT / name).read_text(encoding='utf-8')
+             for name in set(markdown_paths) if name and (ROOT / name).is_file()}
     anchors = {}
     for path, body in pages.items():
         ids, seen, fenced, table_width = set(), {}, False, None

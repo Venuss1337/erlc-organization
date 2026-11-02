@@ -54,6 +54,39 @@ This is the target structure, activated according to workload. The Council is a 
 
 ## Maintaining this repository
 
+### Documentation website
+
+The Astro Starlight portal is configured for **[ER:LC Organization on GitHub Pages](https://venuss1337.github.io/erlc-organization/)**. It becomes available after you enable Pages and push this implementation; this change does not publish the site itself.
+
+The [handbook landing page](docs/index.md) and the policy files linked above remain the canonical Markdown sources in `docs/`. The explicit publication list in [site.config.mjs](site.config.mjs) includes the 15 policy pages and the landing page. `scripts/site.mjs` automatically prepares ignored, read-only copies in `src/content/docs/` for Starlight, deriving titles and translating repository links into base-aware website links. Never edit those generated files. `LICENSE` is also rendered without changing its text. Proposals, the review register, migration records and source-map data are not emitted as website pages or indexed by search; links to them lead to the repository. Blank restricted-record templates are examples only, not completed confidential records.
+
+Use **Bun 1.3.11** (the pinned package manager) for installation and all site commands:
+
+```sh
+bun install
+bun run dev
+```
+
+Open `http://localhost:4321/erlc-organization/`. The development command watches canonical `docs/` files and refreshes the generated content. Restart it after changing the publication list or site configuration. To check, build and preview the production site:
+
+```sh
+bun run check
+bun run build
+bun run preview
+```
+
+`bun run build` generates static output in ignored `dist/`, builds Starlight's full-text search, and verifies routes, assets, fragments, sidebar groups and the repository base path. Search should be tested in the production preview. `bun run verify` repeats those output checks. Commit `bun.lock`; use `bun install --frozen-lockfile` for reproducible installation. Astro and Starlight dependency versions are separate from project release **1.0.0**.
+
+### GitHub Pages deployment
+
+[deploy.yml](.github/workflows/deploy.yml) follows the [official Astro Pages workflow](https://docs.astro.build/en/guides/deploy/github/), using the Astro build/upload action and GitHub Pages deployment action. Pushes to `main` and manual **Actions → Deploy documentation to GitHub Pages → Run workflow** runs build with Bun and the committed lockfile. Only the deploy job receives Pages/OIDC write permissions. Nothing deploys from a local build.
+
+Before the first deployment, set **Settings → Pages → Build and deployment → Source → GitHub Actions** in `Venuss1337/erlc-organization`. Allow the workflow's actions under **Settings → Actions → General** if repository or organization restrictions require it. If the `github-pages` environment has deployment protection, permit `main` or approve its deployment. Ensure your GitHub plan and repository visibility support Pages; no visibility change is made here. No deployment secret or personal access token is required by this workflow.
+
+The configuration uses `site: https://venuss1337.github.io` and `base: /erlc-organization`. Keep both aligned with the repository if it moves. Do not commit `dist/`, `.astro/`, `node_modules/`, or generated Markdown, and do not add confidential data to the public publication list.
+
+### Repository validation
+
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before editing policies. [AGENTS.md](AGENTS.md) supplies agent-specific rules. [CHANGELOG.md](CHANGELOG.md) separates editorial repository changes from organizational design history.
 
 Run the dependency-free check from the repository root with Python 3.9 or newer:

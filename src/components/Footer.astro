@@ -1,0 +1,10 @@
+---
+import DefaultFooter from '@astrojs/starlight/components/Footer.astro';
+import { base } from '../../site.config.mjs';
+---
+
+<DefaultFooter><slot /></DefaultFooter>
+<p class="license-notice" data-pagefind-ignore>
+  © 2026 Wiktor Fila · <a href={`${base}/license/`}>Look-But-Don't-Touch License (LBDT)</a>.
+  Proprietary. A satirical, nonstandard license; not a legally vetted instrument.
+</p>
