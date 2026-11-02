@@ -1,7 +1,7 @@
 THE "LOOK-BUT-DON'T-TOUCH" LICENSE
 Version 1.0
 
-Copyright (c) 2026 [Copyright Holder]. All rights reserved, including those
+Copyright (c) 2026 Wiktor Fila. All rights reserved, including those
 which a reasonable observer might have assumed were too trivial to reserve.
 
 PREAMBLE
@@ -98,8 +98,8 @@ The upstream copyright and MIT permission notice below apply only to the
 third-party license-template text reproduced above. They do not license this
 repository's original organizational documentation or other protected
 materials under MIT; those materials are designated proprietary under LBDT.
-The upstream template's copyright holder is distinct from the unresolved
-[Copyright Holder] placeholder for this repository.
+The upstream template's copyright holder is distinct from Wiktor Fila,
+the copyright holder of this repository's original protected materials.
 
 MIT License
 

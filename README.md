@@ -66,7 +66,7 @@ The [migration and validation report](docs/migration-report.md) explains preserv
 
 ## License & Copyright
 
-**Look-But-Don't-Touch License (LBDT).** Copyright © 2026 [Copyright Holder].
+**Look-But-Don't-Touch License (LBDT).** Copyright © 2026 Wiktor Fila.
 
 This repository is proprietary and is not open-source. LBDT grants no general public permissions to copy, modify, redistribute, or reuse its protected contents, subject to applicable law and third-party rights. Its most generously licensed feature is closing the tab.
 
