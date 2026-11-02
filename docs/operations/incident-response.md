@@ -1,6 +1,6 @@
 # Incident response and emergency command
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Procedure specification; GOV-04 adoption and actual qualification/access checks are not verified.** Existing qualified responders retain their existing safety authority; this page does not grant unapproved powers. See the [activation register](../proposals/review-register.md). Emergency command coordinates a bounded response, not discipline or independent investigations.
 

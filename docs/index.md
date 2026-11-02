@@ -1,40 +1,55 @@
 # Organization handbook
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
-An organizational operating system for an independently operated ER:LC Discord/Roblox community. This handbook explains how the organization is governed, how staff work together, and where decisions and accountability belong.
+ER:LC Organization supports an independently operated Roblox Emergency Response: Liberty County community and its Discord. Staff deliver safe roleplay sessions, moderation, member support, training and dependable systems.
 
-The aim is routine work that can continue without the Owner's intervention, supported by defined mandates, clear reporting and independent oversight.
+You have **one permanent People Manager**. Your assigned task lead directs today's work within its scope. Rank, job, qualifications and technical access are different; the reporting chart is not an approval queue.
 
 ## Start here
 
-- [Understand the organization](governance/structure.md): executive leadership, reporting relationships and the organizational model.
-- [Find a decision owner](operations/authority-and-escalation.md): delegated authority, escalation and accountability.
-- [Understand ranks and appointments](personnel/ranks-and-appointments.md): eight grades, eligibility and progression.
-- [Route a complaint or appeal](oversight/independent-oversight.md): protected functions and independent case safeguards.
+- **New or changing roles?** [Find your role and start work](start-here/staff-guide.md).
+- **Doing an ordinary task?** [Everyday staff tasks](operations/everyday-work.md).
+- **Need help or independent review?** [Get help, report misconduct or appeal](oversight/get-help.md).
 
-## Explore the handbook
+## Go straight to your task
 
-| Area | What you will find |
+- [Begin an assigned duty](operations/everyday-work.md#begin-an-assigned-duty).
+- [Issue a routine moderation action](operations/everyday-work.md#issue-a-routine-moderation-action).
+- [Host a scheduled session](operations/everyday-work.md#host-a-scheduled-session).
+- [Request leave or reduced availability](operations/everyday-work.md#request-leave-or-reduced-availability).
+- [Report staff misconduct](oversight/get-help.md#report-staff-misconduct).
+- [Request an appeal](oversight/get-help.md#request-an-appeal).
+
+The guides explain the next step and link the controlling rule. Your actual team contacts, named supervisor, qualification records and local playbooks must still be supplied; this public handbook cannot verify them.
+
+<a id="explore-the-handbook"></a>
+## Organizational functions
+
+| Function | Work it owns |
 |---|---|
-| [Governance](governance/governance-council.md) | Council membership, policy decisions, voting and reserved powers |
-| [Personnel & Ranks](personnel/assignments.md) | Home teams, cross-team assignments, workload and [recruitment](personnel/recruitment.md) |
-| Directorates | [Trust & Safety](directorates/trust-and-safety.md), [Live Operations](directorates/live-operations.md), [Roleplay Programs](directorates/roleplay-programs.md), [Community Experience](directorates/community-experience.md), [People & Culture](directorates/people-and-culture.md), and [Technology & Systems](directorates/technology-and-systems.md) |
-| [Independent Oversight](oversight/independent-oversight.md) | Internal Affairs, Appeals & Member Advocacy, and Standards & Assurance |
-| [Operations](operations/operating-practices.md) | Operating cadence, staffing, implementation and [Discord permissions](operations/discord-permissions.md) |
+| [Trust & Safety](directorates/trust-and-safety.md) | Qualified game/Discord enforcement and safety response |
+| [Live Operations](directorates/live-operations.md) | Session preparation, hosting, command and coverage |
+| [Roleplay Programs](directorates/roleplay-programs.md) | RP departments, program standards and training; RP players are not automatically organizational staff |
+| [Community Experience](directorates/community-experience.md) | Member support, events, communications and player feedback |
+| [People & Culture](directorates/people-and-culture.md) | Recruitment, development, records, assignments and voluntary staff support |
+| [Technology & Systems](directorates/technology-and-systems.md) | Authorized technical work, reliability and access execution |
 
-## Reading this release
+The [organizational structure](governance/structure.md) explains the Owner, COO, conditional executive portfolios and management responsibilities. [Roles and ranks](personnel/ranks-and-appointments.md) explain eligibility. The [Council](governance/governance-council.md) makes collective policy decisions; it does not manage ordinary shifts or individual cases. [Independent Oversight](oversight/independent-oversight.md) separates investigation, appeal and systemic assurance from operating command.
 
-Version 1.1.0 — Operational Readiness & Governance Improvements — releases an updated documentation specification. v1.0.0 remains the first official release. New powers and governance changes require the recorded adoption gates; no appointments, independent reserve availability or live control tests are established by this release. Rank, functional job, appointment, qualification and technical access are separate; authority follows the assigned mandate. Staff retain one home team and one permanent people manager, including when they hold secondary assignments.
+<a id="reading-this-release"></a>
+## Documentation and approval status
 
-Open governance decisions remain recorded in the [repository review register](proposals/review-register.md). That review material and historical migration records are not published as active handbook policies. Examples and blank templates illustrate the documented processes; completed confidential records do not belong in this public handbook.
+**v1.2.0 — Operational Simplicity & Staff Experience** improves instructions and navigation without changing approval thresholds, ranks or protected case powers. v1.0.0 and v1.1.0 remain official historical releases.
 
-## Operational readiness procedures
+- **Existing framework:** canonical authority rules retained from the baseline; this repository does not verify every local adoption or delegation record.
+- **Staff guidance:** summaries and role profiles help you apply those rules; they do not grant powers or require new forms.
+- **Pending specification:** GOV-01–04 from v1.1.0 still need their recorded approvals and implementation checks. A documentation release or Git commit is not ratification.
+- **Verified implementation:** repository/link/build checks are evidence about documentation only. Actual officers, reviewers, private intake/storage, coverage and technical controls remain unverified.
 
-- [Handle a case fairly](oversight/case-handling.md): intake, investigation, separate adjudication, independent appeal and reserve reviewers.
-- [Respond to an incident](operations/incident-response.md): bounded command, specialist containment, transfer and stand-down.
-- [Cover an absence](operations/continuity.md): qualified acting mandates, access expiry and handover.
-- [Match services to volunteers](operations/operating-practices.md#capacity-and-service-levels): capability checks and safe reductions.
-- [Review management and development](personnel/management-and-development.md): coaching, fair selection and specialist recognition.
+The [approval register](proposals/review-register.md), [ratification package](proposals/v1-1-ratification.md) and [v1.2 walkthrough evidence](usability-v1-2.md) open repository records, not private website pages or approved policy. Repository-only does **not** mean confidential: GitHub visibility also controls those files. Completed complaints, personnel records, credentials and recovery details belong in authorized restricted systems, never this handbook or Git history.
 
-Read each page's activation notice. The [ratification package](proposals/v1-1-ratification.md) and [tabletop evidence](readiness-v1-1.md) remain repository references, not active policy or measured operational performance.
+<a id="operational-readiness-procedures"></a>
+## Full procedures for responsible officers
+
+Use these when the work or exception requires them: [decision ownership](operations/authority-and-escalation.md), [recruitment](personnel/recruitment.md), [assignments](personnel/assignments.md), [management review](personnel/management-and-development.md), [service capacity and reporting](operations/operating-practices.md), [incident command](operations/incident-response.md), [continuity](operations/continuity.md), [technical permissions/privacy](operations/discord-permissions.md), and [case handling](oversight/case-handling.md). Each specification retains its approval/qualification limits.

@@ -1,7 +1,7 @@
 <a id="staff-assignments-and-reporting"></a>
 # Staff assignments and reporting
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for home-team reporting, cross-team allocation, capacity and assignment conflicts. Use [the rank framework](ranks-and-appointments.md) for grades and [OIO safeguards](../oversight/independent-oversight.md) for independent case conflicts.
 

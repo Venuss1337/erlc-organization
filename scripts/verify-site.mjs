@@ -1,9 +1,16 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
-import { base, site, published, route, groups } from '../site.config.mjs';
+import { base, site, published, repositoryOnly, route, groups } from '../site.config.mjs';
 
 const dist = path.resolve('dist');
 const errors = [];
+const navigationSources = groups.flatMap(group => group.items.flatMap(item => item.source ? [item.source] : []));
+if (new Set(published).size !== published.length || new Set(navigationSources).size !== navigationSources.length)
+  errors.push('Duplicate publication or sidebar source');
+if (published.some(source => !navigationSources.includes(source)) || navigationSources.some(source => !published.includes(source)))
+  errors.push('Every published Markdown source must have exactly one sidebar entry');
+if (published.some(source => repositoryOnly.includes(source) || source.startsWith('docs/proposals/')))
+  errors.push('Repository-only/proposed material in publication allowlist');
 const workflow = Bun.YAML.parse(await readFile('.github/workflows/deploy.yml', 'utf8'));
 const pkg = JSON.parse(await readFile('package.json', 'utf8'));
 const release = JSON.parse(await readFile('docs/source-map.json', 'utf8'));
@@ -73,14 +80,21 @@ for (const [url, { links, html }] of pages) {
     for (const group of groups) if (!html.includes(group.label.replaceAll('&', '&amp;')) && !html.includes(group.label))
       errors.push(`${url}: missing sidebar group ${group.label}`);
     if (!html.includes('Look-But-Don') || !html.includes('Wiktor Fila')) errors.push(`${url}: missing license notice`);
+    for (const source of navigationSources) if (!links.includes(route(source)))
+      errors.push(`${url}: missing sidebar route ${route(source)}`);
   }
 }
 const searchFiles = (await files(path.join(dist, 'pagefind'))).map(file => path.basename(file));
 if (!searchFiles.includes('pagefind.js')) errors.push('Missing Pagefind search assets');
 // Sidebar hiding is not publication exclusion. These sources must have no output route.
-for (const excluded of ['proposals/review-register', 'proposals/v1-1-ratification', 'readiness-v1-1', 'migration-report']) {
-  if ([...pages.keys()].some(url => url.includes(`/${excluded}/`))) errors.push(`Repository-only material published: ${excluded}`);
+for (const excluded of repositoryOnly) {
+  if (pages.has(route(excluded))) errors.push(`Repository-only material published: ${excluded}`);
 }
+const staged = (await files(path.resolve('src/content/docs'))).filter(file => /\.mdx?$/.test(file))
+  .map(file => path.relative(path.resolve('src/content/docs'), file).replaceAll('\\', '/'));
+const expectedStaged = [...published.map(source => source.replace(/^docs\//, '')), 'license.md', '404.md'];
+if (staged.length !== expectedStaged.length || staged.some(file => !expectedStaged.includes(file)))
+  errors.push('Unexpected staged Markdown could leak into routes or search');
 
 if (errors.length) throw new Error(errors.join('\n'));
 console.log(`PASS: ${pages.size} static routes; ${linkCount} local links/assets/fragments; Pages base ${base}/.`);

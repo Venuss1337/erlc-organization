@@ -1,6 +1,6 @@
 # Temporary authority and continuity
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Procedure specification; GOV-04 adoption not verified.** This page owns acting mandates and handover, not new permanent deputy positions. Reserved appointments require actual Owner authorization. Protected case work follows the [case alternate procedure](../oversight/case-handling.md#alternates-and-external-reviewers), not a general acting executive.
 

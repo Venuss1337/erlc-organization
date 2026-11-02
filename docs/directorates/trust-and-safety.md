@@ -1,7 +1,7 @@
 <a id="trust--safety-directorate"></a>
 # Trust & Safety Directorate
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
 
@@ -20,6 +20,17 @@ Canonical home for this directorate's mandate and internal structure. [Executive
 **Does not own:** Police department promotions, scheduling ordinary sessions, independent appeals, hiring decisions outside its own positions.
 
 **Separation:** Case Operations handles evidence and internal quality checks; allegations of staff misconduct go to **Internal Affairs within the Office of Independent Oversight**. Ordinary moderation appeals go to its **Appeals & Member Advocacy** function, not to the deciding moderator or Case Operations. Trust & Safety Case Operations audits its own evidence quality, not staff integrity or independent appeal outcomes.
+
+## Role profiles
+
+Reading aid for the mandate above; [rank mapping](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight), [assignment record](../personnel/assignments.md#the-permanent-reporting-rule) and [decision matrix](../operations/authority-and-escalation.md#delegated-decision-matrix) control. Home team and supervisor below describe the normal structure; confirm the actual named People Manager. Task direction stays assignment-scoped.
+
+| Position / rank relationship | Home and permanent supervisor | Main work and independent decisions | Qualification / limits / escalation and review |
+|---|---|---|---|
+| Discord Moderator / Game Enforcement Officer, 02; Senior roles, 03 | Discord Moderation or Game Enforcement; recorded home Lead | Enforce within qualified Discord/game delegation, preserve reasons and evidence; senior roles mentor within remit | Current domain enforcement qualification and actual permissions; permanent bans only if specifically delegated. Beyond scope: T&S Lead/authorized approver; independent challenge: OIO Appeals |
+| Enforcement Team Lead, 03 minimum; Game Enforcement Manager, 04 minimum | Relevant enforcement team/unit; Manager or Director as recorded | Lead accepted work, coaching and team delivery inside mandate | Current enforcement competency plus management suitability. No unilateral secondary-staff career decisions; Director for staffing/appointment exceptions; IA for abuse, Appeals for adverse decisions |
+| Case Coordinator / Reviewer / Evidence Custodian, 01 baseline; management mapping if applicable | Case Operations; recorded Lead/Director | Evidence custody, case routing and internal evidence-quality checks within assigned access | Case/evidence handling competence; no independent appeal or staff-integrity adjudication. Escalate case quality to T&S; abuse to IA; systemic defects to Assurance |
+| Duty Incident Commander / responder, qualification-gated | Existing home team/manager unchanged | Bounded activated command or specialist response, never general seniority command | Incident/domain qualifications and logged scope; no final staff discipline. [Incident command](../operations/incident-response.md) and OIO review boundaries apply |
 
 ## v1.1 procedure dependencies
 

@@ -1,6 +1,6 @@
 # Migration and validation report
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 This report records the migration from an unreleased development draft and the establishment of the first official release. The release changes version/status labels and release history, without changing organizational policies or resolving open decisions.
 

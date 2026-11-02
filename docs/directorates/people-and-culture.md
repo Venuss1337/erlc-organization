@@ -1,7 +1,7 @@
 <a id="people--culture-directorate"></a>
 # People & Culture Directorate
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
 
@@ -67,6 +67,17 @@ Sensitive personal details intentionally excluded:
 ```
 
 **Privacy:** Do not demand diagnoses, personal explanations or public disclosures. Record only what is necessary for the agreed action; do not reuse a support conversation as disciplinary evidence without a separate, justified process.
+
+## Role profiles
+
+Summaries of existing responsibility, not new grade or decision rules. Use [eligibility](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight), [recruitment](../personnel/recruitment.md) and each person's actual assignment for authority and named People Manager.
+
+| Position / rank relationship | Home and permanent supervisor | Main work and independent decisions | Qualification / limits / escalation and review |
+|---|---|---|---|
+| Recruiter / Recruiting Assessor, 01 baseline | Talent Acquisition; recorded Lead/Director | Publish approved vacancies, administer screening and communication | Recruiting/confidentiality competence; host hiring authority selects. Conflict or disputed process to unconflicted P&C contact/Director; independent appeal through OIO |
+| Trainer / Qualification Assessor, 01 baseline | Learning & Development; recorded Lead/Director | Assess the relevant functional standard; record supported qualification evidence | Domain assessment competence; training does not grant unrelated access or appointment. Missing standard to relevant Director/P&C; unfair process to Appeals |
+| Personnel / Workforce / Staff Experience Coordinator, 01 baseline unless substantive management | Personnel Operations or recorded Staff Experience assignment; home Manager/Director | Record allocations, flag overlaps, facilitate consenting support and handoffs | Records/privacy/allocation competence; no second-boss power or compulsory hours. Conflicts to home/host leads, Director if unresolved; coercion/retaliation to IA |
+| Recruitment / Training Lead / Personnel Manager, 04 when supervising staff | Relevant P&C function; P&C Director | Manage real function, support assessors and check process consistency | Relevant management assessment; cannot appoint every other directorate's specialist or determine independent case outcomes |
 
 ## v1.1 procedure dependencies
 

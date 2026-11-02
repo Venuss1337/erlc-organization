@@ -151,6 +151,26 @@ def main():
     for path, body in pages.items():
         if re.search(r'\bv3\.\d|\b3\.2\.\d|\*\*Source version:\*\*', body):
             errors.append(f'{path.relative_to(ROOT)}: obsolete project draft metadata')
+    # The usability release adds reading aids without changing v1.1 policy meaning.
+    usability = manifest.get('usability_baseline')
+    usability_blocks = 0
+    if usability:
+        for name in usability['paths']:
+            try:
+                before = subprocess.check_output(
+                    ['git', 'show', f"{usability['commit']}:{name}"],
+                    cwd=ROOT, stderr=subprocess.PIPE).decode('utf-8')
+            except subprocess.CalledProcessError:
+                errors.append(f'Usability baseline unavailable: {name}')
+                continue
+            def policy_blocks(body):
+                body = re.sub(r'^\*\*Project version:\*\*.*$', '', body, flags=re.M)
+                return Counter(digest(block) for block in atoms(body))
+            original = policy_blocks(before)
+            current = policy_blocks(pages.get(ROOT / name, ''))
+            if original - current:
+                errors.append(f'Changed/missing v1.1 policy block: {name}')
+            usability_blocks += sum(original.values())
     try:
         source = subprocess.check_output(
             ['git', 'show', f"{manifest['baseline_commit']}:{manifest['source_path']}"],
@@ -260,6 +280,8 @@ def main():
     print(f'PASS: all {len(lines)} baseline lines mapped in {len(manifest["segments"])} ranges.')
     print(f'PASS: v{version} current metadata; {len(releases)} official changelog releases preserved.')
     print(f'PASS: {len(manifest.get("policy_amendments", []))} exact authorized policy amendments checked and reversed for baseline comparison.')
+    if usability:
+        print(f'PASS: {usability_blocks} v1.1 policy/protected-record blocks retained across {len(usability["paths"])} sources (release metadata excluded).')
     print(f'PASS: {exact_count} source blocks retained (with recorded editorial edits); '
           f'{redirect_count} repeated summaries redirected; '
           f'{historical_count} development summaries retained in Git history.')

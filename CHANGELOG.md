@@ -5,6 +5,22 @@ the Keep a Changelog structure and Semantic Versioning (`MAJOR.MINOR.PATCH`).
 
 Earlier development drafts, experiments and organizational mockups were never official releases. They remain accessible through Git history.
 
+## [1.2.0] - 2026-11-02
+
+### Added
+
+- Three staff-facing guides: role-based quick starts, 16 everyday tasks, and reporting/appeal help, with links to controlling policies.
+- Compact role profiles alongside all directorate, executive and protected oversight mandates.
+- Analytical newcomer walkthroughs, 20/30/60-person simplicity tests and explicit before/after decision, approval, handoff and reading-path comparisons.
+
+### Changed
+
+- Task-based Starlight navigation, direct landing-page task links and collapsed reference groups; no duplicate policy sources or new dependencies.
+- Clarified the distinction between line reporting and approval, existing-record reuse, scheduled checks, optional feedback, emergency notices and protected case records.
+- Separated the publication allowlist from sidebar configuration and added checks for v1.1 policy preservation, source reachability and repository-only exclusions.
+
+These are editorial, navigational and instructional improvements under existing authority. No approval requirement, rank eligibility, case power, recurring review or volunteer safeguard is removed. GOV-01–04 remain pending; no operational adoption, user-research result or real-world speed/retention improvement is claimed. LICENSE and earlier release entries remain unchanged.
+
 ## [1.1.0] - 2026-11-02
 
 ### Added

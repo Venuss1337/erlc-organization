@@ -1,10 +1,10 @@
-# ER:LC Organization — v1.1.0
+# ER:LC Organization — v1.2.0
 
 An organizational operating system for an independently operated ER:LC Discord/Roblox community. This repository separates governance, personnel, delivery and independent oversight so each policy has a clear home and can evolve without conflicting definitions.
 
-**Project version:** 1.1.0  
+**Project version:** 1.2.0  
 **Release date:** 2026-11-02  
-**Status:** Official release — **Operational Readiness & Governance Improvements**. This releases a documentation specification, not evidence of operational adoption. New constitutional/OIO arrangements are **Proposed — Pending Required Approval**; organization-wide procedures also require the recorded approvals and implementation checks in the [review register](docs/proposals/review-register.md). v1.0.0 remains the first official release; earlier development drafts remain historical only.
+**Status:** Official release — **Operational Simplicity & Staff Experience**. This release adds task guidance, role profiles and simpler navigation without changing authority or evidencing operational adoption. New constitutional/OIO arrangements are **Proposed — Pending Required Approval**; organization-wide procedures also require the recorded approvals and implementation checks in the [review register](docs/proposals/review-register.md). v1.0.0 remains the first official release; earlier development drafts remain historical only.
 
 The model combines six operating directorates, two executive portfolios, a five-seat Governance Council and one independent oversight office with three protected functions. Staff have one home team and one permanent people manager, with approved secondary assignments. Organizational rank, job, appointment, qualification and technical access are distinct; actual authority follows the assigned mandate.
 
@@ -32,6 +32,14 @@ Policy flow (not line management): CEO ··· Governance Council ··· COO
 
 This is the target structure, activated according to workload. The Council is a collective policy body; independent oversight is outside COO/Council command. See the [full chart and reporting rules](docs/governance/structure.md#organization-chart-and-lines-of-accountability) for exact relationships and visualization safeguards.
 
+## Start with your work
+
+- [Find your role](docs/start-here/staff-guide.md): new staff, enforcement, sessions, specialists, managers, executives and oversight.
+- [Everyday staff tasks](docs/operations/everyday-work.md): 16 common tasks with owners, records and escalation.
+- [Get help, report misconduct or appeal](docs/oversight/get-help.md): safe routes without reading a full case manual.
+
+These guides summarize the canonical rules below. They are not another approval system; actual local assignments, qualifications, playbooks and contacts remain necessary.
+
 ## Documentation index
 
 | Domain | Canonical documents and policies |
@@ -50,7 +58,7 @@ This is the target structure, activated according to workload. The Council is a 
 - **Can someone hold multiple roles?** Use [staff assignments](docs/personnel/assignments.md) and [rank relationships](docs/personnel/ranks-and-appointments.md#three-rank-to-position-relationships).
 - **Where does a complaint or appeal go?** Use the [jurisdiction and referral matrix](docs/oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).
 - **Where are examples and forms?** The [worked-example index](docs/governance/structure.md#worked-examples) and [template index](docs/governance/structure.md#adoption-templates) link to all original examples and templates beside their owning processes.
-- **What is the current release?** v1.1.0 is the current released specification; v1.0.0 is the first official baseline. The [review register](docs/proposals/review-register.md) separately tracks unresolved governance and implementation decisions.
+- **What is the current release?** v1.2.0 is the current released documentation; v1.0.0 and v1.1.0 remain in the official history. The [review register](docs/proposals/review-register.md) separately tracks unresolved governance and implementation decisions.
 
 ## Maintaining this repository
 
@@ -58,7 +66,7 @@ This is the target structure, activated according to workload. The Council is a 
 
 The Astro Starlight portal is configured for **[ER:LC Organization on GitHub Pages](https://venuss1337.github.io/erlc-organization/)**. It becomes available after you enable Pages and push this implementation; this change does not publish the site itself.
 
-The [handbook landing page](docs/index.md) and the policy files linked above remain the canonical Markdown sources in `docs/`. The explicit publication list in [site.config.mjs](site.config.mjs) includes the 19 policy/procedure pages and the landing page. `scripts/site.mjs` automatically prepares ignored, read-only copies in `src/content/docs/` for Starlight, deriving titles and translating repository links into base-aware website links. Never edit those generated files. `LICENSE` is also rendered without changing its text. Proposals, the review register, readiness/tabletop records, migration records and source-map data are not emitted as website pages or indexed by search; links to them lead to the repository. Blank restricted-record templates are examples only, not completed confidential records.
+The [handbook landing page](docs/index.md) and the policy files linked above remain the canonical Markdown sources in `docs/`. The explicit publication list in [site.config.mjs](site.config.mjs) includes 23 sources: the existing policy/procedure pages, three staff guides and the landing page. `scripts/site.mjs` automatically prepares ignored, read-only copies in `src/content/docs/` for Starlight, deriving titles and translating repository links into base-aware website links. The sidebar groups work by user need rather than source folder. Most reference groups start collapsed; all published sources remain accessible through navigation and search. Never edit those generated files. `LICENSE` is also rendered without changing its text. Proposals, the review register, readiness/tabletop records, migration records and source-map data are not emitted as website pages or indexed by search; links to them lead to the repository. Repository-only is not private; confidential files and working recovery details must remain outside both Git and the public website. Blank restricted-record templates are examples only, not completed confidential records.
 
 Use **Bun 1.3.11** (the pinned package manager) for installation and all site commands:
 
@@ -75,7 +83,7 @@ bun run build
 bun run preview
 ```
 
-`bun run build` generates static output in ignored `dist/`, builds Starlight's full-text search, and verifies routes, assets, fragments, sidebar groups and the repository base path. Search should be tested in the production preview. `bun run verify` repeats those output checks. Commit `bun.lock`; use `bun install --frozen-lockfile` for reproducible installation. Astro and Starlight dependency versions are separate from project release **1.1.0**.
+`bun run build` generates static output in ignored `dist/`, builds Starlight's full-text search, and verifies routes, assets, fragments, sidebar groups and the repository base path. Search should be tested in the production preview. `bun run verify` repeats those output checks. Commit `bun.lock`; use `bun install --frozen-lockfile` for reproducible installation. Astro and Starlight dependency versions are separate from project release **1.2.0**.
 
 ### GitHub Pages deployment
 
@@ -95,7 +103,7 @@ Run the dependency-free check from the repository root with Python 3.9 or newer:
 python scripts/validate_docs.py
 ```
 
-The [migration and validation report](docs/migration-report.md) explains the original preservation checks. The [v1.1 readiness record](docs/readiness-v1-1.md) explains authorized amendments, approval gates, tabletop tests and current validation limits. The [machine-readable source map](docs/source-map.json) maps every original line to its destination. The untouched source is preserved in baseline commit `ea0f598` as the original draft file identified in the source map; it is historical evidence, not a second live policy document.
+The [migration and validation report](docs/migration-report.md) explains the original preservation checks. The [v1.1 readiness record](docs/readiness-v1-1.md) preserves the operational-readiness assessment. The [v1.2 usability record](docs/usability-v1-2.md) contains before/after workflow counts, persona walkthroughs, scale tests and preservation evidence. The [machine-readable source map](docs/source-map.json) maps every original line to its destination. The untouched source is preserved in baseline commit `ea0f598` as the original draft file identified in the source map; it is historical evidence, not a second live policy document.
 
 ## License & Copyright
 

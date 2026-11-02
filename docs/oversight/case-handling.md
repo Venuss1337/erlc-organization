@@ -1,6 +1,8 @@
 # Case handling, adjudication and appeals
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+Only reporting a concern or requesting an appeal? Use the short [reporting and appeal guide](get-help.md). Authorized case officers still use this full procedure and its adoption gates.
 
 **Released procedure specification — adoption not verified.** This is the canonical case procedure supporting the [OIO charter](independent-oversight.md). New sanction and remedy powers activate only after **GOV-02** in the [ratification package](../proposals/v1-1-ratification.md) is approved and named, qualified case officers and restricted storage are available. Until then use existing valid authority, preserve evidence, provide safety referrals, and record any blocked adjudication or appeal. Never apply a new penalty retrospectively or describe this documentation release as a Council vote.
 

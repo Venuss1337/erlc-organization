@@ -1,7 +1,7 @@
 <a id="community-experience-directorate"></a>
 # Community Experience Directorate
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
 
@@ -62,6 +62,17 @@ Last updated / next review:
 Consultation or poll summary (optional):
 Link to published change or rationale:
 ```
+
+## Role profiles
+
+Summaries only; [rank/eligibility mapping](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight), mandate above and actual assignment govern. Confirm the named home People Manager; none of these titles supplies enforcement or case access.
+
+| Position / rank relationship | Home and permanent supervisor | Main work and independent decisions | Qualification / limits / escalation and review |
+|---|---|---|---|
+| Support / Senior Support Officer / Onboarding Assistant, 01 baseline | Member Services; recorded Support Lead/Manager or Director | Answer within support instructions; route specialist questions once | Support and sensitive-ticket boundaries; no final ban appeals. Escalate unknown service issue to Lead, abuse/appeals directly to OIO |
+| Support Lead/Manager, 04 for substantive management; solo coordinator may remain 01 | Member Services; Community Experience Director | Coordinate accepted support work, coaching and coverage | Relevant team-management assessment; cannot silently change home-team assignments or decide independent appeals |
+| Events / Communications / Engagement Coordinator, 01 baseline unless real management | Community Engagement; recorded Lead/Director | Deliver approved events, factual communication and agreed work | Relevant function competence; safety/session conditions still apply. Scope/policy exceptions to Director; confidential complaints to OIO |
+| Player Feedback / Partnerships Coordinator, 01 baseline unless real management | Recorded Player Voice/Engagement or Partnerships assignment; Director/authorized home manager | Route suggestions to one owner, maintain non-sensitive tracker; manage partnership deliverables within mandate | Relevant communications/confidentiality competence; no policy adoption by poll or complaint disclosure. Director owns priorities; Council only for organization-wide policy |
 
 ## v1.1 procedure dependencies
 

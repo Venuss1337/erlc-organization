@@ -1,6 +1,6 @@
 # v1.1.0 ratification package
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Proposed — Pending Required Approval. No adoption record exists in this repository.** This is a released proposal, not effective constitutional policy. The implementation commission authorizes documentation engineering; it does not supply Council votes, appointments or Owner ratification. Current rules remain in the [Council charter](../governance/governance-council.md). This page is repository-only and excluded from website routes/search.
 

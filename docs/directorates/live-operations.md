@@ -1,7 +1,7 @@
 <a id="live-operations-directorate"></a>
 # Live Operations Directorate
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for this directorate's mandate and internal structure. [Executive reporting](../governance/structure.md), [grade and eligibility rules](../personnel/ranks-and-appointments.md), [staff assignments](../personnel/assignments.md) and [independent referrals](../oversight/independent-oversight.md) remain in their respective homes. Staffing bands are illustrative, not minimum headcounts.
 
@@ -28,6 +28,18 @@ Canonical home for this directorate's mandate and internal structure. [Executive
 ## Example F — Staffing a new squad
 
 Live Operations reports recurring uncovered evening sessions. It proposes Squad Charlie with one qualified Commander, one Controller and three Hosts. The Operations executive approves capacity; Talent Acquisition opens a **Session Host** vacancy. Existing staff may request secondary placements. Personnel records homes and reporting lines; the squad launches only after qualification and coverage are confirmed.
+
+## Role profiles
+
+Summaries of the mandate above; [rank/eligibility mapping](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight) and the actual assignment control. Confirm one named home People Manager; an assigned session commander is a task lead, not automatically that manager.
+
+| Position / rank relationship | Home and permanent supervisor | Main work and independent decisions | Qualification / limits / escalation and review |
+|---|---|---|---|
+| Session Host / Controller, 01 baseline | Session Operations squad; recorded home Lead/Manager | Prepare and conduct accepted assigned session tasks | Hosting/controller qualification, scope and access; Commander directs live work. T&S owns lasting enforcement; quality coaching through Session Quality; abuse/appeal through OIO |
+| Squad / Session Commander, 01 baseline | Session Operations; home Manager/Director | Start/end and coordinate the assigned session under standards | Session-command qualification; temporary removal only if separately qualified. No permanent global bans or general staff discipline. Operational gap to Manager/Director; major incident to qualified IC |
+| Session Operations Manager, 04 minimum | Session Operations; Live Operations Director | Coverage across actual squads, coaching leads and service delivery | Management assessment and session-domain understanding; no repeated executive permission for delegated rosters. Director for capacity/mandate exceptions; independent challenge through OIO |
+| Scheduler / Dispatch Officer, 01 baseline | Scheduling & Dispatch; recorded Coordinator/Director | Maintain agreed windows and communicate coverage within allocation | Dispatch competence; cannot compel availability or grant qualifications. Uncovered duty to service lead |
+| Session Quality Coordinator / Reviewer / Coach, 01 baseline unless real management | Session Quality & Readiness; recorded Director/manager | Readiness checks and operational coaching | Relevant review competence; not IA or organization-wide assurance. Suspected abuse to IA; systemic control issues to Assurance |
 
 ## v1.1 procedure dependencies
 

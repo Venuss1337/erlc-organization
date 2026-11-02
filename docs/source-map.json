@@ -585,7 +585,7 @@
       "reason": "Route every original template to its owning process; templates do not establish approval or permission."
     }
   ],
-  "project_version": "1.1.0",
+  "project_version": "1.2.0",
   "release_date": "2026-11-02",
   "release_status": "Official release",
   "baseline_role": "Unreleased development draft; historical source path and hashes are provenance, not official release identifiers.",
@@ -673,6 +673,33 @@
       "authorization": "User commission: v1.1.0 Operational Readiness & Governance Improvements; documentation specification only, formal adoption tracked in docs/proposals/v1-1-ratification.md"
     }
   ],
-  "release_name": "Operational Readiness & Governance Improvements",
-  "adoption_status": "Documentation specification released; formal governance adoption and operational controls not verified."
+  "release_name": "Operational Simplicity & Staff Experience",
+  "adoption_status": "Documentation specification released; formal governance adoption and operational controls not verified.",
+  "usability_baseline": {
+    "commit": "8e45c4773ae990e566bf8ce08bfe1884cbe8e327",
+    "paths": [
+      "docs/directorates/community-experience.md",
+      "docs/directorates/live-operations.md",
+      "docs/directorates/people-and-culture.md",
+      "docs/directorates/roleplay-programs.md",
+      "docs/directorates/technology-and-systems.md",
+      "docs/directorates/trust-and-safety.md",
+      "docs/governance/governance-council.md",
+      "docs/governance/structure.md",
+      "docs/operations/authority-and-escalation.md",
+      "docs/operations/continuity.md",
+      "docs/operations/discord-permissions.md",
+      "docs/operations/incident-response.md",
+      "docs/operations/operating-practices.md",
+      "docs/oversight/case-handling.md",
+      "docs/oversight/independent-oversight.md",
+      "docs/personnel/assignments.md",
+      "docs/personnel/management-and-development.md",
+      "docs/personnel/ranks-and-appointments.md",
+      "docs/personnel/recruitment.md",
+      "docs/proposals/v1-1-ratification.md",
+      "docs/readiness-v1-1.md"
+    ],
+    "rule": "All v1.1 canonical policy content blocks remain present; release metadata excluded. New guides are summaries, not authorized policy supersessions."
+  }
 }

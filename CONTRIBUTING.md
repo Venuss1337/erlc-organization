@@ -19,7 +19,7 @@ After the required decision is documented, record the outcome and minutes/ratifi
 
 ## Release conventions
 
-The current official project version is **1.1.0**, released **2026-11-02**, named **Operational Readiness & Governance Improvements**. v1.0.0 remains the first official release. Use `MAJOR.MINOR.PATCH` in metadata and changelog entries, `vMAJOR.MINOR.PATCH` in titles and Git tags, and **Official release** as the released-document status. README is the version entry point; align policy-page metadata and the source map with it. Keep the changelog in Keep a Changelog style with newest official releases first. Earlier development iterations are historical drafts, not release entries. New proposals remain **Proposed** until authorized; release labeling does not resolve open decisions. Preserve existing commits and tags, and never push or publish a release without authorization.
+The current official project version is **1.2.0**, released **2026-11-02**, named **Operational Simplicity & Staff Experience**. v1.0.0 remains the first official release. Use `MAJOR.MINOR.PATCH` in metadata and changelog entries, `vMAJOR.MINOR.PATCH` in titles and Git tags, and **Official release** as the released-document status. README is the version entry point; align policy-page metadata and the source map with it. Keep the changelog in Keep a Changelog style with newest official releases first. Earlier development iterations are historical drafts, not release entries. New proposals remain **Proposed** until authorized; release labeling does not resolve open decisions. Preserve existing commits and tags, and never push or publish a release without authorization.
 
 ## Before committing
 
@@ -28,3 +28,5 @@ Read the changed policy with its dependencies; check for altered powers, eligibi
 ## Specification versus adoption
 
 The [v1.1 ratification package](docs/proposals/v1-1-ratification.md) names each approval unit and dependency. The [register](docs/proposals/review-register.md) distinguishes proposed policy, implementation tasks and verified artifacts. New public procedures are specification pages with explicit adoption gates. Record actual consultation, votes/ratification, effective scope, staffing and tests before changing them to active policy. Never publish a proposal as an approved handbook rule or copy confidential case/appointment records into Git. Preserve the exact authorized amendment ledger when superseding baseline content; additions alone do not justify a preservation exception.
+
+For staff-facing changes, edit one of the three linked guides and relevant role profiles; check its summaries against the canonical authority, including pending adoption gates. Navigation/editorial changes do not alter approvals. Preserve the v1.1 policy-block baseline and report measured structural differences separately from hypothetical human outcomes.

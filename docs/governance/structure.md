@@ -1,7 +1,7 @@
 <a id="organizational-structure-and-operating-model"></a>
 # Organizational structure and operating model
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for the reporting hierarchy and Chief of Staff mandate. Rank eligibility belongs in [personnel](../personnel/ranks-and-appointments.md); collective policy approval belongs in [the Council charter](governance-council.md). The chart and leadership table summarize those linked policies.
 
@@ -105,6 +105,25 @@ OWNER / CEO  [08 — Owner / Chief Executive]
 **Lean operation:** Governance Council seats are **appointments held concurrently with existing work**, not five new full-time positions. Executive Director appointments activate when the COO genuinely needs an intermediate manager (for example, numerous active directors and frequent cross-directorate conflicts). Until then, each director may report directly to the COO. The chart shows the **target organization**, not mandatory bureaucracy at launch.
 
 ---
+
+## Leadership profiles
+
+Reading aid, not new appointments or delegations. **The reporting hierarchy is not a mandatory approval chain.** A decision already delegated to a qualified person stays there; a superior may address a real safety, scope or priority issue within their mandate, rather than add an automatic reapproval. The [decision matrix](../operations/authority-and-escalation.md#delegated-decision-matrix), [eligibility framework](../personnel/ranks-and-appointments.md#leadership-appointment-catalogue) and actual appointment record control.
+
+Each compact role profile states position/rank relationship, home/supervisor, responsibility/independent decisions, qualifications, limits, escalation and review. This is a **reading format**, not another personnel form: actual names, qualifications and scope remain in existing assignment/appointment records. Directorate profiles cover delivery roles; [OIO profiles](../oversight/independent-oversight.md#role-profiles) cover protected work.
+
+| Layer / rank | Home and permanent supervisor | Unique contribution and decisions | Qualification, limit, escalation and review |
+|---|---|---|---|
+| Owner / CEO, 08 exclusive | Actual ownership; no invented organizational superior | Ownership, strategic/constitutional reserved decisions and reserved appointments | Actual Owner; technical control does not make interference procedurally legitimate. Owner-related review remains limited/advisory; Council ratification rules still apply |
+| COO, 07 appointment-linked | Executive office; Owner | Operating tradeoffs across portfolios, management quality and policy execution | Executive selection; no OIO case command. Unresolved reserved matters to Owner; misconduct/appeal through OIO's special route |
+| Executive Director, 06 appointment-linked | Executive office; COO | Resolve substantive coordination inside one active three-directorate portfolio; manage Directors | Qualified portfolio selection; no automatic reapproval of their delegated routine work. Cross-portfolio deadlock to COO; inactive portfolio reports directly to COO |
+| Directorate Director, 06 appointment-linked | Own directorate; active ED, otherwise COO | Own functional outcomes, staffing decisions within approved scope, team mandates and delegation | Qualified appointment; other Directors' remit, constitutional change and independent cases remain outside scope. Relevant ED/COO for unresolved cross-directorate tradeoffs; independent challenge through OIO |
+| Unit Manager, 04 minimum; 05 for genuinely senior scope | Actual unit; Director/recorded superior | Coordinate several real teams/squads and coach Leads | Relevant management/domain assessment; no grade-based universal command. Director for capacity/mandate exceptions; misuse to IA |
+| Team Lead / Coordinator, mapping depends on function | Actual team; recorded Manager/Director | Lead scoped accepted work, coaching and handoff; coordinator may own deliverables without reports | Function-specific eligibility; no second permanent boss for hosted contributors. Unresolved team issue to next active manager; independent challenge remains available |
+| Chief of Staff, 05 minimum | Executive office; COO directly | Coordinate substantive commitments, prepare Council records and track existing action owners | Coordination competence; no director command, independent discipline, extra vote or approval veto. Scope/priority dispute to COO |
+| Council member, existing grade retained | Existing home and People Manager unchanged | Collective policy decision under valid charter, equal vote | Valid seat eligibility and conflicts; no line management or individual case decisions. Full/interim voting/adoption rules remain canonical in Council charter |
+
+At 15–20 staff, use combined delivery/coordinator responsibilities and direct COO reporting where already permitted; do not create middle managers for solo functions. At 30, add supervision or dispatch only where accepted work needs it. At 60, retain useful specialization and activate portfolios only for demonstrated work. These are workload examples, not required appointments or roster-based staffing guarantees. Consequential acting decisions still need the [continuity authority](../operations/continuity.md).
 
 ## Activation and direct reporting
 

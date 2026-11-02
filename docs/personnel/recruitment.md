@@ -1,7 +1,7 @@
 <a id="recruitment-and-onboarding"></a>
 # Recruitment and onboarding
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for recruitment, selection, onboarding and leadership confirmation. [Rank requirements](ranks-and-appointments.md), [secondary assignments](assignments.md) and [delegated decision owners](../operations/authority-and-escalation.md#delegated-decision-matrix) remain in their respective homes.
 

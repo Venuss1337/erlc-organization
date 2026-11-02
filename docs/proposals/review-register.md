@@ -1,7 +1,7 @@
 <a id="proposal-status-references-and-review-register"></a>
 # Proposal status, references and review register
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Review material only. This register does not ratify the source or resolve open policy choices. [Council adoption rules](../governance/governance-council.md) govern policy changes; Owner-reserved decisions require the specified ratification.
 
@@ -26,6 +26,17 @@ Documentation release is authorized by the user's implementation commission. **N
 | VER-01 | Repository artifacts can be checked independently of operations | Preservation ledger, Markdown links, Astro check, build and publication verification | Repository maintainer; not governance approval | Full Git baseline and installed Bun/Python | Verified repository artifacts — dated results in readiness report; no live-control claim |
 
 To change a status to adopted/implemented/verified, record the actual decision or test reference, date, responsible owner, effective scope and limitations. Blank forms and hypothetical names are not evidence. No unresolved issue is closed solely because text exists.
+
+## v1.2 editorial delivery and remaining usability dependencies
+
+The [staff guide](../start-here/staff-guide.md), [everyday tasks](../operations/everyday-work.md), [reporting help](../oversight/get-help.md) and role profiles are instructional summaries authorized by the v1.2 implementation commission. They change no constitutional or case authority. The [usability evidence](../usability-v1-2.md) records the baseline and limitations. **GOV-01–04 above remain pending with the same approvers; no new governance amendment is proposed by v1.2.**
+
+| ID | Gap / delivery | Resolution or owner | Authority / dependency | Status |
+|---|---|---|---|---|
+| UX-01 | Ordinary users had no task/role entry layer | Three guides, grouped role profiles and task sidebar; repository maintainer | Editorial instruction only; canonical policies control | Implemented documentation; validation recorded in usability evidence |
+| UX-02 | No real supervisor/contact/playbook records in this handbook | Relevant Director/P&C supplies actual assignment contacts and local functional instructions outside Git | Actual appointments, current qualifications and approved local playbooks; existing IMP-04 | Operational dependency — not verified |
+| UX-03 | No empirical newcomer evaluation | Invite consenting staff to test tasks and revise ambiguous language without collecting unnecessary personal data | Optional future user research, no new mandatory report | Recommended follow-up — not performed |
+| UX-04 | Public versus repository-only could be mistaken for confidential | Explicit publication classification and output exclusions; no private records in either location | Repository/site maintainer; real storage/access remains IMP-02 | Publication rules implemented; live private storage not verified |
 
 ## Baseline design references and open questions (historical evidence)
 

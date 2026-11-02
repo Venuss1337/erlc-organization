@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import { base, groups, repository, site } from './site.config.mjs';
+import { base, sidebar, repository, site } from './site.config.mjs';
 
 export default defineConfig({
   site,
@@ -9,12 +9,9 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [starlight({
     title: 'ER:LC Organization',
-    description: 'Governance, personnel and operating policies for the ER:LC Organization. Released specification v1.1.0; governance adoption tracked separately.',
+    description: 'Roles, everyday tasks, governance and independent review for the ER:LC Organization. Documentation v1.2.0; adoption tracked separately.',
     social: [{ icon: 'github', label: 'GitHub repository', href: repository }],
-    sidebar: [
-      { label: 'Overview', items: [{ label: 'Organization handbook', slug: '' }] },
-      ...groups.map(({ label, directory }) => ({ label, items: [{ autogenerate: { directory } }] })),
-    ],
+    sidebar,
     customCss: ['./src/styles/custom.css'],
     components: { Footer: './src/components/Footer.astro' },
     editLink: { baseUrl: `${repository}/edit/main/docs/` },

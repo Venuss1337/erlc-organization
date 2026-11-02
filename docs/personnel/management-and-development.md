@@ -1,6 +1,6 @@
 # Management review and professional development
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 **Procedure specification; GOV-03 adoption not verified.** No new adverse-action or appeal power takes effect merely through release. [Rank definitions](ranks-and-appointments.md) remain canonical; [case adjudication](../oversight/case-handling.md) owns misconduct and independent appeal. This procedure implements volunteer-first management without a parallel promotion ladder.
 

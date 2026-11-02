@@ -2,7 +2,7 @@ import { readFile, mkdir, writeFile, readdir, unlink } from 'node:fs/promises';
 import { watch } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { base, published, repository, route, groups } from '../site.config.mjs';
+import { base, published, repository, route } from '../site.config.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const generated = path.join(root, 'src/content/docs');
@@ -34,6 +34,8 @@ function render(source, markdown) {
   const body = lines.map((line, index) => {
     if (line.startsWith('```')) { fence = !fence; return line; }
     if (fence) return line;
+    // Release metadata is displayed once in the notice; canonical source stays intact.
+    if (/^\*\*Project version:\*\* .* · \*\*Release date:\*\* .* · \*\*Status:\*\* Official release\.$/.test(line)) return '';
     const anchor = line.match(/^<a id="([^"]+)"><\/a>$/)?.[1];
     const heading = lines[index + 1]?.match(/^#{2,6} (.+)$/)?.[1];
     // Astro supplies heading IDs. Preserve legacy aliases only where the title changed.
@@ -43,15 +45,13 @@ function render(source, markdown) {
     return line.replace(/\[([^\]\n]+)\]\(([^)\n]+)\)/g,
       (_, label, href) => `[${label}](${webLink(href, source)})`);
   }).join('\n');
-  const group = groups.find(g => source.startsWith(`docs/${g.directory}/`));
-  const order = group?.pages.indexOf(path.posix.basename(source, '.md')) ?? 0;
   const frontmatter = [
     '---', `title: ${JSON.stringify(title)}`,
     `editUrl: ${JSON.stringify(`${repository}/edit/main/${source}`)}`,
-    `sidebar: { order: ${order} }`, '---', '',
+    '---', '',
   ].join('\n');
   // Published procedures are specifications, not evidence of formal adoption.
-  const adoption = `\n> **Documentation specification v${release.project_version}.** New procedures require their stated approvals and implementation checks. See the [adoption register](${repository}/blob/main/docs/proposals/review-register.md); release does not verify operational adoption.\n\n`;
+  const adoption = `\n> **Documentation specification v${release.project_version}.** Guidance grants no new powers. [Approval status](${base}/#documentation-and-approval-status) remains separate from release.\n\n`;
   return frontmatter + adoption + body;
 }
 

@@ -1,7 +1,7 @@
 <a id="office-of-independent-oversight"></a>
 # Office of Independent Oversight
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for OIO structure, case jurisdiction, investigation independence, recusals and protected evidence access. [Operating reporting lines](../governance/structure.md) do not place this office under the COO or Council.
 
@@ -62,6 +62,19 @@ A single OIO intake route may accept confidential complaints, appeals and system
 - **Independent reporting:** The Office gives anonymized trend/quality reports to the Owner and non-case-specific advice to the Governance Council. It may raise a charter or interference concern directly with the Owner; the COO and Council cannot block intake, close a named case or edit findings.
 - **Office self-review:** Systemic reviews of OIO processes use an unconflicted assessor, independent of the work under audit. OIO cannot declare its own disputed decisions finally validated solely by internal agreement.
 - **Realistic limit:** As the Discord Owner keeps ultimate technical control, the Office's independence is **procedural and organizational**, not an absolute legal or technical guarantee. Owner-involved allegations may require an advisory outside panel and public procedural transparency to the extent permitted.
+
+## Role profiles
+
+Summaries of the charter above. [Rank mapping](../personnel/ranks-and-appointments.md#position-and-eligibility-matrix--all-six-directorates-and-oversight), actual home/appointment record and valid case mandate control; normal administrative supervision never authorizes interference in protected findings. New GOV-02 procedures remain pending.
+
+| Position / rank relationship | Home and permanent supervisor | Main responsibility and protected decisions | Qualification / limits / escalation and review |
+|---|---|---|---|
+| Oversight Commissioner, 07 appointment-linked | OIO; Owner | Office administration, resources, unconflicted routing and procedural safeguards | Qualified protected appointment; no blanket evidence access or power to dictate findings. Leadership conflicts use external route; Owner remedies remain technically limited |
+| IA Investigator / Lead, 01 baseline; normally 04 for substantive function/personnel leadership | IA; recorded home manager within OIO | Independent fact-finding within assigned case scope | Investigation/evidence/conflict competence; not initial sanction adjudicator or own appeal reviewer. Recusal/capacity to unconflicted appointor; leadership complaints use external route |
+| Appeals Reviewer / Lead, corresponding specialist/management mapping | Appeals; recorded home manager within OIO | Independent review and remedies within approved appeal mandate | Review/fair-process competence; exclude prior actors/investigators and conflicted collaborators. Original actor cannot veto; insufficient mandate/capacity is recorded, not invented |
+| Assurance Assessor / Lead, corresponding specialist/management mapping | Assurance; recorded home manager within OIO | Independent systems assessment and corrective recommendations | Assurance/domain competence; cannot audit own implementation or decide individual guilt. Operational owner implements; charter/policy change follows Council/Owner route |
+
+Ordinary staff should use [Get help, report misconduct or appeal](get-help.md). Authorized case officers use the full procedure below. The public handbook contains no actual complainant files, confidential access locations or working intake contacts.
 
 ## Executable procedure and activation boundary
 

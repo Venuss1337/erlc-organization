@@ -1,7 +1,7 @@
 <a id="operating-practices-staffing-and-implementation"></a>
 # Operating practices, staffing and implementation
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for operating cadence, staffing scale and implementation phases. Cadence entries schedule the [Staff Experience](../directorates/people-and-culture.md), [Player Voice](../directorates/community-experience.md) and [oversight](../oversight/independent-oversight.md) processes; those linked documents own their safeguards.
 
@@ -140,6 +140,21 @@ These are planning examples, not appointments or proven coverage. Counts include
 | 60 | Owner 1, Executive Office 4, T&S 15, Live Ops 15, RP 9, Community 6, P&C 4, Tech 3, OIO 3 | Adjusts the original illustration to include Owner. EDs/CoS only if workload criteria met. Full Council if appointments active. Three OIO people still cannot guarantee every conflicted case; use independent reserves and reduce intake commitments honestly. |
 
 The original 60-plus-Owner allocation above is retained as a distinct illustration; it is not a contradiction or mandatory quota. A Director may also deliver work, but cannot be counted as simultaneously covering incompatible duties.
+
+## Records, updates and meetings
+
+Reading guide to existing requirements and the pending GOV-03 shared-register specification below. It does not cancel scheduled reviews or ratify a new reporting policy. The cadence above assigns checks/responsibilities; it is not a requirement for a separate document from every named role.
+
+| Information type | Keep / communicate | Avoid |
+|---|---|---|
+| Required operational record | Existing roster, qualification, enforcement note, vacancy/assignment or decision record at its canonical location | Another copy just because a second manager is informed |
+| Exception update | Changed demand, uncovered duty, risk, blocked decision, owner and next action; link the existing item where shared-register use is adopted | Rewriting the same item for Lead, Director, ED and CoS |
+| Optional support/feedback | Consented check-in, pulse response, exit feedback or voluntary mentoring | Turning optional feedback into an activity obligation; collecting diagnoses |
+| Scheduled review | Use existing evidence for the applicable weekly/monthly/quarterly or appointment check; capture actual decision/action | A new presentation or synchronous meeting without a decision need |
+| Emergency notification | Contact relevant qualified responders/leadership promptly, with scoped safe facts | Waiting for a report cycle or publishing confidential evidence in the general log |
+| Protected case record | Keep required procedural/evidence records in authorized restricted storage with case-specific access | Combining private IA, appeal or wellbeing files into the public/operational register |
+
+P&C checks and Technology execution are not automatically extra substantive selection approvals. Council minutes must still record actual consultation, conflicts, quorum and votes; async deliberation is already allowed. Sensitive case notifications and response rights are not optional status reporting. Reuse a record/reference where it already provides the required information; retained control checks still happen. No new recurring report, meeting or certification is introduced by this guide.
 
 ## One action and exception register
 

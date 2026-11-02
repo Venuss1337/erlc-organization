@@ -1,7 +1,9 @@
 <a id="organizational-ranks-eligibility-and-appointments"></a>
 # Organizational ranks, eligibility and appointments
 
-**Project version:** 1.1.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+**Project version:** 1.2.0 · **Release date:** 2026-11-02 · **Status:** Official release.
+
+Finding your role? Start with the [staff guide](../start-here/staff-guide.md) and the grouped role profiles in your directorate. Grade describes standing/eligibility, not overall value, intelligence or unrestricted command. The definitions below remain canonical.
 
 Canonical home for grades, position eligibility, progression and reversion. [Decision approval owners](../operations/authority-and-escalation.md#delegated-decision-matrix) and [hiring confirmation](recruitment.md#hiring-workflow) are linked process dependencies. The position matrix is the authoritative grade mapping; the leadership catalogue is a compact reading aid.
 
