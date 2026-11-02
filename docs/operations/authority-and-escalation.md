@@ -1,7 +1,7 @@
 <a id="authority-decision-ownership-and-escalation"></a>
 # Authority, decision ownership and escalation
 
-**Source version:** 3.2.2 · **Source date:** 2 November 2026 · **Status:** Proposed; no approval inferred.
+**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for forms of authority, delegated decision owners, DACI and escalation. The decision matrix routes work: [Council voting](../governance/governance-council.md), [rank eligibility](../personnel/ranks-and-appointments.md), [assignment approvals](../personnel/assignments.md) and [case safeguards](../oversight/independent-oversight.md) are governed by the linked canonical rules.
 

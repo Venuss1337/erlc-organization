@@ -1,13 +1,10 @@
 <a id="organizational-structure-and-operating-model"></a>
 # Organizational structure and operating model
 
-**Source version:** 3.2.2 · **Source date:** 2 November 2026 · **Status:** Proposed; no approval inferred.
+**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for the reporting hierarchy and Chief of Staff mandate. Rank eligibility belongs in [personnel](../personnel/ranks-and-appointments.md); collective policy approval belongs in [the Council charter](governance-council.md). The chart and leadership table summarize those linked policies.
 
-**Version:** 3.2.2 — full edition, integrated organizational ranks and appointments  
-**Date:** 2 November 2026  
-**Status:** Proposed full-structure edition for an independently operated ER:LC Discord/Roblox community; builds on v3.2.1 without changing its governance or reporting design  
 **Scope:** Governance, personnel, directorates, team assignments, career progression, recruitment, oversight, staff experience, player participation, authority, and day-to-day operations.
 
 > **Design objective:** Create a sizeable, professional community organization whose routine work can continue without the Owner's intervention. Authority comes from a defined assignment and mandate, not simply from having a more impressive Discord role.
@@ -24,7 +21,7 @@ The organization uses **six operating directorates**, **two executive portfolios
 <a id="operating-principles"></a>
 ## Operating principles
 
-Use the [proposed charter rule index](#proposed-charter-rule-index) to find the canonical policy for each principle. The source's principles are represented by the linked rank, assignment, governance, oversight, volunteer, player-feedback and permission rules below; this index does not independently amend them.
+Use the [charter rule index](#proposed-charter-rule-index) to find the canonical policy for each principle. The source's principles are represented by the linked rank, assignment, governance, oversight, volunteer, player-feedback and permission rules below; this index does not independently amend them.
 
 ---
 
@@ -125,9 +122,9 @@ Examples A–I are retained beside their owning policies: [A: cross-team staff](
 The original templates remain beside their owning processes: [person / assignment](../personnel/assignments.md#person--assignment-record), [team mandate](../operations/operating-practices.md#team-mandate-template), [Council proposal](governance-council.md#governance-council-policy-proposal-template), [restricted staff check-in](../directorates/people-and-culture.md#staff-experience-check-in-record-restricted), [public improvement item](../directorates/community-experience.md#public-player-improvement-item), [restricted OIO routing](../oversight/independent-oversight.md#oversight-intake-and-routing-record-restricted), [management appointment](../personnel/ranks-and-appointments.md#management-appointment-template). The [position request](../personnel/recruitment.md#a-position-request-template) and [allocation agreement](../personnel/assignments.md#an-allocation-agreement) are also retained. Store completed sensitive records in authorized restricted systems, not this repository.
 
 <a id="proposed-charter-rule-index"></a>
-## Proposed charter rule index
+## Charter rule index
 
-The source's 18 non-negotiable rules are indexed in their original order. These links identify their canonical policy locations; all remain **proposed**.
+The source's 18 non-negotiable rules are indexed in their original order. These links identify their canonical policy locations; all are included in the **v1.0.0 official release**.
 
 1. [One home People Manager](../personnel/assignments.md#the-permanent-reporting-rule).
 2. [Secondary assignment task authority](../personnel/assignments.md#who-is-responsible-for-what).

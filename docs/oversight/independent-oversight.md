@@ -1,7 +1,7 @@
 <a id="office-of-independent-oversight"></a>
 # Office of Independent Oversight
 
-**Source version:** 3.2.2 · **Source date:** 2 November 2026 · **Status:** Proposed; no approval inferred.
+**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for OIO structure, case jurisdiction, investigation independence, recusals and protected evidence access. [Operating reporting lines](../governance/structure.md) do not place this office under the COO or Council.
 

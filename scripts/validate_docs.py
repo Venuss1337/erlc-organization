@@ -116,6 +116,27 @@ def main():
                 errors.append(f'{path.relative_to(ROOT)}: missing anchor: {href}')
 
     manifest = json.loads((ROOT / 'docs/source-map.json').read_text(encoding='utf-8'))
+    version, release_date = manifest['project_version'], manifest['release_date']
+    metadata = (f'**Project version:** {version} · **Release date:** {release_date}'
+                ' · **Status:** Official release.')
+    if not re.fullmatch(r'\d+\.\d+\.\d+', version) or manifest['release_status'] != 'Official release':
+        errors.append('Invalid official release metadata in source map')
+    policy_paths = {entry['destination'] for entry in manifest['segments']} - {'CHANGELOG.md'}
+    for name in policy_paths | {'docs/migration-report.md'}:
+        if metadata not in pages[ROOT / name]:
+            errors.append(f'{name}: missing or inconsistent official release metadata')
+    readme = pages[ROOT / 'README.md']
+    if (f'# ER:LC Organization — v{version}\n' not in readme
+            or f'**Project version:** {version}' not in readme
+            or f'**Release date:** {release_date}' not in readme
+            or '**Status:** Official release' not in readme):
+        errors.append('README release metadata differs from source map')
+    changelog = pages[ROOT / 'CHANGELOG.md']
+    if re.findall(r'^## \[([^]]+)\] - (\d{4}-\d{2}-\d{2})$', changelog, re.M) != [(version, release_date)]:
+        errors.append('Changelog must contain exactly the initial official release')
+    for path, body in pages.items():
+        if re.search(r'\bv3\.\d|\b3\.2\.\d|\*\*Source version:\*\*', body):
+            errors.append(f'{path.relative_to(ROOT)}: obsolete project draft metadata')
     try:
         source = subprocess.check_output(
             ['git', 'show', f"{manifest['baseline_commit']}:{manifest['source_path']}"],
@@ -138,8 +159,29 @@ def main():
     if covered != list(range(1, len(lines) + 1)) or len(lines) != manifest['source_lines']:
         errors.append('Source map has missing, overlapping, out-of-order or invalid line ranges')
 
-    # Reverse only recorded editorial link changes, then compare full source atoms.
+    # Reconstruct explicitly recorded release-label edits; policy content is still checked.
     comparable = {p.relative_to(ROOT).as_posix(): body for p, body in pages.items()}
+    for edit in manifest.get('release_baseline_edits', []):
+        start, end = edit['source_lines']
+        before = ''.join(lines[start - 1:end]).rstrip('\n')
+        dest = edit['destination']
+        if digest(before) != edit['source_sha256']:
+            errors.append(f'Release edit source hash mismatch: {dest}:{start}–{end}')
+        if comparable[dest].count(edit['replacement']) != 1:
+            errors.append(f'Release edit replacement missing or ambiguous: {dest}:{start}–{end}')
+        comparable[dest] = comparable[dest].replace(edit['replacement'], before, 1)
+
+    historical = {path: Counter() for path in comparable}
+    for entry in manifest.get('historical_only_sections', []):
+        start, end = entry['source_lines']
+        before = ''.join(lines[start - 1:end]).strip()
+        if digest(before) != entry['source_sha256']:
+            errors.append('Historical-only source hash mismatch')
+        if entry['replacement'] not in comparable[entry['destination']]:
+            errors.append('Historical-only replacement note missing')
+        historical[entry['destination']].update(digest(a) for a in atoms(before))
+
+    # Reverse recorded editorial links, then compare whole source content blocks.
     for edit in reversed(manifest['cross_reference_edits']):
         dest = edit['destination']
         if edit['after'] not in comparable[dest]:
@@ -152,7 +194,7 @@ def main():
         if edit['replacement'] not in comparable[edit['destination']]:
             errors.append(f'Recorded summary redirect missing: {edit["destination"]}')
         redirected[edit['destination']].update(edit['source_atoms_sha256'])
-    exact_count, redirect_count = 0, 0
+    exact_count, redirect_count, historical_count = 0, 0, 0
     for entry in manifest['segments']:
         start, end = entry['lines']
         destination = entry['destination']
@@ -164,6 +206,9 @@ def main():
             elif redirected[destination][key]:
                 redirected[destination][key] -= 1
                 redirect_count += 1
+            elif historical[destination][key]:
+                historical[destination][key] -= 1
+                historical_count += 1
             else:
                 errors.append(f'Unaccounted source block in {destination}: '
                               + atom[:150].replace('\n', ' / '))
@@ -187,8 +232,10 @@ def main():
         return 1
     print(f'PASS: {len(pages)} Markdown files; {link_count} relative links and fragments checked.')
     print(f'PASS: all {len(lines)} baseline lines mapped in {len(manifest["segments"])} ranges.')
-    print(f'PASS: {exact_count} source content blocks retained (apart from recorded link edits); '
-          f'{redirect_count} repeated summary blocks explicitly redirected.')
+    print(f'PASS: v{version} official release metadata and single changelog entry agree.')
+    print(f'PASS: {exact_count} source blocks retained (with recorded editorial edits); '
+          f'{redirect_count} repeated summaries redirected; '
+          f'{historical_count} development summaries retained in Git history.')
     print(f'PASS: all {table_count} original tables, {fence_count} fenced blocks and 9 worked examples retained.')
     print('Scope: local links, structure and migration preservation; policy consistency requires human review.')
     return 0

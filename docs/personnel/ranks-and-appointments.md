@@ -1,7 +1,7 @@
 <a id="organizational-ranks-eligibility-and-appointments"></a>
 # Organizational ranks, eligibility and appointments
 
-**Source version:** 3.2.2 · **Source date:** 2 November 2026 · **Status:** Proposed; no approval inferred.
+**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for grades, position eligibility, progression and reversion. [Decision approval owners](../operations/authority-and-escalation.md#delegated-decision-matrix) and [hiring confirmation](recruitment.md#hiring-workflow) are linked process dependencies. The position matrix is the authoritative grade mapping; the leadership catalogue is a compact reading aid.
 
@@ -61,9 +61,9 @@ This is a **hybrid corporate–community** model. Ranks provide understandable o
 <a id="position-and-eligibility-matrix--all-six-directorates-and-oversight"></a>
 ## Position and eligibility matrix — all six directorates and oversight
 
-These are **proposed default mappings**. A director may define stricter, job-relevant training prerequisites through the approved People & Culture framework, but cannot bypass appointment authority or create automatic Discord permissions. A minimum rank is not an entitlement to the position; recruitment must still assess the actual job.
+These are **default mappings for this release**. A director may define stricter, job-relevant training prerequisites through the approved People & Culture framework, but cannot bypass appointment authority or create automatic Discord permissions. A minimum rank is not an entitlement to the position; recruitment must still assess the actual job.
 
-| Function / position | Proposed grade relationship | Selection or qualification boundary |
+| Function / position | Grade relationship | Selection or qualification boundary |
 |---|---|---|
 | **Owner / CEO** | **08 — Owner / Chief Executive**, direct and exclusive | Actual Owner; reserved powers as chartered |
 | **COO** | **07 — Executive**, direct | Owner appointment; executive management remit |

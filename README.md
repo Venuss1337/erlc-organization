@@ -1,10 +1,10 @@
-# ER:LC Organization
+# ER:LC Organization — v1.0.0
 
-An operating-system proposal for an independently operated ER:LC Discord/Roblox community. This repository separates governance, personnel, delivery and independent oversight so each policy has a clear home and can evolve without conflicting definitions.
+An organizational operating system for an independently operated ER:LC Discord/Roblox community. This repository separates governance, personnel, delivery and independent oversight so each policy has a clear home and can evolve without conflicting definitions.
 
-**Organizational document version:** 3.2.2 — full edition, integrated organizational ranks and appointments  
-**Source date:** 2 November 2026  
-**Status:** Proposed full-structure edition; builds on v3.2.1 without changing its governance or reporting design. Repository restructuring does **not** constitute adoption.
+**Project version:** 1.0.0  
+**Release date:** 2026-11-02  
+**Status:** Official release — the first and only official release. Earlier development drafts, experiments and mockups were never official releases and remain available through Git history. This release establishes the existing documentation baseline without changing its policies or resolving open governance decisions.
 
 The model combines six operating directorates, two executive portfolios, a five-seat Governance Council and one independent oversight office with three protected functions. Staff have one home team and one permanent people manager, with approved secondary assignments. Organizational rank, job, appointment, qualification and technical access are distinct; actual authority follows the assigned mandate.
 
@@ -50,7 +50,7 @@ This is the target structure, activated according to workload. The Council is a 
 - **Can someone hold multiple roles?** Use [staff assignments](docs/personnel/assignments.md) and [rank relationships](docs/personnel/ranks-and-appointments.md#three-rank-to-position-relationships).
 - **Where does a complaint or appeal go?** Use the [jurisdiction and referral matrix](docs/oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).
 - **Where are examples and forms?** The [worked-example index](docs/governance/structure.md#worked-examples) and [template index](docs/governance/structure.md#adoption-templates) link to all original examples and templates beside their owning processes.
-- **Is a rule approved?** The source remains proposed. Consult the [review register](docs/proposals/review-register.md); no approval record was supplied.
+- **What is the current release?** v1.0.0 is the official documentation baseline. The [review register](docs/proposals/review-register.md) separately tracks unresolved governance and implementation decisions.
 
 ## Maintaining this repository
 
@@ -62,7 +62,7 @@ Run the dependency-free check from the repository root with Python 3.9 or newer:
 python scripts/validate_docs.py
 ```
 
-The [migration and validation report](docs/migration-report.md) explains preservation checks and limitations. The [machine-readable source map](docs/source-map.json) maps every original line to its destination. The untouched source is preserved in baseline commit `ea0f598` as `ERLC_Organization_Operating_System_v3.2.2_Hybrid_Ranks.md`; it is historical evidence, not a second live policy document.
+The [migration and validation report](docs/migration-report.md) explains preservation checks and limitations. The [machine-readable source map](docs/source-map.json) maps every original line to its destination. The untouched source is preserved in baseline commit `ea0f598` as the original draft file identified in the source map; it is historical evidence, not a second live policy document.
 
 ## License & Copyright
 

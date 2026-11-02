@@ -1,7 +1,7 @@
 <a id="operating-practices-staffing-and-implementation"></a>
 # Operating practices, staffing and implementation
 
-**Source version:** 3.2.2 · **Source date:** 2 November 2026 · **Status:** Proposed; no approval inferred.
+**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for operating cadence, staffing scale and implementation phases. Cadence entries schedule the [Staff Experience](../directorates/people-and-culture.md), [Player Voice](../directorates/community-experience.md) and [oversight](../oversight/independent-oversight.md) processes; those linked documents own their safeguards.
 

@@ -1,7 +1,7 @@
 <a id="governance-council-charter"></a>
 # Governance Council charter
 
-**Source version:** 3.2.2 · **Source date:** 2 November 2026 · **Status:** Proposed; no approval inferred.
+**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for Council membership, delegated policy powers, voting, conflicts and policy adoption. [Reporting structure](structure.md) remains separate from policy flow.
 

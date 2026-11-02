@@ -14,7 +14,11 @@ For an editorial correction, update the owning page and explain why meaning is u
 
 Decision ownership follows the [delegated decision matrix](docs/operations/authority-and-escalation.md#delegated-decision-matrix). Routine team procedures remain with their designated owners. Organization-wide policy and major structural proposals follow the [Council's consultation, quorum and voting rules](docs/governance/governance-council.md#meetings-voting-and-conflicts); reserved changes also require explicit Owner ratification. Independent oversight advice and individual case decisions remain protected under the [OIO charter](docs/oversight/independent-oversight.md).
 
-After the required decision is documented, record the outcome and minutes/ratification reference, approved text, effective date, implementation owner and review date. Update the canonical policy and links, retain the proposal's decision record, and update status/version only as supported by that record. A Git commit, pull-request merge or repository maintainer's review alone does not approve organizational policy. No adoption record exists in the supplied source.
+After the required decision is documented, record the outcome and minutes/ratification reference, approved text, effective date, implementation owner and review date. Update the canonical policy and links, retain the proposal's decision record, and update status/version only as supported by that record. A Git commit, pull-request merge or repository maintainer's review alone does not approve organizational policy. The official release baseline does not itself supply Council votes or resolve items in the review register.
+
+## Release conventions
+
+The current official project version is **1.0.0**, released **2026-11-02**. Use `MAJOR.MINOR.PATCH` in metadata and changelog entries, `vMAJOR.MINOR.PATCH` in titles and Git tags, and **Official release** as the released-document status. README is the version entry point; align policy-page metadata and the source map with it. Keep the changelog in Keep a Changelog style with newest official releases first. Earlier development iterations are historical drafts, not release entries. New proposals remain **Proposed** until authorized; release labeling does not resolve open decisions. Preserve existing commits and tags, and never push or publish a release without authorization.
 
 ## Before committing
 

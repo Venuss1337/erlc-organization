@@ -424,7 +424,7 @@
         1157
       ],
       "destination": "CHANGELOG.md",
-      "section": "16: Original v3.2 / v3.2.1 / v3.2.2 change summaries",
+      "section": "Development-only change summaries; retained in Git history, superseded by initial-release changelog",
       "source_sha256": "106dae9203c8338048abdfa51c11fb616a71ea3175da291251c7890e40754ac8"
     },
     {
@@ -522,7 +522,7 @@
         "96bf3feedd1bded527f120bf921d1cfb20458b7fc15403145605faa2420a9167",
         "cdb2fc65ba19b026a181488ef0a88f97d79579f0f548e680f78427f85c287d7d"
       ],
-      "replacement": "## Operating principles\n\nUse the [proposed charter rule index](#proposed-charter-rule-index) to find the canonical policy for each principle. The source's principles are represented by the linked rank, assignment, governance, oversight, volunteer, player-feedback and permission rules below; this index does not independently amend them.",
+      "replacement": "## Operating principles\n\nUse the [charter rule index](#proposed-charter-rule-index) to find the canonical policy for each principle. The source's principles are represented by the linked rank, assignment, governance, oversight, volunteer, player-feedback and permission rules below; this index does not independently amend them.",
       "reason": "Replace repeated operating-principle summary with the canonical policy index; appointment mandate/alternate/review requirements remain in the management appointment template and team mandate template."
     },
     {
@@ -567,7 +567,7 @@
       "source_atoms_sha256": [
         "b7ddb7d0f64ae6786d522a1a3437d0d51e4af5ee4f0f7f80ef2f46f4221b9876"
       ],
-      "replacement": "## Proposed charter rule index\n\nThe source's 18 non-negotiable rules are indexed in their original order. These links identify their canonical policy locations; all remain **proposed**.\n\n1. [One home People Manager](../personnel/assignments.md#the-permanent-reporting-rule).\n2. [Secondary assignment task authority](../personnel/assignments.md#who-is-responsible-for-what).\n3. [Coordinated staffing and priority conflicts](../personnel/assignments.md#priorities-when-assignments-collide).\n4. [Workload-based positions and mandates](../operations/operating-practices.md#how-small-or-large-units-should-grow).\n5. [Rank, job, qualification and authority distinctions](../personnel/ranks-and-appointments.md#what-rank-does-not-mean).\n6. [Protected OIO intake and functions](../oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).\n7. [No self-adjudication or self-appeal](../oversight/independent-oversight.md#decision-integrity-and-safeguards).\n8. [Recruit for actual capacity](../personnel/recruitment.md#three-entry-paths-not-one-blanket-application).\n9. [Specialist and non-moderator career paths](../personnel/ranks-and-appointments.md#the-eight-level-organizational-hierarchy).\n10. [Delegated routine decision ownership](../operations/authority-and-escalation.md#delegated-decision-matrix).\n11. [Council policy remit and voting](governance-council.md#delegated-authority-what-the-council-decides).\n12. [Non-voting independent oversight advice](governance-council.md#non-voting-participants-and-advisers).\n13. [Equal Staff Representative vote and fair selection](governance-council.md#membership--five-voting-seats).\n14. [Volunteer support and breaks](../directorates/people-and-culture.md#staff-experience--retention-framework).\n15. [Player consultation and confidential improvement intake](../directorates/community-experience.md#player-voice--public-improvement-framework).\n16. [One case owner for each question](../oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).\n17. [Separate COO and Commissioner reporting](structure.md#organization-chart-and-lines-of-accountability).\n18. [Appointment-linked grade exit and reversion](../personnel/ranks-and-appointments.md#three-rank-to-position-relationships).",
+      "replacement": "## Charter rule index\n\nThe source's 18 non-negotiable rules are indexed in their original order. These links identify their canonical policy locations; all are included in the **v1.0.0 official release**.\n\n1. [One home People Manager](../personnel/assignments.md#the-permanent-reporting-rule).\n2. [Secondary assignment task authority](../personnel/assignments.md#who-is-responsible-for-what).\n3. [Coordinated staffing and priority conflicts](../personnel/assignments.md#priorities-when-assignments-collide).\n4. [Workload-based positions and mandates](../operations/operating-practices.md#how-small-or-large-units-should-grow).\n5. [Rank, job, qualification and authority distinctions](../personnel/ranks-and-appointments.md#what-rank-does-not-mean).\n6. [Protected OIO intake and functions](../oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).\n7. [No self-adjudication or self-appeal](../oversight/independent-oversight.md#decision-integrity-and-safeguards).\n8. [Recruit for actual capacity](../personnel/recruitment.md#three-entry-paths-not-one-blanket-application).\n9. [Specialist and non-moderator career paths](../personnel/ranks-and-appointments.md#the-eight-level-organizational-hierarchy).\n10. [Delegated routine decision ownership](../operations/authority-and-escalation.md#delegated-decision-matrix).\n11. [Council policy remit and voting](governance-council.md#delegated-authority-what-the-council-decides).\n12. [Non-voting independent oversight advice](governance-council.md#non-voting-participants-and-advisers).\n13. [Equal Staff Representative vote and fair selection](governance-council.md#membership--five-voting-seats).\n14. [Volunteer support and breaks](../directorates/people-and-culture.md#staff-experience--retention-framework).\n15. [Player consultation and confidential improvement intake](../directorates/community-experience.md#player-voice--public-improvement-framework).\n16. [One case owner for each question](../oversight/independent-oversight.md#one-intake-one-case-owner--jurisdiction-and-referrals).\n17. [Separate COO and Commissioner reporting](structure.md#organization-chart-and-lines-of-accountability).\n18. [Appointment-linked grade exit and reversion](../personnel/ranks-and-appointments.md#three-rank-to-position-relationships).",
       "reason": "Convert the repeated charter summary into an ordered index to the retained full rules; no charter rule is withdrawn."
     },
     {
@@ -583,6 +583,74 @@
       "source_atoms_sha256": [],
       "replacement": "## Adoption templates\n\nThe original templates remain beside their owning processes: [person / assignment](../personnel/assignments.md#person--assignment-record), [team mandate](../operations/operating-practices.md#team-mandate-template), [Council proposal](governance-council.md#governance-council-policy-proposal-template), [restricted staff check-in](../directorates/people-and-culture.md#staff-experience-check-in-record-restricted), [public improvement item](../directorates/community-experience.md#public-player-improvement-item), [restricted OIO routing](../oversight/independent-oversight.md#oversight-intake-and-routing-record-restricted), [management appointment](../personnel/ranks-and-appointments.md#management-appointment-template). The [position request](../personnel/recruitment.md#a-position-request-template) and [allocation agreement](../personnel/assignments.md#an-allocation-agreement) are also retained. Store completed sensitive records in authorized restricted systems, not this repository.",
       "reason": "Route every original template to its owning process; templates do not establish approval or permission."
+    }
+  ],
+  "project_version": "1.0.0",
+  "release_date": "2026-11-02",
+  "release_status": "Official release",
+  "baseline_role": "Unreleased development draft; historical source path and hashes are provenance, not official release identifiers.",
+  "release_baseline_edits": [
+    {
+      "destination": "docs/governance/structure.md",
+      "source_lines": [
+        3,
+        6
+      ],
+      "source_sha256": "ebc1a5530c332e0094ce0f6b235290326ee288610ec046918c2c051267599d35",
+      "replacement": "**Scope:** Governance, personnel, directorates, team assignments, career progression, recruitment, oversight, staff experience, player participation, authority, and day-to-day operations.",
+      "reason": "Remove duplicate draft metadata; shared official-release header supplies the version, date and status. Scope unchanged."
+    },
+    {
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "source_lines": [
+        546,
+        546
+      ],
+      "source_sha256": "5025ae3d4e3770d133d68a9397b3a7bf1d6521cfa9b4d5ec7c2506c17a288f68",
+      "replacement": "These are **default mappings for this release**. A director may define stricter, job-relevant training prerequisites through the approved People & Culture framework, but cannot bypass appointment authority or create automatic Discord permissions. A minimum rank is not an entitlement to the position; recruitment must still assess the actual job.",
+      "reason": "Release-status wording only; all grade mappings and eligibility conditions are unchanged."
+    },
+    {
+      "destination": "docs/personnel/ranks-and-appointments.md",
+      "source_lines": [
+        548,
+        548
+      ],
+      "source_sha256": "230ccbfde98f15b9271d4ad95ceff9e6c31b2ae98b6aa18676e8b3199a98a5ee",
+      "replacement": "| Function / position | Grade relationship | Selection or qualification boundary |",
+      "reason": "Remove draft label from column heading; all table values are unchanged."
+    },
+    {
+      "destination": "docs/proposals/review-register.md",
+      "source_lines": [
+        1142,
+        1142
+      ],
+      "source_sha256": "efc57566d989a10372705a39aa59e233b7921857070a9f81c7199f6b79c72759",
+      "replacement": "These public references informed the underlying ideas. This document is a **bespoke organizational design**, not a claim that any of the named organizations endorses or directly operates an ER:LC server.",
+      "reason": "Remove project-wide draft status; endorsement disclaimer unchanged."
+    },
+    {
+      "destination": "docs/proposals/review-register.md",
+      "source_lines": [
+        1148,
+        1148
+      ],
+      "source_sha256": "43a35f37079ce3af9b9ba359f7e1c277b57b86e94fe14d5f599c5655ab50ac23",
+      "replacement": "**Governance framework in this release:** Five voting Council seats; monthly/async meetings; quorum of four; three affirmative votes for normal policies and four for major structural changes; Owner ratification for reserved changes; a six-month elected Staff Representative term. These charter rules are included in the official release; unresolved implementation decisions below remain open.",
+      "reason": "Identify official release baseline without resolving implementation questions or fabricating Council votes."
+    }
+  ],
+  "historical_only_sections": [
+    {
+      "destination": "CHANGELOG.md",
+      "source_lines": [
+        1152,
+        1157
+      ],
+      "source_sha256": "106dae9203c8338048abdfa51c11fb616a71ea3175da291251c7890e40754ac8",
+      "replacement": "Earlier development drafts, experiments and organizational mockups were never official releases. They remain accessible through Git history.",
+      "reason": "User-authorized initial release: retire development-only change summaries to Git history; no organizational policy is removed."
     }
   ]
 }

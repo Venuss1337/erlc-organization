@@ -1,20 +1,20 @@
 <a id="proposal-status-references-and-review-register"></a>
 # Proposal status, references and review register
 
-**Source version:** 3.2.2 · **Source date:** 2 November 2026 · **Status:** Proposed; no approval inferred.
+**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Review material only. This register does not ratify the source or resolve open policy choices. [Council adoption rules](../governance/governance-council.md) govern policy changes; Owner-reserved decisions require the specified ratification.
 
 <a id="design-references-and-limitations"></a>
 ## Design references and limitations
 
-These public references informed the underlying ideas. This document is a **bespoke proposed design**, not a claim that any of the named organizations endorses or directly operates an ER:LC server.
+These public references informed the underlying ideas. This document is a **bespoke organizational design**, not a claim that any of the named organizations endorses or directly operates an ER:LC server.
 
 - GitLab Handbook — Directly Responsible Individuals and decision ownership: https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/
 - Atlassian Team Playbook — DACI decision-making: https://www.atlassian.com/team-playbook/plays/daci
 - Discord Support — Roles, hierarchy and Administrator permissions: https://support.discord.com/hc/en-us/articles/214836687-Discord-Roles-and-Permissions
 
-**Governance choices now proposed in this version:** Five voting Council seats; monthly/async meetings; quorum of four; three affirmative votes for normal policies and four for major structural changes; Owner ratification for reserved changes; a six-month elected Staff Representative term. These are **proposed charter rules**, not an assertion that they have already been formally adopted.
+**Governance framework in this release:** Five voting Council seats; monthly/async meetings; quorum of four; three affirmative votes for normal policies and four for major structural changes; Owner ratification for reserved changes; a six-month elected Staff Representative term. These charter rules are included in the official release; unresolved implementation decisions below remain open.
 
 **Open governance decisions for the Owner to ratify:** precise criteria and any exceptional equivalencies for grades 04–05; grade/reversion appeals; whether grade 02–03 can be retained after leaving active enforcement; detailed Staff Representative removal/appeal process; Oversight Commissioner appointment/removal criteria; OIO external-reviewer selection and independent adjudicator rules; specific appointment terms; disciplinary penalty matrix; evidence retention schedule; which director appointments are owner-reserved; whether managerial positions are time-limited; incident commander activation rules; precise team-specific training requirements; interim Council membership if an Executive Director seat is vacant. The seven-day player-feedback acknowledgement is a suggested service target, not a binding SLA.
 

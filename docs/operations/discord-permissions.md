@@ -1,7 +1,7 @@
 <a id="discord-implementation-and-permissions"></a>
 # Discord implementation and permissions
 
-**Source version:** 3.2.2 · **Source date:** 2 November 2026 · **Status:** Proposed; no approval inferred.
+**Project version:** 1.0.0 · **Release date:** 2026-11-02 · **Status:** Official release.
 
 Canonical home for Discord role design, least-privilege implementation and platform limits. [Personnel grades](../personnel/ranks-and-appointments.md), [Council rights](../governance/governance-council.md) and [case access safeguards](../oversight/independent-oversight.md) define the organizational requirements this implementation must respect.
 
