@@ -63,3 +63,9 @@ python scripts/validate_docs.py
 ```
 
 The [migration and validation report](docs/migration-report.md) explains preservation checks and limitations. The [machine-readable source map](docs/source-map.json) maps every original line to its destination. The untouched source is preserved in baseline commit `ea0f598` as `ERLC_Organization_Operating_System_v3.2.2_Hybrid_Ranks.md`; it is historical evidence, not a second live policy document.
+
+## License & Copyright
+
+**Proprietary — All Rights Reserved.** Copyright © 2026 [Copyright Holder].
+
+This repository is not open-source and grants no public reuse license. Protected materials may not be reused, redistributed, or adapted without authorization, subject to applicable law and any applicable third-party terms. See [LICENSE](LICENSE) for the full notice.
